@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.css.model">
+    <module_version install_time="1394474079098" last="true" origin="installer" specification_version="1.26.1">
+        <file crc="2341832687" name="config/Modules/org-netbeans-modules-css-model.xml"/>
+        <file crc="2991014206" name="modules/locale/org-netbeans-modules-css-model_ja.jar"/>
+        <file crc="3598099067" name="modules/locale/org-netbeans-modules-css-model_pt_BR.jar"/>
+        <file crc="3781683952" name="modules/locale/org-netbeans-modules-css-model_ru.jar"/>
+        <file crc="3179427424" name="modules/locale/org-netbeans-modules-css-model_zh_CN.jar"/>
+        <file crc="2996576037" name="modules/org-netbeans-modules-css-model.jar"/>
+    </module_version>
+</module>

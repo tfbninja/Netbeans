@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.java.editor.lib/1">
+    <module_version install_time="1394472559931" last="true" origin="installer" specification_version="1.33.1">
+        <file crc="1274518097" name="config/Modules/org-netbeans-modules-java-editor-lib.xml"/>
+        <file crc="656086616" name="modules/locale/org-netbeans-modules-java-editor-lib_ja.jar"/>
+        <file crc="1785469697" name="modules/locale/org-netbeans-modules-java-editor-lib_pt_BR.jar"/>
+        <file crc="2332011184" name="modules/locale/org-netbeans-modules-java-editor-lib_ru.jar"/>
+        <file crc="2435335414" name="modules/locale/org-netbeans-modules-java-editor-lib_zh_CN.jar"/>
+        <file crc="3315438328" name="modules/org-netbeans-modules-java-editor-lib.jar"/>
+    </module_version>
+</module>

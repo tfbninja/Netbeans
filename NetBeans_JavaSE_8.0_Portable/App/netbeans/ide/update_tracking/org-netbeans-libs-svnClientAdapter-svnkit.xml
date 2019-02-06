@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.libs.svnClientAdapter.svnkit/1">
+    <module_version install_time="1394471097167" last="true" origin="installer" specification_version="1.20.1">
+        <file crc="1961354368" name="config/Modules/org-netbeans-libs-svnClientAdapter-svnkit.xml"/>
+        <file crc="1496384565" name="modules/ext/sqljet.jar"/>
+        <file crc="896998582" name="modules/ext/svnClientAdapter-svnkit.jar"/>
+        <file crc="222934664" name="modules/ext/svnkit.jar"/>
+        <file crc="646093099" name="modules/ext/trilead.ssh2.jar"/>
+        <file crc="3308425953" name="modules/locale/org-netbeans-libs-svnClientAdapter-svnkit_ja.jar"/>
+        <file crc="3568254343" name="modules/locale/org-netbeans-libs-svnClientAdapter-svnkit_pt_BR.jar"/>
+        <file crc="3415764231" name="modules/locale/org-netbeans-libs-svnClientAdapter-svnkit_ru.jar"/>
+        <file crc="2099978586" name="modules/locale/org-netbeans-libs-svnClientAdapter-svnkit_zh_CN.jar"/>
+        <file crc="335204784" name="modules/org-netbeans-libs-svnClientAdapter-svnkit.jar"/>
+    </module_version>
+</module>

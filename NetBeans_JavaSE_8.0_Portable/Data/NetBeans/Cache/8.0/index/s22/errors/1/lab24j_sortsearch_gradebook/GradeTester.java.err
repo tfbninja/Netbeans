@@ -1,0 +1,2 @@
+ERROR:24:incompatible types\d possible lossy conversion from double to int
+ERROR:33:incompatible types\d possible lossy conversion from double to int

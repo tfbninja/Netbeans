@@ -1,0 +1,10 @@
+ERROR:36:cannot find symbol\n  symbol\d   class Card\n  location\d class ElevensBoard
+ERROR:41:cannot find symbol\n  symbol\d   class Deck\n  location\d class ElevensBoard
+ERROR:116:cannot find symbol\n  symbol\d   class Card\n  location\d class ElevensBoard
+ERROR:53:cannot find symbol\n  symbol\d   class Card\n  location\d class ElevensBoard
+ERROR:54:cannot find symbol\n  symbol\d   class Deck\n  location\d class ElevensBoard
+ERROR:167:cannot find symbol\n  symbol\d   class Card\n  location\d class ElevensBoard
+ERROR:188:missing return statement
+ERROR:200:missing return statement
+ERROR:222:missing return statement
+ERROR:234:missing return statement

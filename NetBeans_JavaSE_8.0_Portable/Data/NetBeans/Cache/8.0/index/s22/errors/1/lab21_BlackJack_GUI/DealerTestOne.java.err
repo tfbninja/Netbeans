@@ -1,0 +1,5 @@
+ERROR:26:cannot find symbol\n  symbol\d   method shuffle()\n  location\d variable dealer of type lab21_BlackJack_GUI.Dealer
+ERROR:28:cannot find symbol\n  symbol\d   method deal()\n  location\d variable dealer of type lab21_BlackJack_GUI.Dealer
+ERROR:29:cannot find symbol\n  symbol\d   method deal()\n  location\d variable dealer of type lab21_BlackJack_GUI.Dealer
+ERROR:30:cannot find symbol\n  symbol\d   method deal()\n  location\d variable dealer of type lab21_BlackJack_GUI.Dealer
+ERROR:31:cannot find symbol\n  symbol\d   method deal()\n  location\d variable dealer of type lab21_BlackJack_GUI.Dealer

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.libs.xerces/1">
+    <module_version install_time="1394470293564" last="true" origin="installer" specification_version="1.34.1.281">
+        <file crc="1807597417" name="config/Modules/org-netbeans-libs-xerces.xml"/>
+        <file crc="794349070" name="modules/ext/xerces-2.8.0.jar"/>
+        <file crc="3963781173" name="modules/locale/org-netbeans-libs-xerces_ja.jar"/>
+        <file crc="2121915747" name="modules/locale/org-netbeans-libs-xerces_pt_BR.jar"/>
+        <file crc="3570631793" name="modules/locale/org-netbeans-libs-xerces_ru.jar"/>
+        <file crc="2627257017" name="modules/locale/org-netbeans-libs-xerces_zh_CN.jar"/>
+        <file crc="1935604111" name="modules/org-netbeans-libs-xerces.jar"/>
+    </module_version>
+</module>

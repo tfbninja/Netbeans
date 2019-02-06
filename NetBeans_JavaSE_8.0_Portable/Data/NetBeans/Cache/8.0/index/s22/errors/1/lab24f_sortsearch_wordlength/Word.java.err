@@ -1,0 +1,1 @@
+ERROR:16:lab24f_sortsearch_wordlength.Word is not abstract and does not override abstract method compareTo(lab24f_sortsearch_wordlength.Word) in java.lang.Comparable

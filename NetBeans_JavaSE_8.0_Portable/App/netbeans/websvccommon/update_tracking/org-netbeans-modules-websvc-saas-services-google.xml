@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.websvc.saas.services.google">
+    <module_version install_time="1394470828820" last="true" origin="installer" specification_version="1.24.1">
+        <file crc="3201572797" name="config/Modules/org-netbeans-modules-websvc-saas-services-google.xml"/>
+        <file crc="1976376161" name="modules/locale/org-netbeans-modules-websvc-saas-services-google_ja.jar"/>
+        <file crc="2043814810" name="modules/locale/org-netbeans-modules-websvc-saas-services-google_pt_BR.jar"/>
+        <file crc="347121331" name="modules/locale/org-netbeans-modules-websvc-saas-services-google_ru.jar"/>
+        <file crc="3241030429" name="modules/locale/org-netbeans-modules-websvc-saas-services-google_zh_CN.jar"/>
+        <file crc="2423978098" name="modules/org-netbeans-modules-websvc-saas-services-google.jar"/>
+    </module_version>
+</module>

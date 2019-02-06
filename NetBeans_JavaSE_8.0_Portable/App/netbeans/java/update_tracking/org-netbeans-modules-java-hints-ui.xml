@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.java.hints.ui">
+    <module_version install_time="1394475051572" last="true" origin="installer" specification_version="1.12.1.1.13">
+        <file crc="1695764978" name="config/Modules/org-netbeans-modules-java-hints-ui.xml"/>
+        <file crc="1981857815" name="modules/locale/org-netbeans-modules-java-hints-ui_ja.jar"/>
+        <file crc="3898048642" name="modules/locale/org-netbeans-modules-java-hints-ui_pt_BR.jar"/>
+        <file crc="3662134403" name="modules/locale/org-netbeans-modules-java-hints-ui_ru.jar"/>
+        <file crc="2760588323" name="modules/locale/org-netbeans-modules-java-hints-ui_zh_CN.jar"/>
+        <file crc="2148446478" name="modules/org-netbeans-modules-java-hints-ui.jar"/>
+    </module_version>
+</module>

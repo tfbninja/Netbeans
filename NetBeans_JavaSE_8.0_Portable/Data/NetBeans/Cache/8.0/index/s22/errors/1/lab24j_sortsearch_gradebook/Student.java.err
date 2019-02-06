@@ -1,0 +1,1 @@
+ERROR:13:lab24j_sortsearch_gradebook.Student is not abstract and does not override abstract method compareTo(lab24j_sortsearch_gradebook.Student) in java.lang.Comparable

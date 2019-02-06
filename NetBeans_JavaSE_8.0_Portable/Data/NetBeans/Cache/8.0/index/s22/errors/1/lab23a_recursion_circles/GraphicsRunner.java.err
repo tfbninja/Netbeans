@@ -1,0 +1,2 @@
+ERROR:18:duplicate class\d GraphicsRunner
+ERROR:24:method does not override or implement a method from a supertype

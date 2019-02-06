@@ -1,0 +1,4 @@
+ERROR:35:cannot find symbol\n  symbol\d   method setWidth(int)\n  location\d variable c of type lab21_BlackJack_GUI.Card
+ERROR:36:cannot find symbol\n  symbol\d   method setHeight(int)\n  location\d variable c of type lab21_BlackJack_GUI.Card
+ERROR:44:cannot find symbol\n  symbol\d   method setWidth(int)\n  location\d variable c of type lab21_BlackJack_GUI.Card
+ERROR:45:cannot find symbol\n  symbol\d   method setHeight(int)\n  location\d variable c of type lab21_BlackJack_GUI.Card

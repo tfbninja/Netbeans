@@ -1,0 +1,1 @@
+ERROR:19:reference to print is ambiguous\n  both method print(char[]) in java.io.PrintStream and method print(java.lang.String) in java.io.PrintStream match

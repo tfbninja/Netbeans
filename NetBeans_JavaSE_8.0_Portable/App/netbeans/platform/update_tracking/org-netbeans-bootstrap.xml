@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.bootstrap/1">
+    <module_version install_time="1394471488735" last="true" origin="installer" specification_version="2.67.1">
+        <file crc="2348970447" name="lib/boot.jar"/>
+        <file crc="1538935887" name="lib/locale/boot_ja.jar"/>
+        <file crc="1028926860" name="lib/locale/boot_pt_BR.jar"/>
+        <file crc="1997017757" name="lib/locale/boot_ru.jar"/>
+        <file crc="1888268548" name="lib/locale/boot_zh_CN.jar"/>
+        <file crc="3324117738" name="lib/nbexec"/>
+        <file crc="3375293808" name="lib/nbexec.dll"/>
+        <file crc="4292846842" name="lib/nbexec.exe"/>
+        <file crc="18380958" name="lib/nbexec64.dll"/>
+        <file crc="1950148507" name="lib/nbexec64.exe"/>
+    </module_version>
+</module>

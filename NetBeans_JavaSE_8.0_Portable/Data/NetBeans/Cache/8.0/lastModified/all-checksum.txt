@@ -1,0 +1,16 @@
+platform=1394471790000
+cluster.nb=1394468784000
+cluster.ide=1394472076000
+cluster.extide=1394468664000
+cluster.java=1394471728000
+cluster.apisupport=1394471066000
+cluster.websvccommon=1394469332000
+cluster.profiler=1394470370000
+cluster.harness=1394468804000
+cluster.javafx=1394471418000
+user=1549489895579
+crc=65
+locale=en_US
+branding=nb
+java.version=1.8.0_181
+java.vm.version=25.181-b13

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.libs.jvyamlb/1">
+    <module_version install_time="1394470142397" last="true" origin="installer" specification_version="0.25.1">
+        <file crc="1075784249" name="config/Modules/org-netbeans-libs-jvyamlb.xml"/>
+        <file crc="1013216723" name="modules/ext/jvyamlb-0.2.3.jar"/>
+        <file crc="1611856282" name="modules/locale/org-netbeans-libs-jvyamlb_ja.jar"/>
+        <file crc="408420819" name="modules/locale/org-netbeans-libs-jvyamlb_pt_BR.jar"/>
+        <file crc="936300788" name="modules/locale/org-netbeans-libs-jvyamlb_ru.jar"/>
+        <file crc="301123776" name="modules/locale/org-netbeans-libs-jvyamlb_zh_CN.jar"/>
+        <file crc="1379987725" name="modules/org-netbeans-libs-jvyamlb.jar"/>
+    </module_version>
+</module>

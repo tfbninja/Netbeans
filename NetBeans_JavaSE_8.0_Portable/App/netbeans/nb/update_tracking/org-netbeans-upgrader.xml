@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.upgrader">
+    <module_version install_time="1394471335725" last="true" origin="installer" specification_version="4.30.1">
+        <file crc="1583624970" name="core/locale/org-netbeans-upgrader_ja.jar"/>
+        <file crc="4005293695" name="core/locale/org-netbeans-upgrader_pt_BR.jar"/>
+        <file crc="246847483" name="core/locale/org-netbeans-upgrader_ru.jar"/>
+        <file crc="1728418741" name="core/locale/org-netbeans-upgrader_zh_CN.jar"/>
+        <file crc="1115410230" name="core/org-netbeans-upgrader.jar"/>
+    </module_version>
+</module>

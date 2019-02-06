@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.db.metadata.model/1">
+    <module_version install_time="1394471007880" last="true" origin="installer" specification_version="1.6.1">
+        <file crc="3021893472" name="config/Modules/org-netbeans-modules-db-metadata-model.xml"/>
+        <file crc="1320541993" name="modules/locale/org-netbeans-modules-db-metadata-model_ja.jar"/>
+        <file crc="3541811947" name="modules/locale/org-netbeans-modules-db-metadata-model_pt_BR.jar"/>
+        <file crc="1853367462" name="modules/locale/org-netbeans-modules-db-metadata-model_ru.jar"/>
+        <file crc="185181451" name="modules/locale/org-netbeans-modules-db-metadata-model_zh_CN.jar"/>
+        <file crc="1032298125" name="modules/org-netbeans-modules-db-metadata-model.jar"/>
+    </module_version>
+</module>

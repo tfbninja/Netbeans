@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.db.kit">
+    <module_version install_time="1394474346626" last="true" origin="installer" specification_version="1.26.1">
+        <file crc="3756709269" name="config/Modules/org-netbeans-modules-db-kit.xml"/>
+        <file crc="1070733935" name="modules/locale/org-netbeans-modules-db-kit_ja.jar"/>
+        <file crc="346729806" name="modules/locale/org-netbeans-modules-db-kit_pt_BR.jar"/>
+        <file crc="4169334194" name="modules/locale/org-netbeans-modules-db-kit_ru.jar"/>
+        <file crc="2571175156" name="modules/locale/org-netbeans-modules-db-kit_zh_CN.jar"/>
+        <file crc="3186096538" name="modules/org-netbeans-modules-db-kit.jar"/>
+    </module_version>
+</module>

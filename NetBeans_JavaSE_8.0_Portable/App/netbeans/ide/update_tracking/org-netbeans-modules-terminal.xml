@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.terminal">
+    <module_version install_time="1394472207710" last="true" origin="installer" specification_version="1.18.2">
+        <file crc="4156507734" name="config/Modules/org-netbeans-modules-terminal.xml"/>
+        <file crc="630300533" name="modules/locale/org-netbeans-modules-terminal_ja.jar"/>
+        <file crc="131293464" name="modules/locale/org-netbeans-modules-terminal_pt_BR.jar"/>
+        <file crc="3123310873" name="modules/locale/org-netbeans-modules-terminal_ru.jar"/>
+        <file crc="302892044" name="modules/locale/org-netbeans-modules-terminal_zh_CN.jar"/>
+        <file crc="2598610397" name="modules/org-netbeans-modules-terminal.jar"/>
+    </module_version>
+</module>

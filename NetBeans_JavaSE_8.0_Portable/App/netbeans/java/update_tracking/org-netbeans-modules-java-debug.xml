@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.java.debug">
+    <module_version install_time="1394473549428" last="true" origin="installer" specification_version="1.32.1.1.25.31">
+        <file crc="1877495438" name="config/Modules/org-netbeans-modules-java-debug.xml"/>
+        <file crc="1130082421" name="modules/locale/org-netbeans-modules-java-debug_ja.jar"/>
+        <file crc="855220133" name="modules/locale/org-netbeans-modules-java-debug_pt_BR.jar"/>
+        <file crc="807533597" name="modules/locale/org-netbeans-modules-java-debug_ru.jar"/>
+        <file crc="3178295493" name="modules/locale/org-netbeans-modules-java-debug_zh_CN.jar"/>
+        <file crc="897915312" name="modules/org-netbeans-modules-java-debug.jar"/>
+    </module_version>
+</module>

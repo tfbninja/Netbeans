@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.java.j2seplatform/1">
+    <module_version install_time="1394473496446" last="true" origin="installer" specification_version="1.36.1">
+        <file crc="2519798490" name="config/Modules/org-netbeans-modules-java-j2seplatform.xml"/>
+        <file crc="3381238698" name="modules/ext/org-netbeans-modules-java-j2seplatform-probe.jar"/>
+        <file crc="2917957952" name="modules/locale/org-netbeans-modules-java-j2seplatform_ja.jar"/>
+        <file crc="379976117" name="modules/locale/org-netbeans-modules-java-j2seplatform_pt_BR.jar"/>
+        <file crc="3568009224" name="modules/locale/org-netbeans-modules-java-j2seplatform_ru.jar"/>
+        <file crc="427145321" name="modules/locale/org-netbeans-modules-java-j2seplatform_zh_CN.jar"/>
+        <file crc="3237436593" name="modules/org-netbeans-modules-java-j2seplatform.jar"/>
+    </module_version>
+</module>

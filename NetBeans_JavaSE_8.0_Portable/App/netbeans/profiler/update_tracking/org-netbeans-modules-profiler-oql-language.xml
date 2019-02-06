@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.profiler.oql.language/0">
+    <module_version install_time="1394472590353" last="true" origin="installer" specification_version="0.24.1">
+        <file crc="1408679169" name="config/Modules/org-netbeans-modules-profiler-oql-language.xml"/>
+        <file crc="2023435444" name="modules/locale/org-netbeans-modules-profiler-oql-language_ja.jar"/>
+        <file crc="3865098567" name="modules/locale/org-netbeans-modules-profiler-oql-language_pt_BR.jar"/>
+        <file crc="3685696715" name="modules/locale/org-netbeans-modules-profiler-oql-language_ru.jar"/>
+        <file crc="3931238095" name="modules/locale/org-netbeans-modules-profiler-oql-language_zh_CN.jar"/>
+        <file crc="282078941" name="modules/org-netbeans-modules-profiler-oql-language.jar"/>
+    </module_version>
+</module>

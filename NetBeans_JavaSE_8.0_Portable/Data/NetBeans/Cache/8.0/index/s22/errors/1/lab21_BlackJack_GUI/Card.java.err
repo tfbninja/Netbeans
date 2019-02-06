@@ -1,0 +1,1 @@
+ERROR:67:cannot find symbol\n  symbol\d   method getSuit()\n  location\d class lab21_BlackJack_GUI.Card

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.db.mysql">
+    <module_version install_time="1394472991814" last="true" origin="installer" specification_version="0.23.1.2">
+        <file crc="934439921" name="config/Modules/org-netbeans-modules-db-mysql.xml"/>
+        <file crc="152940515" name="modules/locale/org-netbeans-modules-db-mysql_ja.jar"/>
+        <file crc="28419978" name="modules/locale/org-netbeans-modules-db-mysql_pt_BR.jar"/>
+        <file crc="2347931148" name="modules/locale/org-netbeans-modules-db-mysql_ru.jar"/>
+        <file crc="3252392385" name="modules/locale/org-netbeans-modules-db-mysql_zh_CN.jar"/>
+        <file crc="1053032183" name="modules/org-netbeans-modules-db-mysql.jar"/>
+    </module_version>
+</module>
