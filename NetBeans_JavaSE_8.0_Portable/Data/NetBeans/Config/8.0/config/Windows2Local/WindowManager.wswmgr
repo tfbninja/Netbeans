@@ -45,6 +45,7 @@
     <toolbar configuration="Standard" preferred-icon-size="24"/>
     <tc-list>
   <tc-id id="MultiView-java#007Cja5C79D3CFtext#002Ehistory#007C"/>
+  <tc-id id="navigatorTC"/>
   <tc-id id="properties"/>
   <tc-id id="CommonPalette"/>
   <tc-id id="projectTabLogical_tc"/>
@@ -52,7 +53,6 @@
   <tc-id id="MultiView-java#002Eso10CA9CC7xt#002Ehistory#007C_7"/>
   <tc-id id="MultiView-java#002Eso10CA9CC6xt#002Ehistory#007C_6"/>
   <tc-id id="output"/>
-  <tc-id id="navigatorTC"/>
   <tc-id id="MultiView-java#002Eso10CA9CC1xt#002Ehistory#007C_1"/>
   <tc-id id="MultiView-java#002Eso10CA9CC5xt#002Ehistory#007C_5"/>
   <tc-id id="MultiView-java#002Eso10CA9CC4xt#002Ehistory#007C_4"/>
