@@ -2133,3 +2133,41 @@
   <param>text/x-java</param>
   <param>1</param>
 </record>
+<record>
+  <date>2019-02-07T10:32:52</date>
+  <millis>1549560772250</millis>
+  <sequence>159</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-02-07T10:32:52</date>
+  <millis>1549560772258</millis>
+  <sequence>162</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE_JFX</message>
+</record>
+<record>
+  <date>2019-02-07T10:32:52</date>
+  <millis>1549560772302</millis>
+  <sequence>164</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-02-07T10:32:52</date>
+  <millis>1549560772306</millis>
+  <sequence>165</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE_JFX</message>
+</record>

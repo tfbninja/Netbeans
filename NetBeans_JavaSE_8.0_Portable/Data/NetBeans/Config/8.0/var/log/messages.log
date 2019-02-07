@@ -600,3 +600,8 @@ INFO [org.netbeans.core.windows.view.ui.TabbedHandler]: TopComponent has no icon
 INFO [org.netbeans.core.windows.view.ui.TabbedHandler]: TopComponent has no icon: MVCTC[name=TestPanel.java *, peer=[model=current=org.netbeans.core.spi.multiview.MultiViewFactory$MapMVD@7e3c10]]
 WARNING [org.openide.filesystems.Ordering]: Not all children in / marked with the position attribute: [org-netbeans-modules-editor-java-JavaBracesMatcher.shadow], but some are: [org-netbeans-modules-editor-bracesmatching-LegacyEssMatcher.instance, org-netbeans-modules-editor-bracesmatching-DefaultMatcher.instance]
 INFO [org.netbeans.core.windows.view.ui.TabbedHandler]: TopComponent has no icon: MVCTC[name=TestPanel.java, peer=[model=current=org.netbeans.core.spi.multiview.MultiViewFactory$MapMVD@7e3c10]]
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\maven\lib\maven-compat-3.0.5.jar took 566 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\maven\boot\plexus-classworlds-2.4.jar took 604 ms
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 256
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
