@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Wednesday, February 6, 2019 2:49:50 PM MST
+>Log Session: Wednesday, February 6, 2019 2:51:40 PM MST
 >System Info: 
   Product Version         = NetBeans IDE 8.0 (Build 201403101706) (#b8e35b888b3f)
   Operating System        = Windows 10 version 10.0 running on x86
@@ -30,6 +30,40 @@ WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.form.nb] 
 WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.java.editor.lib, org.netbeans.modules.xml.text] use org.netbeans.modules.editor.deprecated.pre65formatting which is deprecated.
 WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.ide.kit, org.netbeans.modules.xml.text] use org.netbeans.modules.editor.structure which is deprecated.
 WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.apisupport.ant, org.netbeans.modules.java.hints, org.netbeans.modules.maven.hints] use org.netbeans.modules.java.hints.legacy.spi which is deprecated: Use Java Hints SPI (org.netbeans.spi.java.hints) instead.
+INFO [com.revivius.nb.darcula.DarculaLFCustoms]: Can not find class, will not be able to replace its field...
+java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completion.api.JspCompletionItem
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:222)
+Caused: java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completion.api.JspCompletionItem starting from SystemClassLoader[473 modules] with possible defining loaders null and declared parents [org.netbeans.MainImpl$BootClassLoader@1ff54e6, ModuleCL@de422c[org.netbeans.api.annotations.common], ModuleCL@125e828[org.openide.awt], ModuleCL@1173ddc[org.netbeans.api.progress], ModuleCL@15c44ee[org.openide.dialogs], ModuleCL@f816c1[org.openide.nodes], ModuleCL@d16514[org.openide.windows], ModuleCL@1a9818f[org.netbeans.modules.editor.mimelookup], ModuleCL@c3fc0c[org.openide.text], ModuleCL@a80a07[org.netbeans.swing.tabcontrol], ...457 more]
+	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:224)
+	at org.netbeans.ModuleManager$SystemClassLoader.loadClass(ModuleManager.java:722)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+[catch] at com.revivius.nb.darcula.DarculaLFCustoms.replaceFieldValue(DarculaLFCustoms.java:710)
+	at com.revivius.nb.darcula.DarculaLFCustoms.replaceJSPCompletionColor(DarculaLFCustoms.java:656)
+	at com.revivius.nb.darcula.DarculaLFCustoms.createLookAndFeelCustomizationKeysAndValues(DarculaLFCustoms.java:281)
+	at org.netbeans.swing.plaf.LFCustoms.getLookAndFeelCustomizationKeysAndValues(LFCustoms.java:196)
+	at org.netbeans.swing.plaf.Startup.installLFCustoms(Startup.java:340)
+	at org.netbeans.swing.plaf.Startup.installPerLFDefaults(Startup.java:265)
+	at org.netbeans.swing.plaf.Startup.install(Startup.java:243)
+	at org.netbeans.swing.plaf.Startup.run(Startup.java:542)
+	at org.netbeans.core.CoreBridgeImpl$1$1.run(CoreBridgeImpl.java:137)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
 INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.openide.util.lookup [8.24.1 201403101706]
 	org.openide.util [8.37.1 201403101706]
@@ -502,7 +536,10 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.apache.ws.commons.util [1.0.1 1.0.1]
 	org.apache.commons.lang [2.4.0 2.4.0]
 	javaewah.dummy [0.5.6 0.5.6]
+	com.revivius.nb.darcula [1.5 1.5 201604091036]
 	com.jcraft.jzlib [1.0.7 1.0.7]
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.mylyn.wikitext.confluence.core@1.9.0.20131007-2055 resolved
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.mylyn.wikitext.textile.core@1.9.0.20131007-2055 resolved
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 started
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy resolver: Windows
 INFO [org.netbeans.core.network.proxy.windows.WindowsNetworkProxy]: Windows system proxy resolver: auto detect
@@ -510,7 +547,8 @@ INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network prox
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy - mode: direct
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy: fell to default (correct if direct mode went before)
 WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.java.api.common.project.ProjectHooks$ProjectOpenedHookImpl.updateUserBuildPropertiesRef(ProjectHooks.java:573)
-INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@14b7089
+INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@1e3b296
+INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@b058a3
 Diagnostic information
 Input arguments:
 	-Dnetbeans.importclass=org.netbeans.upgrade.AutoUpgrade
@@ -538,22 +576,30 @@ Input arguments:
 Compiler: HotSpot Client Compiler
 Heap memory usage: initial 32.0MB maximum 396.4MB
 Non heap memory usage: initial 160.0kB maximum -1b
-Garbage collector: Copy (Collections=64 Total time spent=0s)
-Garbage collector: MarkSweepCompact (Collections=3 Total time spent=0s)
-Classes: loaded=9679 total loaded=9684 unloaded 5
+Garbage collector: Copy (Collections=131 Total time spent=0s)
+Garbage collector: MarkSweepCompact (Collections=5 Total time spent=0s)
+Classes: loaded=11185 total loaded=11205 unloaded 20
 INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 8,482,144,256
-INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@c7124e
-INFO [org.openide.awt.Toolbar]: Too long AWTTask: 972 ms for org.openide.awt.MenuBar$LazyMenu$MenuFolder@149fbbe(FolderList{MultiFileObject@114a1df[Menu/Refactoring]})
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 5,391 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 27 binary roots took: 351 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\test took: 4 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\StudentLabs\wack took: 673 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 240 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\src took: 50 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 5 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\test took: 1 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 67 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 14 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 5 source roots took: 795 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 259 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 41 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\reststubs.zip took: 268 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\corestubs.zip took: 144 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.mercurial]: version: null
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\domstubs.zip took: 196 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 608 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@14b7b9d[MultiFileObject@1bdf81d[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
+WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@14b7b9d[MultiFileObject@1bdf81d[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
+INFO [org.netbeans.modules.subversion]: Finished indexing svn cache with 0 entries. Elapsed time: 20 ms.
 WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.home has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.Clusters.relativeDirsWithHome(Clusters.java:137)
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 1,549 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 27 binary roots took: 4,095 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\test took: 3 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\StudentLabs\wack took: 1,443 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 286 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\src took: 223 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 5 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\test took: 2 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 293 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 32 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 5 source roots took: 1,964 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 323 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 4 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 0 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 source roots took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 256

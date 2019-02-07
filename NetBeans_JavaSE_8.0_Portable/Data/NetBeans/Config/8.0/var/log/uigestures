@@ -6516,3 +6516,403 @@
   <key>LOG_WINDOW_DEACTIVATED</key>
   <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
 </record>
+<record>
+  <date>2019-02-07T09:50:53</date>
+  <millis>1549558253102</millis>
+  <sequence>14</sequence>
+  <level>FINEST</level>
+  <thread>13</thread>
+  <message>CPU INFO</message>
+  <param>4</param>
+</record>
+<record>
+  <date>2019-02-07T09:50:53</date>
+  <millis>1549558253110</millis>
+  <sequence>15</sequence>
+  <level>FINEST</level>
+  <thread>13</thread>
+  <message>SCREEN SIZE</message>
+  <param>1920</param>
+  <param>1080</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2019-02-07T09:50:53</date>
+  <millis>1549558253110</millis>
+  <sequence>16</sequence>
+  <level>CONFIG</level>
+  <thread>13</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2019-02-07T09:50:54</date>
+  <millis>1549558254473</millis>
+  <sequence>25</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>INFO</level>
+  <thread>13</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Darcula</param>
+  <param>Darcula</param>
+</record>
+<record>
+  <date>2019-02-07T09:50:56</date>
+  <millis>1549558256611</millis>
+  <sequence>26</sequence>
+  <logger>org.netbeans.ui.metrics.vcs</logger>
+  <level>INFO</level>
+  <thread>43</thread>
+  <message>USG_VCS_CLIENT</message>
+  <param>GIT</param>
+  <param>JAVALIB</param>
+</record>
+<record>
+  <date>2019-02-07T09:51:00</date>
+  <millis>1549558260279</millis>
+  <sequence>29</sequence>
+  <level>INFO</level>
+  <thread>48</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>8482144256</param>
+</record>
+<record>
+  <date>2019-02-07T09:51:01</date>
+  <millis>1549558261763</millis>
+  <sequence>31</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>42</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-02-07T09:51:01</date>
+  <millis>1549558261767</millis>
+  <sequence>32</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>42</thread>
+  <message>USG_PROJECT_OPEN_JFX</message>
+</record>
+<record>
+  <date>2019-02-07T09:51:02</date>
+  <millis>1549558262619</millis>
+  <sequence>34</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>INFO</level>
+  <thread>42</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>72</param>
+  <param>0</param>
+  <param>rename</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2019-02-07T09:51:02</date>
+  <millis>1549558262831</millis>
+  <sequence>36</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>INFO</level>
+  <thread>42</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>100</param>
+  <param>0</param>
+  <param>reset</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2019-02-07T09:51:03</date>
+  <millis>1549558263391</millis>
+  <sequence>40</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>42</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-02-07T09:51:03</date>
+  <millis>1549558263391</millis>
+  <sequence>41</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>42</thread>
+  <message>USG_PROJECT_OPEN_JFX</message>
+</record>
+<record>
+  <date>2019-02-07T09:51:04</date>
+  <millis>1549558264155</millis>
+  <sequence>43</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>INFO</level>
+  <thread>42</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>48</param>
+  <param>0</param>
+  <param>rename</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2019-02-07T09:51:04</date>
+  <millis>1549558264283</millis>
+  <sequence>45</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>INFO</level>
+  <thread>42</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>52</param>
+  <param>0</param>
+  <param>reset</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2019-02-07T09:51:04</date>
+  <millis>1549558264475</millis>
+  <sequence>49</sequence>
+  <logger>org.netbeans.ui.projects</logger>
+  <level>CONFIG</level>
+  <thread>42</thread>
+  <message>UI_INIT_PROJECTS</message>
+  <key>UI_INIT_PROJECTS</key>
+  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+  <param>J2SEProject</param>
+  <param>3</param>
+</record>
+<record>
+  <date>2019-02-07T09:51:04</date>
+  <millis>1549558264475</millis>
+  <sequence>50</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>42</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+</record>
+<record>
+  <date>2019-02-07T09:51:04</date>
+  <millis>1549558264475</millis>
+  <sequence>51</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>42</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+</record>
+<record>
+  <date>2019-02-07T09:51:04</date>
+  <millis>1549558264475</millis>
+  <sequence>52</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>42</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+</record>
+<record>
+  <date>2019-02-07T09:51:04</date>
+  <millis>1549558264547</millis>
+  <sequence>53</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>44</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2019-02-07T09:51:10</date>
+  <millis>1549558270255</millis>
+  <sequence>63</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>44</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>5708</param>
+  <param>java</param>
+  <param>84</param>
+  <param>1469</param>
+  <param>SpringBinary</param>
+  <param>81</param>
+  <param>12</param>
+  <param>TaskListIndexer</param>
+  <param>3</param>
+  <param>8</param>
+  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
+  <param>3</param>
+  <param>0</param>
+  <param>CopyResourcesIndexer</param>
+  <param>3</param>
+  <param>1</param>
+  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
+  <param>3</param>
+  <param>0</param>
+</record>
+<record>
+  <date>2019-02-07T09:52:41</date>
+  <millis>1549558361414</millis>
+  <sequence>64</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>FINE</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2019-02-07T09:52:47</date>
+  <millis>1549558367613</millis>
+  <sequence>65</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>INFO</level>
+  <thread>55</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>1545</param>
+  <param>0</param>
+  <param>UNKNOWN</param>
+  <param>EXTERNAL</param>
+</record>
+<record>
+  <date>2019-02-07T09:53:02</date>
+  <millis>1549558382537</millis>
+  <sequence>66</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>59</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>112282</param>
+</record>
+<record>
+  <date>2019-02-07T09:53:02</date>
+  <millis>1549558382637</millis>
+  <sequence>67</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>INFO</level>
+  <thread>49</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>2746</param>
+  <param>4</param>
+  <param>UNKNOWN</param>
+  <param>EXTERNAL</param>
+</record>
+<record>
+  <date>2019-02-07T09:53:05</date>
+  <millis>1549558385445</millis>
+  <sequence>68</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>59</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>2908</param>
+  <param>java</param>
+  <param>1</param>
+  <param>2272</param>
+  <param>TaskListIndexer</param>
+  <param>1</param>
+  <param>0</param>
+  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
+  <param>1</param>
+  <param>4</param>
+  <param>CopyResourcesIndexer</param>
+  <param>1</param>
+  <param>0</param>
+  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
+  <param>1</param>
+  <param>12</param>
+</record>
+<record>
+  <date>2019-02-07T09:53:05</date>
+  <millis>1549558385445</millis>
+  <sequence>69</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>59</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2019-02-07T09:53:05</date>
+  <millis>1549558385593</millis>
+  <sequence>70</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>59</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>148</param>
+  <param>java</param>
+  <param>1</param>
+  <param>0</param>
+  <param>TaskListIndexer</param>
+  <param>1</param>
+  <param>0</param>
+  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
+  <param>1</param>
+  <param>0</param>
+  <param>CopyResourcesIndexer</param>
+  <param>1</param>
+  <param>0</param>
+  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
+  <param>1</param>
+  <param>0</param>
+</record>
+<record>
+  <date>2019-02-07T09:53:05</date>
+  <millis>1549558385593</millis>
+  <sequence>71</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>59</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2019-02-07T09:53:05</date>
+  <millis>1549558385601</millis>
+  <sequence>72</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>59</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>8</param>
+  <param>java</param>
+  <param>3</param>
+  <param>8</param>
+  <param>SpringBinary</param>
+  <param>3</param>
+  <param>0</param>
+</record>
