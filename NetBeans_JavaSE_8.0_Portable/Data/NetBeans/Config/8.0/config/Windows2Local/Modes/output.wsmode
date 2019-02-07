@@ -6,7 +6,7 @@
   <state type="joined"  />
   <constraints>
     <path orientation="horizontal" number="60" weight="0.7"/>
-    <path orientation="vertical" number="80" weight="0.2335195530726257"/>
+    <path orientation="vertical" number="80" weight="0.23798882681564246"/>
     <path orientation="horizontal" number="30" weight="0.8"/>
   </constraints>
   <bounds x="192" y="693" width="768" height="204" />

@@ -2103,3 +2103,33 @@
   <message>USG_PROJECT_OPEN</message>
   <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
 </record>
+<record>
+  <date>2019-02-07T09:53:47</date>
+  <millis>1549558427180</millis>
+  <sequence>79</sequence>
+  <logger>org.netbeans.ui.metrics.form</logger>
+  <level>INFO</level>
+  <thread>55</thread>
+  <message>USG_FORM_CREATED</message>
+  <param>JPanel</param>
+</record>
+<record>
+  <date>2019-02-07T09:54:04</date>
+  <millis>1549558444411</millis>
+  <sequence>105</sequence>
+  <logger>org.netbeans.ui.metrics.form</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_FORM_MODIFIED</message>
+</record>
+<record>
+  <date>2019-02-07T10:32:46</date>
+  <millis>1549560766034</millis>
+  <sequence>156</sequence>
+  <logger>org.netbeans.ui.metrics.editor</logger>
+  <level>INFO</level>
+  <thread>119</thread>
+  <message>USG_EDITOR_MIME_TYPE</message>
+  <param>text/x-java</param>
+  <param>1</param>
+</record>

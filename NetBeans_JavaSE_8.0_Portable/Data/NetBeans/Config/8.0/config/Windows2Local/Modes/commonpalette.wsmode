@@ -7,11 +7,12 @@
   <state type="joined"  />
   <constraints>
     <path orientation="horizontal" number="60" weight="0.7"/>
-    <path orientation="vertical" number="40" weight="0.7642458100558659"/>
+    <path orientation="vertical" number="40" weight="0.7597765363128491"/>
     <path orientation="horizontal" number="80" weight="0.3"/>
-    <path orientation="vertical" number="40" weight="0.5"/>
+    <path orientation="vertical" number="40" weight="0.3720588235294118"/>
   </constraints>
   <bounds x="1440" y="244" width="288" height="326" />
   <frame state="0"/>
+    <active-tc  id="CommonPalette" />
     <empty-behavior permanent="true"/>
 </mode>
