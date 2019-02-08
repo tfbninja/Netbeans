@@ -3436,3 +3436,111 @@
   <param>harness</param>
   <param>javafx</param>
 </record>
+<record>
+  <date>2019-02-08T10:15:22</date>
+  <millis>1549646122266</millis>
+  <sequence>11</sequence>
+  <logger>org.netbeans.ui.metrics</logger>
+  <level>INFO</level>
+  <thread>13</thread>
+  <message>USG_USER_INSTALLED_MODULES</message>
+</record>
+<record>
+  <date>2019-02-08T10:15:46</date>
+  <millis>1549646146354</millis>
+  <sequence>23</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>INFO</level>
+  <thread>13</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Darcula</param>
+  <param>Darcula</param>
+</record>
+<record>
+  <date>2019-02-08T10:15:52</date>
+  <millis>1549646152025</millis>
+  <sequence>24</sequence>
+  <logger>org.netbeans.ui.metrics.vcs</logger>
+  <level>INFO</level>
+  <thread>25</thread>
+  <message>USG_VCS_CLIENT</message>
+  <param>GIT</param>
+  <param>JAVALIB</param>
+</record>
+<record>
+  <date>2019-02-08T10:15:54</date>
+  <millis>1549646154281</millis>
+  <sequence>26</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>47</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-02-08T10:15:54</date>
+  <millis>1549646154281</millis>
+  <sequence>27</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>47</thread>
+  <message>USG_PROJECT_OPEN_JFX</message>
+</record>
+<record>
+  <date>2019-02-08T10:15:56</date>
+  <millis>1549646156597</millis>
+  <sequence>37</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>47</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-02-08T10:15:56</date>
+  <millis>1549646156597</millis>
+  <sequence>38</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>47</thread>
+  <message>USG_PROJECT_OPEN_JFX</message>
+</record>
+<record>
+  <date>2019-02-08T10:15:58</date>
+  <millis>1549646158353</millis>
+  <sequence>47</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>47</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+</record>
+<record>
+  <date>2019-02-08T10:15:58</date>
+  <millis>1549646158353</millis>
+  <sequence>48</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>47</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+</record>
+<record>
+  <date>2019-02-08T10:15:58</date>
+  <millis>1549646158353</millis>
+  <sequence>49</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>47</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+</record>
+<record>
+  <date>2019-02-08T10:18:23</date>
+  <millis>1549646303131</millis>
+  <sequence>79</sequence>
+  <logger>org.netbeans.ui.metrics.form</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_FORM_MODIFIED</message>
+</record>
