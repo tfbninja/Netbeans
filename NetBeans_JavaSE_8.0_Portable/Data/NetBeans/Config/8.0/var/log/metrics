@@ -3544,3 +3544,73 @@
   <thread>19</thread>
   <message>USG_FORM_MODIFIED</message>
 </record>
+<record>
+  <date>2019-02-08T10:21:33</date>
+  <millis>1549646493891</millis>
+  <sequence>174</sequence>
+  <logger>org.netbeans.ui.metrics.bugtracking</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_ISSUE_TRACKING_REPOSITORY</message>
+  <param>NB_LOCAL_TASKS</param>
+  <param>OTHER</param>
+</record>
+<record>
+  <date>2019-02-08T10:21:34</date>
+  <millis>1549646494163</millis>
+  <sequence>176</sequence>
+  <logger>org.netbeans.ui.metrics.editor</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_SEARCH_TYPE</message>
+  <param>default</param>
+</record>
+<record>
+  <date>2019-02-08T10:55:40</date>
+  <millis>1549648540136</millis>
+  <sequence>1182</sequence>
+  <logger>org.netbeans.ui.metrics.editor</logger>
+  <level>INFO</level>
+  <thread>159</thread>
+  <message>USG_EDITOR_MIME_TYPE</message>
+  <param>text/x-java</param>
+  <param>2</param>
+</record>
+<record>
+  <date>2019-02-08T10:55:40</date>
+  <millis>1549648540518</millis>
+  <sequence>1184</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-02-08T10:55:40</date>
+  <millis>1549648540524</millis>
+  <sequence>1187</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE_JFX</message>
+</record>
+<record>
+  <date>2019-02-08T10:55:40</date>
+  <millis>1549648540552</millis>
+  <sequence>1189</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-02-08T10:55:40</date>
+  <millis>1549648540552</millis>
+  <sequence>1190</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE_JFX</message>
+</record>

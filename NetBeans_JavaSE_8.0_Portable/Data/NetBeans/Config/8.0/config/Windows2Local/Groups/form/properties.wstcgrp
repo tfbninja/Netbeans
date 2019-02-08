@@ -2,5 +2,5 @@
 
 <tc-group version="2.0">
  <tc-id id="properties"/>
- <open-close-behavior open="true" close="true" was-opened="true"/>
+ <open-close-behavior open="true" close="true" was-opened="false"/>
 </tc-group>
