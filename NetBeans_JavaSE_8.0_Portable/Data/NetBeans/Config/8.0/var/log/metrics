@@ -4267,3 +4267,71 @@
   <message>USG_PROJECT_OPEN</message>
   <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
 </record>
+<record>
+  <date>2019-02-13T10:44:32</date>
+  <millis>1550079872941</millis>
+  <sequence>309</sequence>
+  <logger>org.netbeans.ui.metrics.form</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_FORM_MODIFIED</message>
+</record>
+<record>
+  <date>2019-02-13T10:47:19</date>
+  <millis>1550080039333</millis>
+  <sequence>312</sequence>
+  <logger>org.netbeans.ui.metrics.bugtracking</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_ISSUE_TRACKING_REPOSITORY</message>
+  <param>NB_LOCAL_TASKS</param>
+  <param>OTHER</param>
+</record>
+<record>
+  <date>2019-02-13T10:56:45</date>
+  <millis>1550080605646</millis>
+  <sequence>458</sequence>
+  <logger>org.netbeans.ui.metrics.editor</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_SEARCH_TYPE</message>
+  <param>default</param>
+</record>
+<record>
+  <date>2019-02-13T10:59:36</date>
+  <millis>1550080776144</millis>
+  <sequence>462</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-02-13T10:59:36</date>
+  <millis>1550080776152</millis>
+  <sequence>465</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE_JFX</message>
+</record>
+<record>
+  <date>2019-02-13T10:59:36</date>
+  <millis>1550080776212</millis>
+  <sequence>467</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-02-13T10:59:36</date>
+  <millis>1550080776216</millis>
+  <sequence>468</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE_JFX</message>
+</record>
