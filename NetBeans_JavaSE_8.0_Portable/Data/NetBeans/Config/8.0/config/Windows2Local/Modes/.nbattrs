@@ -11,7 +11,7 @@
         <attr name="_palette_visible__empty_" boolvalue="false"/>
     </fileobject>
     <fileobject name="editor">
-        <attr name="WinSys-TCRef-Order" stringvalue="MultiView-java#002Eso2D0988CFtext#002Ehistory#007C/MultiView-java#002Eso10CA9CC1xt#002Ehistory#007C_1/MultiView-java#002Eso10CA9CC2xt#002Ehistory#007C_2/MultiView-java#002Eso10CA9CC3xt#002Ehistory#007C_3/MultiView-java#002Eso10CA9CC4xt#002Ehistory#007C_4/MultiView-java#002Eso10CA9CC5xt#002Ehistory#007C_5/MultiView-java#002Eso10CA9CC6xt#002Ehistory#007C_6/MultiView-java#002Eso10CA9CC7xt#002Ehistory#007C_7/MultiView-java#002Eso10CA9CC9xt#002Ehistory#007C_9/MultiView-java#007Cja5C79D3CFtext#002Ehistory#007C/CoverageReportTopComponent/HQLEditorTopComponent/dbgInstances/MultiView-java#002Eso10CA9CC8xt#002Ehistory#007C_8"/>
+        <attr name="WinSys-TCRef-Order" stringvalue="MultiView-java#002Eso2D0988CFtext#002Ehistory#007C/MultiView-java#002Eso10CA9CC1xt#002Ehistory#007C_1/MultiView-java#002Eso10CA9CC2xt#002Ehistory#007C_2/MultiView-java#002Eso10CA9CC3xt#002Ehistory#007C_3/MultiView-java#002Eso10CA9CC4xt#002Ehistory#007C_4/MultiView-java#002Eso10CA9CC5xt#002Ehistory#007C_5/MultiView-java#002Eso10CA9CC6xt#002Ehistory#007C_6/MultiView-java#002Eso10CA9CC9xt#002Ehistory#007C_9/MultiView-java#002Eso10CA9CC7xt#002Ehistory#007C_7/MultiView-java#007Cja5C79D3CFtext#002Ehistory#007C/MultiView-java#002Eso10CA9CC8xt#002Ehistory#007C_8/CoverageReportTopComponent/HQLEditorTopComponent/dbgInstances"/>
     </fileobject>
     <fileobject name="explorer">
         <attr name="WinSys-TCRef-Order" stringvalue="projectTabLogical_tc/projectTab_tc/services/favorites/DashboardTopComponent/debuggingView/profiler_cp"/>
