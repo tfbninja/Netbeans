@@ -1029,3 +1029,9 @@ java.util.zip.ZipException: error in opening zip file
 	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
 	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
 WARNING [org.openide.filesystems.JarFileSystem]: cannot open C:\Users\barber.timothy20\Documents\Github\Snake\Snake\dist\Snake.jar
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 4 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 source roots took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 256
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
