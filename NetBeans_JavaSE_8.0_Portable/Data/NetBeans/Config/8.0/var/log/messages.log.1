@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Wednesday, February 13, 2019 2:50:56 PM MST
+>Log Session: Wednesday, February 20, 2019 2:49:42 PM MST
 >System Info: 
   Product Version         = NetBeans IDE 8.0 (Build 201403101706) (#b8e35b888b3f)
   Operating System        = Windows 10 version 10.0 running on x86
@@ -8,7 +8,7 @@
   Java Home               = C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre
   System Locale; Encoding = en_US (nb); Cp1252
   Home Directory          = C:\Users\barber.timothy20
-  Current Directory       = C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\bin
+  Current Directory       = C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable
   User Directory          = C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\Data\NetBeans\Config\8.0
   Cache Directory         = C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\Data\NetBeans\Cache\8.0
   Installation            = C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb
@@ -37,7 +37,7 @@ java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completio
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
 	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:222)
-Caused: java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completion.api.JspCompletionItem starting from SystemClassLoader[473 modules] with possible defining loaders null and declared parents [org.netbeans.MainImpl$BootClassLoader@1ff54e6, ModuleCL@779457[org.netbeans.api.annotations.common], ModuleCL@1ea5e40[org.openide.awt], ModuleCL@db2dcd[org.netbeans.api.progress], ModuleCL@769984[org.openide.dialogs], ModuleCL@fd6671[org.openide.nodes], ModuleCL@1fe2d30[org.openide.windows], ModuleCL@92d387[org.netbeans.modules.editor.mimelookup], ModuleCL@a8c5a8[org.openide.text], ModuleCL@1e7e022[org.netbeans.swing.tabcontrol], ...457 more]
+Caused: java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completion.api.JspCompletionItem starting from SystemClassLoader[473 modules] with possible defining loaders null and declared parents [org.netbeans.MainImpl$BootClassLoader@1ff54e6, ModuleCL@c61d5c[org.netbeans.api.annotations.common], ModuleCL@184821f[org.openide.awt], ModuleCL@59a720[org.netbeans.api.progress], ModuleCL@1b860e5[org.openide.dialogs], ModuleCL@1f4b033[org.openide.nodes], ModuleCL@b55328[org.openide.windows], ModuleCL@1a48379[org.netbeans.modules.editor.mimelookup], ModuleCL@1d36d20[org.openide.text], ModuleCL@16830c1[org.netbeans.swing.tabcontrol], ...457 more]
 	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:224)
 	at org.netbeans.ModuleManager$SystemClassLoader.loadClass(ModuleManager.java:722)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
@@ -545,10 +545,7 @@ INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network prox
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy - mode: direct
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy: fell to default (correct if direct mode went before)
 WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.java.api.common.project.ProjectHooks$ProjectOpenedHookImpl.updateUserBuildPropertiesRef(ProjectHooks.java:573)
-INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@82a76d
-INFO [javafx]: Old build script file jfx-impl.xml has been renamed to: jfx-impl_backup_4.xml
-INFO [javafx]: Build script jfx-impl.xml has been updated to the latest version supported by this NetBeans installation.
-INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@13bd4b8
+INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@359b06
 Diagnostic information
 Input arguments:
 	-Dnetbeans.importclass=org.netbeans.upgrade.AutoUpgrade
@@ -576,269 +573,381 @@ Input arguments:
 Compiler: HotSpot Client Compiler
 Heap memory usage: initial 32.0MB maximum 396.4MB
 Non heap memory usage: initial 160.0kB maximum -1b
-Garbage collector: Copy (Collections=87 Total time spent=0s)
-Garbage collector: MarkSweepCompact (Collections=4 Total time spent=0s)
-Classes: loaded=11079 total loaded=11089 unloaded 10
+Garbage collector: Copy (Collections=76 Total time spent=0s)
+Garbage collector: MarkSweepCompact (Collections=3 Total time spent=0s)
+Classes: loaded=10492 total loaded=10504 unloaded 12
 INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 8,482,144,256
-INFO [javafx]: Old build script file jfx-impl.xml has been renamed to: jfx-impl_backup_2.xml
-INFO [javafx]: Build script jfx-impl.xml has been updated to the latest version supported by this NetBeans installation.
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 1,248 ms
+INFO [org.netbeans.modules.autoupdate.updateprovider.DownloadListener]: Connection content length was 0 bytes (read 0bytes), expected file size can`t be that size - likely server with file at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e is temporary down
+INFO [org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler]
+java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.doCopy(DownloadListener.java:155)
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.streamOpened(DownloadListener.java:78)
+	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$1.run(NetworkAccess.java:111)
+Caused: java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.notifyException(DownloadListener.java:103)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.copy(AutoupdateCatalogCache.java:246)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.writeCatalogToCache(AutoupdateCatalogCache.java:99)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogProvider.refresh(AutoupdateCatalogProvider.java:154)
+	at org.netbeans.modules.autoupdate.services.UpdateUnitProviderImpl.refresh(UpdateUnitProviderImpl.java:180)
+	at org.netbeans.api.autoupdate.UpdateUnitProvider.refresh(UpdateUnitProvider.java:196)
+[catch] at org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler$4.run(AutoupdateCheckScheduler.java:155)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO [org.netbeans.modules.autoupdate.updateprovider.DownloadListener]: Connection content length was 0 bytes (read 0bytes), expected file size can`t be that size - likely server with file at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e is temporary down
+INFO [org.openide.awt.Toolbar]: Too long AWTTask: 2,644 ms for org.openide.awt.MenuBar$LazyMenu$MenuFolder@133b609(FolderList{MultiFileObject@195253e[Menu/Edit]})
+INFO [org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler]
+java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.doCopy(DownloadListener.java:155)
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.streamOpened(DownloadListener.java:78)
+	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$1.run(NetworkAccess.java:111)
+Caused: java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.notifyException(DownloadListener.java:103)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.copy(AutoupdateCatalogCache.java:246)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.writeCatalogToCache(AutoupdateCatalogCache.java:99)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogProvider.refresh(AutoupdateCatalogProvider.java:154)
+	at org.netbeans.modules.autoupdate.services.UpdateUnitProviderImpl.refresh(UpdateUnitProviderImpl.java:180)
+	at org.netbeans.api.autoupdate.UpdateUnitProvider.refresh(UpdateUnitProvider.java:196)
+[catch] at org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler$4.run(AutoupdateCheckScheduler.java:155)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+WARNING [org.openide.filesystems.FileUtil]: FileUtil.normalizeFile(C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\Data\NetBeans\Cache\8.0\index\s3\java\14\classes) took 1,588 ms. Result is C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\Data\NetBeans\Cache\8.0\index\s3\java\14\classes
+WARNING [org.openide.filesystems.FileUtil]: FileUtil.normalizeFile(C:\Users\barber.timothy20\Documents\Github\StudentLabs\build) took 1,248 ms. Result is C:\Users\barber.timothy20\Documents\Github\StudentLabs\build
+WARNING [org.openide.filesystems.FileUtil]: FileUtil.normalizeFile(C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk) took 1,244 ms. Result is C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk
+WARNING [org.openide.filesystems.FileUtil]: FileUtil.normalizeFile(C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\build\test\classes) took 1,248 ms. Result is C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\build\test\classes
+INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@9f9b3a
 WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.home has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.Clusters.relativeDirsWithHome(Clusters.java:137)
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 28 binary roots took: 2,674 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\test took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\StudentLabs\wack took: 936 ms (New or modified files: 16, Deleted files: 0) [Adding listeners took: 92 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\src took: 157 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 16 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\test took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 109 ms (New or modified files: 1, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 5 source roots took: 1,202 ms (New or modified files: 17, Deleted files: 0) [Adding listeners took: 108 ms]
+INFO [javafx]: Old build script file jfx-impl.xml has been renamed to: jfx-impl_backup_4.xml
+INFO [javafx]: Build script jfx-impl.xml has been updated to the latest version supported by this NetBeans installation.
+WARNING [org.openide.awt.Toolbar]: Too long AWTTask: 4,824 ms for org.openide.awt.MenuBar$LazyMenu$MenuFolder@e23a39(FolderList{MultiFileObject@38ff56[Menu/Refactoring]})
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 2,676 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 28 binary roots took: 6,305 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\test took: 8 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\StudentLabs\wack took: 2,232 ms (New or modified files: 4, Deleted files: 0) [Adding listeners took: 460 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\src took: 380 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 16 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\test took: 4 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 5,896 ms (New or modified files: 8, Deleted files: 0) [Adding listeners took: 48 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 5 source roots took: 8,520 ms (New or modified files: 12, Deleted files: 0) [Adding listeners took: 524 ms]
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 16 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\reststubs.zip took: 282 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\corestubs.zip took: 335 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@b65329[MultiFileObject@1c529be[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
-WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@b65329[MultiFileObject@1c529be[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\domstubs.zip took: 250 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 867 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 1 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\reststubs.zip took: 215 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@5554e6[MultiFileObject@1855a45[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
+WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@5554e6[MultiFileObject@1855a45[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\corestubs.zip took: 142 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\domstubs.zip took: 124 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 481 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
 WARNING [org.openide.filesystems.Ordering]: Not all children in / marked with the position attribute: [org-netbeans-modules-editor-java-JavaBracesMatcher.shadow], but some are: [org-netbeans-modules-editor-bracesmatching-LegacyEssMatcher.instance, org-netbeans-modules-editor-bracesmatching-DefaultMatcher.instance]
-INFO [org.netbeans.modules.git.status]: GitInterceptor.refreshTask: Scanning in progress, trying again in 10,000ms
-INFO: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/test/
-java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/test/
-	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
-	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
-	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
-	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
-	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
-	at sun.reflect.GeneratedMethodAccessor225.invoke(Unknown Source)
+WARNING [org.netbeans.modules.java.source.parsing.JavacParser]: Javac returned startpos: 20,891 > endpos: -1
+WARNING [org.netbeans.modules.java.source.parsing.JavacParser]: Javac returned startpos: 20,891 > endpos: -1
+WARNING [org.netbeans.modules.java.source.parsing.JavacParser]: Javac returned startpos: 20,891 > endpos: -1
+INFO [org.netbeans.modules.form]: Cannot clone javax.swing.SpinnerNumberModel
+java.io.NotSerializableException: com.bulenkov.darcula.ui.DarculaSpinnerBorder
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
+	at javax.swing.JComponent.writeObject(JComponent.java:5515)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
-	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
-	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
-	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
-	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-INFO: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/test/
-java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/test/
-	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
-	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
-	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
-	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
-	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
-	at sun.reflect.GeneratedMethodAccessor225.invoke(Unknown Source)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1140)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at javax.swing.event.EventListenerList.writeObject(EventListenerList.java:259)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
-	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
-	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
-	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
-	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1140)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+[catch] at org.netbeans.modules.form.FormUtils.cloneBeanInstance(FormUtils.java:659)
+	at org.netbeans.modules.form.FormUtils.cloneObject(FormUtils.java:631)
+	at org.netbeans.modules.form.FormUtils.copyPropertiesToBean(FormUtils.java:974)
+	at org.netbeans.modules.form.FormUtils.copyPropertiesToBean(FormUtils.java:934)
+	at org.netbeans.modules.form.RADComponent.cloneBeanInstance(RADComponent.java:448)
+	at org.netbeans.modules.form.VisualReplicator.cloneComponent(VisualReplicator.java:766)
+	at org.netbeans.modules.form.VisualReplicator.cloneComponent(VisualReplicator.java:804)
+	at org.netbeans.modules.form.VisualReplicator.createClone(VisualReplicator.java:195)
+	at org.netbeans.modules.form.VisualReplicator.createClone(VisualReplicator.java:183)
+	at org.netbeans.modules.form.FormDesigner$FormListener.run(FormDesigner.java:2556)
+	at org.netbeans.modules.form.FormLAF$3.run(FormLAF.java:333)
+	at org.openide.util.Mutex.doEventAccess(Mutex.java:1376)
+	at org.openide.util.Mutex.readAccess(Mutex.java:278)
+	at org.netbeans.modules.form.FormLAF.executeWithLookAndFeel(FormLAF.java:316)
+	at org.netbeans.modules.form.FormDesigner$FormListener.processEvents(FormDesigner.java:2538)
+	at org.netbeans.modules.form.FormDesigner$FormListener.formChanged(FormDesigner.java:2504)
+	at org.netbeans.modules.form.FormDesigner.updateWholeDesigner(FormDesigner.java:617)
+	at org.netbeans.modules.form.FormDesigner.initialize(FormDesigner.java:271)
+	at org.netbeans.modules.form.FormDesigner.loadingComplete(FormDesigner.java:1997)
+	at org.netbeans.modules.nbform.FormDesignerTC.loadForm(FormDesignerTC.java:281)
+	at org.netbeans.modules.nbform.FormDesignerTC.access$300(FormDesignerTC.java:87)
+	at org.netbeans.modules.nbform.FormDesignerTC$PreLoadTask$1.run(FormDesignerTC.java:268)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+INFO [org.netbeans.modules.form]: Reinstalling ComponentUI after interrupted serialization of component: javax.swing.JSpinner[,0,0,0x0,invalid,layout=com.bulenkov.darcula.ui.DarculaSpinnerUI$2,alignmentX=0.0,alignmentY=0.0,border=com.bulenkov.darcula.ui.DarculaSpinnerBorder@1dd4f18,flags=328,maximumSize=,minimumSize=,preferredSize=]
+INFO [org.netbeans.modules.form]: Cannot clone javax.swing.SpinnerNumberModel
+java.io.NotSerializableException: com.bulenkov.darcula.ui.DarculaSpinnerBorder
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
+	at javax.swing.JComponent.writeObject(JComponent.java:5515)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1140)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at javax.swing.event.EventListenerList.writeObject(EventListenerList.java:259)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1140)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+[catch] at org.netbeans.modules.form.FormUtils.cloneBeanInstance(FormUtils.java:659)
+	at org.netbeans.modules.form.FormUtils.cloneObject(FormUtils.java:631)
+	at org.netbeans.modules.form.FormUtils.copyPropertiesToBean(FormUtils.java:974)
+	at org.netbeans.modules.form.FormUtils.copyPropertiesToBean(FormUtils.java:934)
+	at org.netbeans.modules.form.RADComponent.cloneBeanInstance(RADComponent.java:448)
+	at org.netbeans.modules.form.VisualReplicator.cloneComponent(VisualReplicator.java:766)
+	at org.netbeans.modules.form.VisualReplicator.cloneComponent(VisualReplicator.java:804)
+	at org.netbeans.modules.form.VisualReplicator.createClone(VisualReplicator.java:195)
+	at org.netbeans.modules.form.VisualReplicator.createClone(VisualReplicator.java:183)
+	at org.netbeans.modules.form.FormDesigner$FormListener.run(FormDesigner.java:2556)
+	at org.netbeans.modules.form.FormLAF$3.run(FormLAF.java:333)
+	at org.openide.util.Mutex.doEventAccess(Mutex.java:1376)
+	at org.openide.util.Mutex.readAccess(Mutex.java:278)
+	at org.netbeans.modules.form.FormLAF.executeWithLookAndFeel(FormLAF.java:316)
+	at org.netbeans.modules.form.FormDesigner$FormListener.processEvents(FormDesigner.java:2538)
+	at org.netbeans.modules.form.FormDesigner$FormListener.formChanged(FormDesigner.java:2504)
+	at org.netbeans.modules.form.FormDesigner.updateWholeDesigner(FormDesigner.java:617)
+	at org.netbeans.modules.form.FormDesigner.initialize(FormDesigner.java:271)
+	at org.netbeans.modules.form.FormDesigner.loadingComplete(FormDesigner.java:1997)
+	at org.netbeans.modules.nbform.FormDesignerTC.loadForm(FormDesignerTC.java:281)
+	at org.netbeans.modules.nbform.FormDesignerTC.access$300(FormDesignerTC.java:87)
+	at org.netbeans.modules.nbform.FormDesignerTC$PreLoadTask$1.run(FormDesignerTC.java:268)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+INFO [org.netbeans.modules.form]: Reinstalling ComponentUI after interrupted serialization of component: javax.swing.JSpinner[,0,0,0x0,invalid,layout=com.bulenkov.darcula.ui.DarculaSpinnerUI$2,alignmentX=0.0,alignmentY=0.0,border=com.bulenkov.darcula.ui.DarculaSpinnerBorder@1dd4f18,flags=328,maximumSize=,minimumSize=,preferredSize=]
+INFO [org.netbeans.modules.form]: Cannot clone javax.swing.SpinnerNumberModel
+java.io.NotSerializableException: com.bulenkov.darcula.ui.DarculaSpinnerBorder
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
+	at javax.swing.JComponent.writeObject(JComponent.java:5515)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1140)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at javax.swing.event.EventListenerList.writeObject(EventListenerList.java:259)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1140)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+[catch] at org.netbeans.modules.form.FormUtils.cloneBeanInstance(FormUtils.java:659)
+	at org.netbeans.modules.form.FormUtils.cloneObject(FormUtils.java:631)
+	at org.netbeans.modules.form.FormUtils.copyPropertiesToBean(FormUtils.java:974)
+	at org.netbeans.modules.form.FormUtils.copyPropertiesToBean(FormUtils.java:934)
+	at org.netbeans.modules.form.RADComponent.cloneBeanInstance(RADComponent.java:448)
+	at org.netbeans.modules.form.VisualReplicator.cloneComponent(VisualReplicator.java:766)
+	at org.netbeans.modules.form.VisualReplicator.cloneComponent(VisualReplicator.java:804)
+	at org.netbeans.modules.form.VisualReplicator.createClone(VisualReplicator.java:195)
+	at org.netbeans.modules.form.VisualReplicator.createClone(VisualReplicator.java:183)
+	at org.netbeans.modules.form.FormDesigner$FormListener.run(FormDesigner.java:2556)
+	at org.netbeans.modules.form.FormLAF$3.run(FormLAF.java:333)
+	at org.openide.util.Mutex.doEventAccess(Mutex.java:1376)
+	at org.openide.util.Mutex.readAccess(Mutex.java:278)
+	at org.netbeans.modules.form.FormLAF.executeWithLookAndFeel(FormLAF.java:316)
+	at org.netbeans.modules.form.FormDesigner$FormListener.processEvents(FormDesigner.java:2538)
+	at org.netbeans.modules.form.FormDesigner$FormListener.formChanged(FormDesigner.java:2504)
+	at org.netbeans.modules.form.FormDesigner.updateWholeDesigner(FormDesigner.java:617)
+	at org.netbeans.modules.form.FormDesigner.initialize(FormDesigner.java:271)
+	at org.netbeans.modules.form.FormDesigner.loadingComplete(FormDesigner.java:1997)
+	at org.netbeans.modules.nbform.FormDesignerTC.loadForm(FormDesignerTC.java:281)
+	at org.netbeans.modules.nbform.FormDesignerTC.access$300(FormDesignerTC.java:87)
+	at org.netbeans.modules.nbform.FormDesignerTC$PreLoadTask$1.run(FormDesignerTC.java:268)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+INFO [org.netbeans.modules.form]: Reinstalling ComponentUI after interrupted serialization of component: javax.swing.JSpinner[,0,0,0x0,invalid,layout=com.bulenkov.darcula.ui.DarculaSpinnerUI$2,alignmentX=0.0,alignmentY=0.0,border=com.bulenkov.darcula.ui.DarculaSpinnerBorder@1dd4f18,flags=328,maximumSize=,minimumSize=,preferredSize=]
+WARNING [org.netbeans.modules.git.status]: inconsistent status found for C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src\snake\TestPanel.form: [MODIFIED_HEAD_WORKING_TREE, MODIFIED_INDEX_WORKING_TREE]
+WARNING [org.netbeans.modules.editor.completion.PatchedHtmlRenderer]: Malformed or unsupported HTML
+WARNING [org.netbeans.modules.editor.completion.PatchedHtmlRenderer]:   for (Map.Entry<KeyType, ValueType> <b>entry</b> : <b>map</b>.entrySet()) { ...
+WARNING [org.netbeans.modules.editor.completion.PatchedHtmlRenderer]:                 ^
+WARNING [org.netbeans.modules.editor.completion.PatchedHtmlRenderer]:  Full HTML string:for (Map.Entry<KeyType, ValueType> <b>entry</b> : <b>map</b>.entrySet()) { ...
 INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.Snake$2 ]
 WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.Snake$2 ] has dissapeared
 INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.Snake$2 ]
 WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.Snake$2 ] has dissapeared
 INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.Snake$2 ]
 WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.Snake$2 ] has dissapeared
-INFO: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/test/
-java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/test/
-	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
-	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
-	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
-	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
-	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
-	at sun.reflect.GeneratedMethodAccessor225.invoke(Unknown Source)
+WARNING [org.netbeans.modules.git.status]: inconsistent status found for C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src\snake\TestPanel.form: [MODIFIED_HEAD_WORKING_TREE, MODIFIED_INDEX_WORKING_TREE]
+WARNING [org.netbeans.modules.git.status]: inconsistent status found for C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src\snake\TestPanel.form: [MODIFIED_HEAD_WORKING_TREE, MODIFIED_INDEX_WORKING_TREE]
+INFO [org.openide.filesystems.JarFileSystem]: error in opening zip file
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:145)
+[catch] at org.openide.filesystems.JarFileSystem.getJar(JarFileSystem.java:965)
+	at org.openide.filesystems.JarFileSystem.reOpenJarFile(JarFileSystem.java:736)
+	at org.openide.filesystems.JarFileSystem.parse(JarFileSystem.java:839)
+	at org.openide.filesystems.JarFileSystem.access$100(JarFileSystem.java:93)
+	at org.openide.filesystems.JarFileSystem$1.fileChanged(JarFileSystem.java:357)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
-	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
-	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
-	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openide.util.WeakListenerImpl$ProxyListener.invoke(WeakListenerImpl.java:461)
+	at com.sun.proxy.$Proxy1.fileChanged(Unknown Source)
+	at org.openide.filesystems.FCLSupport$DispatchEventWrapper.dispatchEventImpl(FCLSupport.java:178)
+	at org.openide.filesystems.FCLSupport$DispatchEventWrapperSingle.dispatchAllEventsSync(FCLSupport.java:224)
+	at org.openide.filesystems.FCLSupport$DispatchEventWrapper.dispatchEvent(FCLSupport.java:137)
+	at org.openide.filesystems.FCLSupport.dispatchEvent(FCLSupport.java:105)
+	at org.openide.filesystems.FileObject$ED.dispatch(FileObject.java:1318)
+	at org.openide.filesystems.FileSystem$EventDispatcher.run(FileSystem.java:999)
+	at org.openide.filesystems.EventControl.dispatchEvent(EventControl.java:84)
+	at org.openide.filesystems.FileSystem.dispatchEvent(FileSystem.java:644)
+	at org.openide.filesystems.FileObject.dispatchEvent(FileObject.java:635)
+	at org.openide.filesystems.FileObject.fireFileChangedEvent(FileObject.java:603)
+	at org.netbeans.modules.masterfs.filebasedfs.fileobjects.BaseFileObj.fireFileChangedEvent(BaseFileObj.java:697)
+	at org.netbeans.modules.masterfs.filebasedfs.fileobjects.FileObj.refreshImpl(FileObj.java:364)
+	at org.netbeans.modules.masterfs.filebasedfs.fileobjects.BaseFileObj.refresh(BaseFileObj.java:843)
+	at org.netbeans.modules.masterfs.filebasedfs.fileobjects.FileObj.refresh(FileObj.java:375)
+	at org.netbeans.modules.masterfs.filebasedfs.fileobjects.FolderObj.refreshImpl(FolderObj.java:484)
+	at org.netbeans.modules.masterfs.filebasedfs.fileobjects.BaseFileObj.refresh(BaseFileObj.java:843)
+	at org.netbeans.modules.masterfs.filebasedfs.fileobjects.FolderObj.refresh(FolderObj.java:562)
+	at org.openide.filesystems.FileObject.refresh(FileObject.java:1206)
+	at org.netbeans.modules.masterfs.watcher.Watcher$1.run(Watcher.java:422)
 	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
 	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-INFO: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/test/
-java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/test/
-	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
-	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
-	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
-	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
-	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
-	at sun.reflect.GeneratedMethodAccessor225.invoke(Unknown Source)
+WARNING [org.openide.filesystems.JarFileSystem]: cannot open C:\Users\barber.timothy20\Documents\Github\Snake\Snake\dist\Snake.jar
+INFO [org.openide.filesystems.JarFileSystem]: error in opening zip file
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:145)
+[catch] at org.openide.filesystems.JarFileSystem.getJar(JarFileSystem.java:965)
+	at org.openide.filesystems.JarFileSystem.reOpenJarFile(JarFileSystem.java:736)
+	at org.openide.filesystems.JarFileSystem.parse(JarFileSystem.java:839)
+	at org.openide.filesystems.JarFileSystem.access$100(JarFileSystem.java:93)
+	at org.openide.filesystems.JarFileSystem$1.fileChanged(JarFileSystem.java:357)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
-	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
-	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
-	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openide.util.WeakListenerImpl$ProxyListener.invoke(WeakListenerImpl.java:461)
+	at com.sun.proxy.$Proxy1.fileChanged(Unknown Source)
+	at org.openide.filesystems.FCLSupport$DispatchEventWrapper.dispatchEventImpl(FCLSupport.java:178)
+	at org.openide.filesystems.FCLSupport$DispatchEventWrapperSingle.dispatchAllEventsSync(FCLSupport.java:224)
+	at org.openide.filesystems.FCLSupport$DispatchEventWrapper.dispatchEvent(FCLSupport.java:137)
+	at org.openide.filesystems.FCLSupport.dispatchEvent(FCLSupport.java:105)
+	at org.openide.filesystems.FileObject$ED.dispatch(FileObject.java:1318)
+	at org.openide.filesystems.FileSystem$EventDispatcher.run(FileSystem.java:999)
+	at org.openide.filesystems.EventControl.dispatchEvent(EventControl.java:84)
+	at org.openide.filesystems.FileSystem.dispatchEvent(FileSystem.java:644)
+	at org.openide.filesystems.FileObject.dispatchEvent(FileObject.java:635)
+	at org.openide.filesystems.FileObject.fireFileChangedEvent(FileObject.java:603)
+	at org.netbeans.modules.masterfs.filebasedfs.fileobjects.BaseFileObj.fireFileChangedEvent(BaseFileObj.java:697)
+	at org.netbeans.modules.masterfs.filebasedfs.fileobjects.FileObj.refreshImpl(FileObj.java:364)
+	at org.netbeans.modules.masterfs.filebasedfs.fileobjects.BaseFileObj.refresh(BaseFileObj.java:843)
+	at org.netbeans.modules.masterfs.filebasedfs.fileobjects.FileObj.refresh(FileObj.java:375)
+	at org.netbeans.modules.masterfs.filebasedfs.fileobjects.FolderObj.refreshImpl(FolderObj.java:484)
+	at org.netbeans.modules.masterfs.filebasedfs.fileobjects.BaseFileObj.refresh(BaseFileObj.java:843)
+	at org.netbeans.modules.masterfs.filebasedfs.fileobjects.FolderObj.refresh(FolderObj.java:562)
+	at org.openide.filesystems.FileObject.refresh(FileObject.java:1206)
+	at org.netbeans.modules.masterfs.watcher.Watcher$1.run(Watcher.java:422)
 	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
 	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-INFO: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/test/
-java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/test/
-	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
-	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
-	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
-	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
-	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
-	at sun.reflect.GeneratedMethodAccessor225.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
-	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
-	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
-	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
-	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-WARNING [org.netbeans.modules.java.source.parsing.JavacParser]: Javac returned startpos: 18,898 > endpos: -1
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.Snake$2 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.Snake$2 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.Snake$2 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.Snake$2 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.Snake$2 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.Snake$2 ] has dissapeared
-INFO: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/test/
-java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/test/
-	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
-	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
-	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
-	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
-	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
-	at sun.reflect.GeneratedMethodAccessor225.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
-	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
-	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
-	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
-	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-INFO: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/test/
-java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/test/
-	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
-	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
-	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
-	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
-	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
-	at sun.reflect.GeneratedMethodAccessor225.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
-	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
-	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
-	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
-	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-WARNING [org.netbeans.modules.java.source.parsing.JavacParser]: Javac returned startpos: 2,923 > endpos: -1
-WARNING [org.netbeans.modules.java.source.parsing.JavacParser]: Javac returned startpos: 2,923 > endpos: -1
-WARNING [org.netbeans.modules.java.source.parsing.JavacParser]: Javac returned startpos: 2,959 > endpos: -1
-WARNING [org.netbeans.modules.java.source.parsing.JavacParser]: Javac returned startpos: 2,959 > endpos: -1
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 4 ms
+WARNING [org.openide.filesystems.JarFileSystem]: cannot open C:\Users\barber.timothy20\Documents\Github\Snake\Snake\dist\Snake.jar
+WARNING [org.netbeans.modules.git.status]: inconsistent status found for C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src\snake\TestPanel.form: [MODIFIED_HEAD_WORKING_TREE, MODIFIED_INDEX_WORKING_TREE]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 0 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 source roots took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 256
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
-WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
-WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
-WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
-WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
-WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
-WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
-WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
-WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
-WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
-WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
-WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
-WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
-WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
-WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
 WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
