@@ -6412,3 +6412,62 @@
   <message>USG_PROJECT_OPEN</message>
   <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
 </record>
+<record>
+  <date>2019-02-21T10:05:07</date>
+  <millis>1550768707813</millis>
+  <sequence>374</sequence>
+  <logger>org.netbeans.ui.metrics.editor</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_SEARCH_TYPE</message>
+  <param>default</param>
+</record>
+<record>
+  <date>2019-02-21T10:24:45</date>
+  <millis>1550769885736</millis>
+  <sequence>781</sequence>
+  <logger>org.netbeans.ui.metrics.bugtracking</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_ISSUE_TRACKING_REPOSITORY</message>
+  <param>NB_LOCAL_TASKS</param>
+  <param>OTHER</param>
+</record>
+<record>
+  <date>2019-02-21T10:36:15</date>
+  <millis>1550770575264</millis>
+  <sequence>1006</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-02-21T10:36:15</date>
+  <millis>1550770575264</millis>
+  <sequence>1007</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE_JFX</message>
+</record>
+<record>
+  <date>2019-02-21T10:36:16</date>
+  <millis>1550770576548</millis>
+  <sequence>1008</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-02-21T10:36:16</date>
+  <millis>1550770576548</millis>
+  <sequence>1011</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE_JFX</message>
+</record>
