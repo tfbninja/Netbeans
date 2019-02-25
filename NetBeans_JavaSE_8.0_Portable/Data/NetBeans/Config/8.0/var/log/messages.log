@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Thursday, February 21, 2019 9:54:10 AM MST
+>Log Session: Monday, February 25, 2019 2:48:48 PM MST
 >System Info: 
   Product Version         = NetBeans IDE 8.0 (Build 201403101706) (#b8e35b888b3f)
   Operating System        = Windows 10 version 10.0 running on x86
@@ -37,7 +37,7 @@ java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completio
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
 	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:222)
-Caused: java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completion.api.JspCompletionItem starting from SystemClassLoader[473 modules] with possible defining loaders null and declared parents [org.netbeans.MainImpl$BootClassLoader@1ff54e6, ModuleCL@1d272e2[org.netbeans.api.annotations.common], ModuleCL@58199a[org.openide.awt], ModuleCL@11e32e9[org.netbeans.api.progress], ModuleCL@a4ade0[org.openide.dialogs], ModuleCL@2f8634[org.openide.nodes], ModuleCL@19cee2[org.openide.windows], ModuleCL@2e3cb2[org.netbeans.modules.editor.mimelookup], ModuleCL@1a24cfa[org.openide.text], ModuleCL@16c6a1c[org.netbeans.swing.tabcontrol], ...457 more]
+Caused: java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completion.api.JspCompletionItem starting from SystemClassLoader[473 modules] with possible defining loaders null and declared parents [org.netbeans.MainImpl$BootClassLoader@1ff54e6, ModuleCL@1963ac[org.netbeans.api.annotations.common], ModuleCL@1969068[org.openide.awt], ModuleCL@4aa356[org.netbeans.api.progress], ModuleCL@6116fd[org.openide.dialogs], ModuleCL@18e18de[org.openide.nodes], ModuleCL@dec997[org.openide.windows], ModuleCL@1ab9689[org.netbeans.modules.editor.mimelookup], ModuleCL@139a67f[org.openide.text], ModuleCL@a6162e[org.netbeans.swing.tabcontrol], ...457 more]
 	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:224)
 	at org.netbeans.ModuleManager$SystemClassLoader.loadClass(ModuleManager.java:722)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
@@ -545,8 +545,7 @@ INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network prox
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy - mode: direct
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy: fell to default (correct if direct mode went before)
 WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.java.api.common.project.ProjectHooks$ProjectOpenedHookImpl.updateUserBuildPropertiesRef(ProjectHooks.java:573)
-INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@74d9ab
-INFO [javafx]: Old build script file jfx-impl.xml has been renamed to: jfx-impl_backup_6.xml
+INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@1f15719
 Diagnostic information
 Input arguments:
 	-Dnetbeans.importclass=org.netbeans.upgrade.AutoUpgrade
@@ -574,37 +573,25 @@ Input arguments:
 Compiler: HotSpot Client Compiler
 Heap memory usage: initial 32.0MB maximum 396.4MB
 Non heap memory usage: initial 160.0kB maximum -1b
-Garbage collector: Copy (Collections=83 Total time spent=0s)
-Garbage collector: MarkSweepCompact (Collections=4 Total time spent=0s)
-Classes: loaded=11036 total loaded=11047 unloaded 11
+Garbage collector: Copy (Collections=71 Total time spent=0s)
+Garbage collector: MarkSweepCompact (Collections=3 Total time spent=0s)
+Classes: loaded=10426 total loaded=10434 unloaded 8
 INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 8,482,144,256
+INFO [javafx]: Old build script file jfx-impl.xml has been renamed to: jfx-impl_backup_8.xml
 INFO [javafx]: Build script jfx-impl.xml has been updated to the latest version supported by this NetBeans installation.
-INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@1d71be9
-INFO [org.openide.awt.Toolbar]: Too long AWTTask: 577 ms for org.openide.awt.MenuBar$LazyMenu$MenuFolder@1353bae(FolderList{MultiFileObject@fcfea6[Menu/Refactoring]})
+INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@a4a836
+INFO [javafx]: Old build script file jfx-impl.xml has been renamed to: jfx-impl_backup_6.xml
+INFO [javafx]: Build script jfx-impl.xml has been updated to the latest version supported by this NetBeans installation.
+INFO [org.openide.awt.Toolbar]: Too long AWTTask: 1,743 ms for org.openide.awt.MenuBar$LazyMenu$MenuFolder@15cdd5c(FolderList{MultiFileObject@1dd0a06[Menu/Refactoring]})
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 1,463 ms
 WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.home has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.Clusters.relativeDirsWithHome(Clusters.java:137)
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 1,767 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 28 binary roots took: 3,341 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\test took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\StudentLabs\wack took: 879 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 234 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\src took: 268 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\test took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 437 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 5 source roots took: 1,584 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 234 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 55 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\reststubs.zip took: 220 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\corestubs.zip took: 157 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\domstubs.zip took: 172 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 549 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@38c3bd[MultiFileObject@14a0a8d[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
-WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@38c3bd[MultiFileObject@14a0a8d[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.Snake$2 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.Snake$2 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.Snake$2 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.Snake$2 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.Snake$2 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.Snake$2 ] has dissapeared
-WARNING [org.netbeans.modules.java.source.parsing.JavacParser]: Javac returned startpos: 3,050 > endpos: -1
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 28 binary roots took: 8,835 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\test took: 6 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\StudentLabs\wack took: 1,963 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 309 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\src took: 235 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 4 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\test took: 2 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 2,533 ms (New or modified files: 15, Deleted files: 0) [Adding listeners took: 33 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 5 source roots took: 4,739 ms (New or modified files: 15, Deleted files: 0) [Adding listeners took: 346 ms]
 INFO: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/test/
 java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/test/
 	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
@@ -612,7 +599,8 @@ java.lang.IllegalStateException: No FileObject found for the following URL: file
 	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
 	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
 	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
-	at sun.reflect.GeneratedMethodAccessor161.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
@@ -641,7 +629,8 @@ java.lang.IllegalStateException: No FileObject found for the following URL: file
 	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
 	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
 	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
-	at sun.reflect.GeneratedMethodAccessor161.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
@@ -663,132 +652,3 @@ java.lang.IllegalStateException: No FileObject found for the following URL: file
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
 	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-WARNING [org.netbeans.modules.editor.completion.PatchedHtmlRenderer]: Malformed or unsupported HTML
-WARNING [org.netbeans.modules.editor.completion.PatchedHtmlRenderer]:   for (Map.Entry<KeyType, ValueType> <b>entry</b> : <b>map</b>.entrySet()) { ...
-WARNING [org.netbeans.modules.editor.completion.PatchedHtmlRenderer]:                 ^
-WARNING [org.netbeans.modules.editor.completion.PatchedHtmlRenderer]:  Full HTML string:for (Map.Entry<KeyType, ValueType> <b>entry</b> : <b>map</b>.entrySet()) { ...
-WARNING [org.netbeans.modules.java.source.parsing.JavacParser]: Javac returned startpos: 3,091 > endpos: -1
-INFO: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/test/
-java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/test/
-	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
-	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
-	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
-	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
-	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
-	at sun.reflect.GeneratedMethodAccessor161.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
-	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
-	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
-	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
-	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-INFO: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/test/
-java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/test/
-	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
-	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
-	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
-	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
-	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
-	at sun.reflect.GeneratedMethodAccessor161.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
-	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
-	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
-	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
-	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-bugzilla.jar took 533 ms
-WARNING [org.openide.filesystems.Ordering]: Not all children in / marked with the position attribute: [org-netbeans-modules-editor-java-JavaBracesMatcher.shadow], but some are: [org-netbeans-modules-editor-bracesmatching-LegacyEssMatcher.instance, org-netbeans-modules-editor-bracesmatching-DefaultMatcher.instance]
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$12 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$12 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$1 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$1 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$11 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$11 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$2 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$2 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$14 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$14 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$3 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$3 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$13 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$13 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$4 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$4 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$5 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$5 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$15 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$15 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$6 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$6 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$7 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$7 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$8 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$8 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$9 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$9 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$10 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$10 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$12 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$12 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$1 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$1 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$11 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$11 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$2 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$2 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$14 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$14 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$3 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$3 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$13 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$13 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$4 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$4 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$5 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$5 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$15 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$15 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$6 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$6 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$7 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$7 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$8 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$8 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$9 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$9 ] has dissapeared
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.TestPanel$10 ]
-WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.TestPanel$10 ] has dissapeared
-INFO [org.netbeans.api.java.source.TreePathHandle]: Cannot resolve: TreePathHandle[delegate:TreeDelegate[kind:VARIABLE, enclosingElement:ElementHandle[kind=METHOD; sigs=snake.Snake$2 handle (J)V ], file:C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src\snake\Snake.java@a8239dd9:e15dab]]
-INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 256
-INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
-INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
