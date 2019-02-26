@@ -15,7 +15,7 @@
    centered-vertically="false"
    maximize-if-width-below="0"
    maximize-if-height-below="0"
-   frame-state="0"
+   frame-state="6"
 />
   <separated-properties
    x="192"
@@ -44,10 +44,10 @@
     <active-mode name="editor"/>
     <toolbar configuration="Standard" preferred-icon-size="24"/>
     <tc-list>
+  <tc-id id="MultiView-java#002Eso10CA9CC6xt#002Ehistory#007C_6"/>
   <tc-id id="MultiView-java#002Eso10CA9CC8xt#002Ehistory#007C_8"/>
   <tc-id id="MultiView-java#007Cja5C79D3CFtext#002Ehistory#007C"/>
   <tc-id id="MultiView-java#002Eso10CA9CC9xt#002Ehistory#007C_9"/>
-  <tc-id id="MultiView-java#002Eso10CA9CC6xt#002Ehistory#007C_6"/>
   <tc-id id="output"/>
   <tc-id id="projectTabLogical_tc"/>
   <tc-id id="MultiView-java#002Eso10CA9CC7xt#002Ehistory#007C_7"/>
