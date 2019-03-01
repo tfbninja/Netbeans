@@ -11163,3 +11163,82 @@
   <param>Darcula</param>
   <param>Darcula</param>
 </record>
+<record>
+  <date>2019-03-01T10:59:31</date>
+  <millis>1551463171949</millis>
+  <sequence>24</sequence>
+  <logger>org.netbeans.ui.metrics.vcs</logger>
+  <level>INFO</level>
+  <thread>27</thread>
+  <message>USG_VCS_CLIENT</message>
+  <param>GIT</param>
+  <param>JAVALIB</param>
+</record>
+<record>
+  <date>2019-03-01T10:59:35</date>
+  <millis>1551463175642</millis>
+  <sequence>61</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>27</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-03-01T10:59:35</date>
+  <millis>1551463175646</millis>
+  <sequence>62</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>27</thread>
+  <message>USG_PROJECT_OPEN_JFX</message>
+</record>
+<record>
+  <date>2019-03-01T10:59:37</date>
+  <millis>1551463177148</millis>
+  <sequence>67</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>27</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-03-01T10:59:37</date>
+  <millis>1551463177148</millis>
+  <sequence>68</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>27</thread>
+  <message>USG_PROJECT_OPEN_JFX</message>
+</record>
+<record>
+  <date>2019-03-01T10:59:38</date>
+  <millis>1551463178286</millis>
+  <sequence>77</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>27</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+</record>
+<record>
+  <date>2019-03-01T10:59:38</date>
+  <millis>1551463178286</millis>
+  <sequence>78</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>27</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+</record>
+<record>
+  <date>2019-03-01T10:59:38</date>
+  <millis>1551463178286</millis>
+  <sequence>79</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>27</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+</record>

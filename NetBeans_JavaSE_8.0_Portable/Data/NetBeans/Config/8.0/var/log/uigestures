@@ -28,3 +28,151 @@
   <param>Darcula</param>
   <param>Darcula</param>
 </record>
+<record>
+  <date>2019-03-01T10:59:31</date>
+  <millis>1551463171949</millis>
+  <sequence>24</sequence>
+  <logger>org.netbeans.ui.metrics.vcs</logger>
+  <level>INFO</level>
+  <thread>27</thread>
+  <message>USG_VCS_CLIENT</message>
+  <param>GIT</param>
+  <param>JAVALIB</param>
+</record>
+<record>
+  <date>2019-03-01T10:59:35</date>
+  <millis>1551463175642</millis>
+  <sequence>61</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>27</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-03-01T10:59:35</date>
+  <millis>1551463175646</millis>
+  <sequence>62</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>27</thread>
+  <message>USG_PROJECT_OPEN_JFX</message>
+</record>
+<record>
+  <date>2019-03-01T10:59:36</date>
+  <millis>1551463176584</millis>
+  <sequence>66</sequence>
+  <level>INFO</level>
+  <thread>42</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>8482144256</param>
+</record>
+<record>
+  <date>2019-03-01T10:59:37</date>
+  <millis>1551463177148</millis>
+  <sequence>67</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>27</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-03-01T10:59:37</date>
+  <millis>1551463177148</millis>
+  <sequence>68</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>27</thread>
+  <message>USG_PROJECT_OPEN_JFX</message>
+</record>
+<record>
+  <date>2019-03-01T10:59:37</date>
+  <millis>1551463177822</millis>
+  <sequence>70</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>INFO</level>
+  <thread>27</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>76</param>
+  <param>0</param>
+  <param>rename</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2019-03-01T10:59:37</date>
+  <millis>1551463177941</millis>
+  <sequence>72</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>INFO</level>
+  <thread>27</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>72</param>
+  <param>0</param>
+  <param>reset</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2019-03-01T10:59:38</date>
+  <millis>1551463178286</millis>
+  <sequence>76</sequence>
+  <logger>org.netbeans.ui.projects</logger>
+  <level>CONFIG</level>
+  <thread>27</thread>
+  <message>UI_INIT_PROJECTS</message>
+  <key>UI_INIT_PROJECTS</key>
+  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+  <param>J2SEProject</param>
+  <param>3</param>
+</record>
+<record>
+  <date>2019-03-01T10:59:38</date>
+  <millis>1551463178286</millis>
+  <sequence>77</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>27</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+</record>
+<record>
+  <date>2019-03-01T10:59:38</date>
+  <millis>1551463178286</millis>
+  <sequence>78</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>27</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+</record>
+<record>
+  <date>2019-03-01T10:59:38</date>
+  <millis>1551463178286</millis>
+  <sequence>79</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>27</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+</record>
+<record>
+  <date>2019-03-01T10:59:38</date>
+  <millis>1551463178442</millis>
+  <sequence>80</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>46</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
