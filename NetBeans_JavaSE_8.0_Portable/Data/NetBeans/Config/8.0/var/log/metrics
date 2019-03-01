@@ -11143,3 +11143,23 @@
   <param>harness</param>
   <param>javafx</param>
 </record>
+<record>
+  <date>2019-03-01T10:59:13</date>
+  <millis>1551463153692</millis>
+  <sequence>11</sequence>
+  <logger>org.netbeans.ui.metrics</logger>
+  <level>INFO</level>
+  <thread>13</thread>
+  <message>USG_USER_INSTALLED_MODULES</message>
+</record>
+<record>
+  <date>2019-03-01T10:59:27</date>
+  <millis>1551463167340</millis>
+  <sequence>23</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>INFO</level>
+  <thread>13</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Darcula</param>
+  <param>Darcula</param>
+</record>
