@@ -176,3 +176,33 @@
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
   <param>0</param>
 </record>
+<record>
+  <date>2019-03-01T10:59:47</date>
+  <millis>1551463187997</millis>
+  <sequence>90</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>46</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>9551</param>
+  <param>java</param>
+  <param>87</param>
+  <param>2368</param>
+  <param>SpringBinary</param>
+  <param>84</param>
+  <param>50</param>
+  <param>TaskListIndexer</param>
+  <param>3</param>
+  <param>8</param>
+  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
+  <param>3</param>
+  <param>8</param>
+  <param>CopyResourcesIndexer</param>
+  <param>3</param>
+  <param>0</param>
+  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
+  <param>3</param>
+  <param>1</param>
+</record>

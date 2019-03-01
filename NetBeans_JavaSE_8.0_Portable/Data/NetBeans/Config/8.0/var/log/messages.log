@@ -581,3 +581,12 @@ INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfi
 INFO [javafx]: Old build script file jfx-impl.xml has been renamed to: jfx-impl_backup_8.xml
 INFO [javafx]: Build script jfx-impl.xml has been updated to the latest version supported by this NetBeans installation.
 INFO [org.openide.awt.Toolbar]: Too long AWTTask: 570 ms for org.openide.awt.MenuBar$LazyMenu$MenuFolder@587cf4(FolderList{MultiFileObject@737d51[Menu/File]})
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.home has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.Clusters.relativeDirsWithHome(Clusters.java:137)
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 3,606 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 28 binary roots took: 3,751 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\test took: 4 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\StudentLabs\wack took: 841 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 273 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\src took: 394 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 82 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\test took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 667 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 22 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 5 source roots took: 1,906 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 377 ms]
