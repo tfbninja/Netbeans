@@ -2,5 +2,5 @@
 
 <tc-ref version="2.2">
     <tc-id id="NotificationCenterTopComponent" />
-    <state opened="false" />
+    <state opened="true" />
 </tc-ref>

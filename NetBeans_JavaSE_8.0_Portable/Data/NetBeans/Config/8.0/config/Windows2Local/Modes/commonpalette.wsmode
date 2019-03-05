@@ -13,5 +13,6 @@
   </constraints>
   <bounds x="1440" y="244" width="288" height="326" />
   <frame state="0"/>
+    <active-tc  id="CommonPalette" />
     <empty-behavior permanent="true"/>
 </mode>
