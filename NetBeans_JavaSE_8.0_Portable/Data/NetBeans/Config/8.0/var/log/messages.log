@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Tuesday, March 5, 2019 10:47:41 AM MST
+>Log Session: Thursday, March 7, 2019 9:57:56 AM MST
 >System Info: 
   Product Version         = NetBeans IDE 8.0 (Build 201403101706) (#b8e35b888b3f)
   Operating System        = Windows 10 version 10.0 running on x86
@@ -37,7 +37,7 @@ java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completio
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
 	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:222)
-Caused: java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completion.api.JspCompletionItem starting from SystemClassLoader[473 modules] with possible defining loaders null and declared parents [org.netbeans.MainImpl$BootClassLoader@8c4c35, ModuleCL@1670684[org.netbeans.api.annotations.common], ModuleCL@16ccfb1[org.openide.awt], ModuleCL@d8d8f7[org.netbeans.api.progress], ModuleCL@1b0faf7[org.openide.dialogs], ModuleCL@209163[org.openide.nodes], ModuleCL@152c1d1[org.openide.windows], ModuleCL@131b46c[org.netbeans.modules.editor.mimelookup], ModuleCL@120947f[org.openide.text], ModuleCL@1bdbdf1[org.netbeans.swing.tabcontrol], ...457 more]
+Caused: java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completion.api.JspCompletionItem starting from SystemClassLoader[473 modules] with possible defining loaders null and declared parents [org.netbeans.MainImpl$BootClassLoader@8c4c35, ModuleCL@c54be[org.netbeans.api.annotations.common], ModuleCL@12c4504[org.openide.awt], ModuleCL@13edc23[org.netbeans.api.progress], ModuleCL@157b24[org.openide.dialogs], ModuleCL@b07c7c[org.openide.nodes], ModuleCL@11716cb[org.openide.windows], ModuleCL@df128e[org.netbeans.modules.editor.mimelookup], ModuleCL@1ea98aa[org.openide.text], ModuleCL@645537[org.netbeans.swing.tabcontrol], ...457 more]
 	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:224)
 	at org.netbeans.ModuleManager$SystemClassLoader.loadClass(ModuleManager.java:722)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
@@ -544,9 +544,6 @@ INFO [org.netbeans.core.network.proxy.windows.WindowsNetworkProxy]: Windows syst
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy reloading succeeded.
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy - mode: direct
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy: fell to default (correct if direct mode went before)
-WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.java.api.common.project.ProjectHooks$ProjectOpenedHookImpl.updateUserBuildPropertiesRef(ProjectHooks.java:573)
-INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@860c37
-INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@1ea988e
 Diagnostic information
 Input arguments:
 	-Dnetbeans.importclass=org.netbeans.upgrade.AutoUpgrade
@@ -574,306 +571,85 @@ Input arguments:
 Compiler: HotSpot Client Compiler
 Heap memory usage: initial 32.0MB maximum 396.4MB
 Non heap memory usage: initial 160.0kB maximum -1b
-Garbage collector: Copy (Collections=70 Total time spent=0s)
-Garbage collector: MarkSweepCompact (Collections=4 Total time spent=0s)
-Classes: loaded=10239 total loaded=10251 unloaded 12
+Garbage collector: Copy (Collections=68 Total time spent=0s)
+Garbage collector: MarkSweepCompact (Collections=3 Total time spent=0s)
+Classes: loaded=9810 total loaded=9822 unloaded 12
 INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 8,482,144,256
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 653 ms
-INFO [org.netbeans.modules.form]: Cannot clone javax.swing.SpinnerNumberModel
-java.io.NotSerializableException: com.bulenkov.darcula.ui.DarculaSpinnerBorder
-	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
-	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
-	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
-	at javax.swing.JComponent.writeObject(JComponent.java:5515)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1140)
-	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
-	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
-	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
-	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
-	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
-	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
-	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
-	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
-	at javax.swing.event.EventListenerList.writeObject(EventListenerList.java:259)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1140)
-	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
-	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
-	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
-	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
-	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
-	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
-	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
-	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
-[catch] at org.netbeans.modules.form.FormUtils.cloneBeanInstance(FormUtils.java:659)
-	at org.netbeans.modules.form.FormUtils.cloneObject(FormUtils.java:631)
-	at org.netbeans.modules.form.FormUtils.copyPropertiesToBean(FormUtils.java:974)
-	at org.netbeans.modules.form.FormUtils.copyPropertiesToBean(FormUtils.java:934)
-	at org.netbeans.modules.form.RADComponent.cloneBeanInstance(RADComponent.java:448)
-	at org.netbeans.modules.form.VisualReplicator.cloneComponent(VisualReplicator.java:766)
-	at org.netbeans.modules.form.VisualReplicator.cloneComponent(VisualReplicator.java:804)
-	at org.netbeans.modules.form.VisualReplicator.createClone(VisualReplicator.java:195)
-	at org.netbeans.modules.form.VisualReplicator.createClone(VisualReplicator.java:183)
-	at org.netbeans.modules.form.FormDesigner$FormListener.run(FormDesigner.java:2556)
-	at org.netbeans.modules.form.FormLAF$3.run(FormLAF.java:333)
-	at org.openide.util.Mutex.doEventAccess(Mutex.java:1376)
-	at org.openide.util.Mutex.readAccess(Mutex.java:278)
-	at org.netbeans.modules.form.FormLAF.executeWithLookAndFeel(FormLAF.java:316)
-	at org.netbeans.modules.form.FormDesigner$FormListener.processEvents(FormDesigner.java:2538)
-	at org.netbeans.modules.form.FormDesigner$FormListener.formChanged(FormDesigner.java:2504)
-	at org.netbeans.modules.form.FormDesigner.updateWholeDesigner(FormDesigner.java:617)
-	at org.netbeans.modules.form.FormDesigner.initialize(FormDesigner.java:271)
-	at org.netbeans.modules.form.FormDesigner.loadingComplete(FormDesigner.java:1997)
-	at org.netbeans.modules.nbform.FormDesignerTC.loadForm(FormDesignerTC.java:281)
-	at org.netbeans.modules.nbform.FormDesignerTC.access$300(FormDesignerTC.java:87)
-	at org.netbeans.modules.nbform.FormDesignerTC$PreLoadTask$1.run(FormDesignerTC.java:268)
-	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
-	at java.awt.EventQueue.access$500(EventQueue.java:97)
-	at java.awt.EventQueue$3.run(EventQueue.java:709)
-	at java.awt.EventQueue$3.run(EventQueue.java:703)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
-	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
-	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-INFO [org.netbeans.modules.form]: Reinstalling ComponentUI after interrupted serialization of component: javax.swing.JSpinner[,0,0,0x0,invalid,layout=com.bulenkov.darcula.ui.DarculaSpinnerUI$2,alignmentX=0.0,alignmentY=0.0,border=com.bulenkov.darcula.ui.DarculaSpinnerBorder@a5a58c,flags=328,maximumSize=,minimumSize=,preferredSize=]
-INFO [org.netbeans.modules.form]: Cannot clone javax.swing.SpinnerNumberModel
-java.io.NotSerializableException: com.bulenkov.darcula.ui.DarculaSpinnerBorder
-	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
-	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
-	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
-	at javax.swing.JComponent.writeObject(JComponent.java:5515)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1140)
-	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
-	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
-	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
-	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
-	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
-	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
-	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
-	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
-	at javax.swing.event.EventListenerList.writeObject(EventListenerList.java:259)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1140)
-	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
-	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
-	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
-	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
-	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
-	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
-	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
-	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
-[catch] at org.netbeans.modules.form.FormUtils.cloneBeanInstance(FormUtils.java:659)
-	at org.netbeans.modules.form.FormUtils.cloneObject(FormUtils.java:631)
-	at org.netbeans.modules.form.FormUtils.copyPropertiesToBean(FormUtils.java:974)
-	at org.netbeans.modules.form.FormUtils.copyPropertiesToBean(FormUtils.java:934)
-	at org.netbeans.modules.form.RADComponent.cloneBeanInstance(RADComponent.java:448)
-	at org.netbeans.modules.form.VisualReplicator.cloneComponent(VisualReplicator.java:766)
-	at org.netbeans.modules.form.VisualReplicator.cloneComponent(VisualReplicator.java:804)
-	at org.netbeans.modules.form.VisualReplicator.createClone(VisualReplicator.java:195)
-	at org.netbeans.modules.form.VisualReplicator.createClone(VisualReplicator.java:183)
-	at org.netbeans.modules.form.FormDesigner$FormListener.run(FormDesigner.java:2556)
-	at org.netbeans.modules.form.FormLAF$3.run(FormLAF.java:333)
-	at org.openide.util.Mutex.doEventAccess(Mutex.java:1376)
-	at org.openide.util.Mutex.readAccess(Mutex.java:278)
-	at org.netbeans.modules.form.FormLAF.executeWithLookAndFeel(FormLAF.java:316)
-	at org.netbeans.modules.form.FormDesigner$FormListener.processEvents(FormDesigner.java:2538)
-	at org.netbeans.modules.form.FormDesigner$FormListener.formChanged(FormDesigner.java:2504)
-	at org.netbeans.modules.form.FormDesigner.updateWholeDesigner(FormDesigner.java:617)
-	at org.netbeans.modules.form.FormDesigner.initialize(FormDesigner.java:271)
-	at org.netbeans.modules.form.FormDesigner.loadingComplete(FormDesigner.java:1997)
-	at org.netbeans.modules.nbform.FormDesignerTC.loadForm(FormDesignerTC.java:281)
-	at org.netbeans.modules.nbform.FormDesignerTC.access$300(FormDesignerTC.java:87)
-	at org.netbeans.modules.nbform.FormDesignerTC$PreLoadTask$1.run(FormDesignerTC.java:268)
-	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
-	at java.awt.EventQueue.access$500(EventQueue.java:97)
-	at java.awt.EventQueue$3.run(EventQueue.java:709)
-	at java.awt.EventQueue$3.run(EventQueue.java:703)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
-	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
-	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-INFO [org.netbeans.modules.form]: Reinstalling ComponentUI after interrupted serialization of component: javax.swing.JSpinner[,0,0,0x0,invalid,layout=com.bulenkov.darcula.ui.DarculaSpinnerUI$2,alignmentX=0.0,alignmentY=0.0,border=com.bulenkov.darcula.ui.DarculaSpinnerBorder@a5a58c,flags=328,maximumSize=,minimumSize=,preferredSize=]
-INFO [org.netbeans.modules.form]: Cannot clone javax.swing.SpinnerNumberModel
-java.io.NotSerializableException: com.bulenkov.darcula.ui.DarculaSpinnerBorder
-	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
-	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
-	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
-	at javax.swing.JComponent.writeObject(JComponent.java:5515)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1140)
-	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
-	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
-	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
-	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
-	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
-	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
-	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
-	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
-	at javax.swing.event.EventListenerList.writeObject(EventListenerList.java:259)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1140)
-	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
-	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
-	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
-	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
-	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
-	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
-	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
-	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
-[catch] at org.netbeans.modules.form.FormUtils.cloneBeanInstance(FormUtils.java:659)
-	at org.netbeans.modules.form.FormUtils.cloneObject(FormUtils.java:631)
-	at org.netbeans.modules.form.FormUtils.copyPropertiesToBean(FormUtils.java:974)
-	at org.netbeans.modules.form.FormUtils.copyPropertiesToBean(FormUtils.java:934)
-	at org.netbeans.modules.form.RADComponent.cloneBeanInstance(RADComponent.java:448)
-	at org.netbeans.modules.form.VisualReplicator.cloneComponent(VisualReplicator.java:766)
-	at org.netbeans.modules.form.VisualReplicator.cloneComponent(VisualReplicator.java:804)
-	at org.netbeans.modules.form.VisualReplicator.createClone(VisualReplicator.java:195)
-	at org.netbeans.modules.form.VisualReplicator.createClone(VisualReplicator.java:183)
-	at org.netbeans.modules.form.FormDesigner$FormListener.run(FormDesigner.java:2556)
-	at org.netbeans.modules.form.FormLAF$3.run(FormLAF.java:333)
-	at org.openide.util.Mutex.doEventAccess(Mutex.java:1376)
-	at org.openide.util.Mutex.readAccess(Mutex.java:278)
-	at org.netbeans.modules.form.FormLAF.executeWithLookAndFeel(FormLAF.java:316)
-	at org.netbeans.modules.form.FormDesigner$FormListener.processEvents(FormDesigner.java:2538)
-	at org.netbeans.modules.form.FormDesigner$FormListener.formChanged(FormDesigner.java:2504)
-	at org.netbeans.modules.form.FormDesigner.updateWholeDesigner(FormDesigner.java:617)
-	at org.netbeans.modules.form.FormDesigner.initialize(FormDesigner.java:271)
-	at org.netbeans.modules.form.FormDesigner.loadingComplete(FormDesigner.java:1997)
-	at org.netbeans.modules.nbform.FormDesignerTC.loadForm(FormDesignerTC.java:281)
-	at org.netbeans.modules.nbform.FormDesignerTC.access$300(FormDesignerTC.java:87)
-	at org.netbeans.modules.nbform.FormDesignerTC$PreLoadTask$1.run(FormDesignerTC.java:268)
-	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
-	at java.awt.EventQueue.access$500(EventQueue.java:97)
-	at java.awt.EventQueue$3.run(EventQueue.java:709)
-	at java.awt.EventQueue$3.run(EventQueue.java:703)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
-	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
-	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-INFO [org.netbeans.modules.form]: Reinstalling ComponentUI after interrupted serialization of component: javax.swing.JSpinner[,0,0,0x0,invalid,layout=com.bulenkov.darcula.ui.DarculaSpinnerUI$2,alignmentX=0.0,alignmentY=0.0,border=com.bulenkov.darcula.ui.DarculaSpinnerBorder@a5a58c,flags=328,maximumSize=,minimumSize=,preferredSize=]
-INFO [org.netbeans.modules.form]: Cannot clone javax.swing.SpinnerNumberModel
-java.io.NotSerializableException: com.bulenkov.darcula.ui.DarculaSpinnerBorder
-	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
-	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
-	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
-	at javax.swing.JComponent.writeObject(JComponent.java:5515)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1140)
-	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
-	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
-	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
-	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
-	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
-	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
-	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
-	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
-	at javax.swing.event.EventListenerList.writeObject(EventListenerList.java:259)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1140)
-	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
-	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
-	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
-	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
-	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
-	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
-	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
-	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
-[catch] at org.netbeans.modules.form.FormUtils.cloneBeanInstance(FormUtils.java:659)
-	at org.netbeans.modules.form.FormUtils.cloneObject(FormUtils.java:631)
-	at org.netbeans.modules.form.FormUtils.copyPropertiesToBean(FormUtils.java:974)
-	at org.netbeans.modules.form.FormUtils.copyPropertiesToBean(FormUtils.java:934)
-	at org.netbeans.modules.form.RADComponent.cloneBeanInstance(RADComponent.java:448)
-	at org.netbeans.modules.form.VisualReplicator.cloneComponent(VisualReplicator.java:766)
-	at org.netbeans.modules.form.VisualReplicator.cloneComponent(VisualReplicator.java:804)
-	at org.netbeans.modules.form.VisualReplicator.createClone(VisualReplicator.java:195)
-	at org.netbeans.modules.form.VisualReplicator.createClone(VisualReplicator.java:183)
-	at org.netbeans.modules.form.FormDesigner$FormListener.run(FormDesigner.java:2556)
-	at org.netbeans.modules.form.FormLAF$3.run(FormLAF.java:333)
-	at org.openide.util.Mutex.doEventAccess(Mutex.java:1376)
-	at org.openide.util.Mutex.readAccess(Mutex.java:278)
-	at org.netbeans.modules.form.FormLAF.executeWithLookAndFeel(FormLAF.java:316)
-	at org.netbeans.modules.form.FormDesigner$FormListener.processEvents(FormDesigner.java:2538)
-	at org.netbeans.modules.form.FormDesigner$FormListener.formChanged(FormDesigner.java:2504)
-	at org.netbeans.modules.form.FormDesigner.updateWholeDesigner(FormDesigner.java:617)
-	at org.netbeans.modules.form.FormDesigner.initialize(FormDesigner.java:271)
-	at org.netbeans.modules.form.FormDesigner.loadingComplete(FormDesigner.java:1997)
-	at org.netbeans.modules.nbform.FormDesignerTC.loadForm(FormDesignerTC.java:281)
-	at org.netbeans.modules.nbform.FormDesignerTC.access$300(FormDesignerTC.java:87)
-	at org.netbeans.modules.nbform.FormDesignerTC$PreLoadTask$1.run(FormDesignerTC.java:268)
-	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
-	at java.awt.EventQueue.access$500(EventQueue.java:97)
-	at java.awt.EventQueue$3.run(EventQueue.java:709)
-	at java.awt.EventQueue$3.run(EventQueue.java:703)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
-	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
-	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-INFO [org.netbeans.modules.form]: Reinstalling ComponentUI after interrupted serialization of component: javax.swing.JSpinner[,0,0,0x0,invalid,layout=com.bulenkov.darcula.ui.DarculaSpinnerUI$2,alignmentX=0.0,alignmentY=0.0,border=com.bulenkov.darcula.ui.DarculaSpinnerBorder@a5a58c,flags=328,maximumSize=,minimumSize=,preferredSize=]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 28 binary roots took: 1,401 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\test took: 4 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\StudentLabs\wack took: 1,244 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 547 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\src took: 544 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 4 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\test took: 8 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 465 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 32 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 5 source roots took: 2,265 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 583 ms]
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.java.api.common.project.ProjectHooks$ProjectOpenedHookImpl.updateUserBuildPropertiesRef(ProjectHooks.java:573)
+INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@19bfd93
+INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@a38b1c
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 1,237 ms
 WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.home has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.Clusters.relativeDirsWithHome(Clusters.java:137)
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 28 binary roots took: 2,906 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\test took: 4 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\StudentLabs\wack took: 842 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 288 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\src took: 192 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 4 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 239 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 15 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 4 source roots took: 1,277 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 307 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 5 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\reststubs.zip took: 203 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\corestubs.zip took: 110 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@169c5d3[MultiFileObject@65be04[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
+WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@169c5d3[MultiFileObject@65be04[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\domstubs.zip took: 140 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 453 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 47 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 source roots took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 0 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 source roots took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 8 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 source roots took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 4 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 source roots took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 20 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 4 binary roots took: 119 ms
+INFO: Can't read C:\Users\barber.timothy20\Documents\Github\Snake\Snake\nbproject\private\private.properties
+
+Parent exists: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\nbproject\private
+
+Has children [configs, private.xml]
+msg
+
+Parent exists: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\nbproject\private
+
+Has children [configs, private.xml]
+Caused: java.io.FileNotFoundException: Can't read C:\Users\barber.timothy20\Documents\Github\Snake\Snake\nbproject\private\private.properties
+	at org.netbeans.modules.masterfs.filebasedfs.fileobjects.FileObj.getInputStream(FileObj.java:214)
+[catch] at org.netbeans.spi.project.support.ant.ProjectProperties$PP.getEditablePropertiesOrNull(ProjectProperties.java:216)
+	at org.netbeans.spi.project.support.ant.ProjectProperties$PP.getProperties(ProjectProperties.java:367)
+	at org.netbeans.spi.project.support.ant.SequentialPropertyEvaluator.stateChanged(SequentialPropertyEvaluator.java:165)
+	at org.openide.util.WeakListenerImpl$Change.stateChanged(WeakListenerImpl.java:330)
+	at org.openide.util.ChangeSupport.fireChange(ChangeSupport.java:133)
+	at org.openide.util.ChangeSupport.fireChange(ChangeSupport.java:119)
+	at org.netbeans.spi.project.support.ant.ProjectProperties$PP$2.run(ProjectProperties.java:389)
+	at org.netbeans.spi.project.support.ant.ProjectProperties$PP$2.run(ProjectProperties.java:387)
+	at org.openide.util.Mutex.readAccess(Mutex.java:295)
+	at org.netbeans.spi.project.support.ant.ProjectProperties$PP$3.run(ProjectProperties.java:403)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+ALL [null]: Cannot read file private.properties in C:\Users\barber.timothy20\Documents\Github\Snake\Snake\nbproject\private.
+
+Parent exists: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\nbproject\private
+
+Has children [configs, private.xml]
+WARNING [org.openide.filesystems.FileUtil]: FileUtil.normalizeFile(C:\Users\barber.timothy20\Documents\Github\StudentLabs\wack\lab18d_array_of_refs_Doggies_lab_java_aplus\2.array_of_refs_Doggies_lab_java_aplus.doc) took 548 ms. Result is C:\Users\barber.timothy20\Documents\Github\StudentLabs\wack\lab18d_array_of_refs_Doggies_lab_java_aplus\2.array_of_refs_Doggies_lab_java_aplus.doc
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 6,366 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 28 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 1 source roots took: 6,366 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 28 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 8 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 1,791 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 1 source roots took: 1,791 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.mercurial]: version: null
+INFO [org.netbeans.modules.subversion]: Finished indexing svn cache with 0 entries. Elapsed time: 0 ms.
+WARNING [org.openide.filesystems.Ordering]: Found same position 100,001 for both Toolbars/Build/org-netbeans-modules-project-ui-RunProject.shadow and Toolbars/Build/org-netbeans-modules-project-ui-RunSingle.shadow
+WARNING [org.openide.filesystems.Ordering]: Found same position 100,001 for both Toolbars/Build/org-netbeans-modules-project-ui-RunProject.shadow and Toolbars/Build/org-netbeans-modules-project-ui-RunSingle.shadow
+WARNING [org.openide.filesystems.Ordering]: Found same position 100,001 for both Toolbars/Build/org-netbeans-modules-project-ui-RunProject.shadow and Toolbars/Build/org-netbeans-modules-project-ui-RunSingle.shadow
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\maven\lib\maven-compat-3.0.5.jar took 584 ms
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 256
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
