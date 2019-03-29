@@ -77,3 +77,41 @@
   <message>USG_PROJECT_OPEN</message>
   <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
 </record>
+<record>
+  <date>2019-03-29T10:59:06</date>
+  <millis>1553878746542</millis>
+  <sequence>632</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-03-29T10:59:06</date>
+  <millis>1553878746542</millis>
+  <sequence>633</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE_JFX</message>
+</record>
+<record>
+  <date>2019-03-29T10:59:06</date>
+  <millis>1553878746542</millis>
+  <sequence>634</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-03-29T10:59:06</date>
+  <millis>1553878746542</millis>
+  <sequence>635</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE_JFX</message>
+</record>

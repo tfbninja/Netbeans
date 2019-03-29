@@ -795,3 +795,124 @@
   <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
   <param>1881</param>
 </record>
+<record>
+  <date>2019-03-29T10:59:06</date>
+  <millis>1553878746542</millis>
+  <sequence>632</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-03-29T10:59:06</date>
+  <millis>1553878746542</millis>
+  <sequence>633</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE_JFX</message>
+</record>
+<record>
+  <date>2019-03-29T10:59:06</date>
+  <millis>1553878746542</millis>
+  <sequence>634</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-03-29T10:59:06</date>
+  <millis>1553878746542</millis>
+  <sequence>635</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE_JFX</message>
+</record>
+<record>
+  <date>2019-03-29T10:59:06</date>
+  <millis>1553878746550</millis>
+  <sequence>636</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>79</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>2186725</param>
+</record>
+<record>
+  <date>2019-03-29T10:59:06</date>
+  <millis>1553878746642</millis>
+  <sequence>637</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>79</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>92</param>
+</record>
+<record>
+  <date>2019-03-29T10:59:06</date>
+  <millis>1553878746646</millis>
+  <sequence>638</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>79</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>4</param>
+</record>
+<record>
+  <date>2019-03-29T10:59:06</date>
+  <millis>1553878746670</millis>
+  <sequence>642</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>79</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>24</param>
+</record>
+<record>
+  <date>2019-03-29T10:59:06</date>
+  <millis>1553878746670</millis>
+  <sequence>643</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>79</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2019-03-29T10:59:06</date>
+  <millis>1553878746674</millis>
+  <sequence>644</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>79</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2019-03-29T10:59:06</date>
+  <millis>1553878746682</millis>
+  <sequence>648</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>FINE</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
