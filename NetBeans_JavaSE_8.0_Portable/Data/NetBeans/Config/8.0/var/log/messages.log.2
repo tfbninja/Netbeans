@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Tuesday, March 5, 2019 10:47:41 AM MST
+>Log Session: Wednesday, March 6, 2019 2:55:45 PM MST
 >System Info: 
   Product Version         = NetBeans IDE 8.0 (Build 201403101706) (#b8e35b888b3f)
   Operating System        = Windows 10 version 10.0 running on x86
@@ -37,7 +37,7 @@ java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completio
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
 	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:222)
-Caused: java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completion.api.JspCompletionItem starting from SystemClassLoader[473 modules] with possible defining loaders null and declared parents [org.netbeans.MainImpl$BootClassLoader@8c4c35, ModuleCL@1670684[org.netbeans.api.annotations.common], ModuleCL@16ccfb1[org.openide.awt], ModuleCL@d8d8f7[org.netbeans.api.progress], ModuleCL@1b0faf7[org.openide.dialogs], ModuleCL@209163[org.openide.nodes], ModuleCL@152c1d1[org.openide.windows], ModuleCL@131b46c[org.netbeans.modules.editor.mimelookup], ModuleCL@120947f[org.openide.text], ModuleCL@1bdbdf1[org.netbeans.swing.tabcontrol], ...457 more]
+Caused: java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completion.api.JspCompletionItem starting from SystemClassLoader[473 modules] with possible defining loaders null and declared parents [org.netbeans.MainImpl$BootClassLoader@8c4c35, ModuleCL@1e13f14[org.netbeans.api.annotations.common], ModuleCL@1cde457[org.openide.awt], ModuleCL@d552c8[org.netbeans.api.progress], ModuleCL@91cbf[org.openide.dialogs], ModuleCL@c09f35[org.openide.nodes], ModuleCL@f93326[org.openide.windows], ModuleCL@b26723[org.netbeans.modules.editor.mimelookup], ModuleCL@3e6bae[org.openide.text], ModuleCL@fb6d6b[org.netbeans.swing.tabcontrol], ...457 more]
 	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:224)
 	at org.netbeans.ModuleManager$SystemClassLoader.loadClass(ModuleManager.java:722)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
@@ -545,8 +545,10 @@ INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network prox
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy - mode: direct
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy: fell to default (correct if direct mode went before)
 WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.java.api.common.project.ProjectHooks$ProjectOpenedHookImpl.updateUserBuildPropertiesRef(ProjectHooks.java:573)
-INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@860c37
-INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@1ea988e
+INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@129c965
+INFO [javafx]: Old build script file jfx-impl.xml has been renamed to: jfx-impl_backup_10.xml
+INFO [javafx]: Build script jfx-impl.xml has been updated to the latest version supported by this NetBeans installation.
+INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@d5ad58
 Diagnostic information
 Input arguments:
 	-Dnetbeans.importclass=org.netbeans.upgrade.AutoUpgrade
@@ -574,11 +576,11 @@ Input arguments:
 Compiler: HotSpot Client Compiler
 Heap memory usage: initial 32.0MB maximum 396.4MB
 Non heap memory usage: initial 160.0kB maximum -1b
-Garbage collector: Copy (Collections=70 Total time spent=0s)
+Garbage collector: Copy (Collections=81 Total time spent=0s)
 Garbage collector: MarkSweepCompact (Collections=4 Total time spent=0s)
-Classes: loaded=10239 total loaded=10251 unloaded 12
+Classes: loaded=10190 total loaded=10202 unloaded 12
 INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 8,482,144,256
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 653 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 472 ms
 INFO [org.netbeans.modules.form]: Cannot clone javax.swing.SpinnerNumberModel
 java.io.NotSerializableException: com.bulenkov.darcula.ui.DarculaSpinnerBorder
 	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
@@ -649,7 +651,7 @@ java.io.NotSerializableException: com.bulenkov.darcula.ui.DarculaSpinnerBorder
 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
 	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-INFO [org.netbeans.modules.form]: Reinstalling ComponentUI after interrupted serialization of component: javax.swing.JSpinner[,0,0,0x0,invalid,layout=com.bulenkov.darcula.ui.DarculaSpinnerUI$2,alignmentX=0.0,alignmentY=0.0,border=com.bulenkov.darcula.ui.DarculaSpinnerBorder@a5a58c,flags=328,maximumSize=,minimumSize=,preferredSize=]
+INFO [org.netbeans.modules.form]: Reinstalling ComponentUI after interrupted serialization of component: javax.swing.JSpinner[,0,0,0x0,invalid,layout=com.bulenkov.darcula.ui.DarculaSpinnerUI$2,alignmentX=0.0,alignmentY=0.0,border=com.bulenkov.darcula.ui.DarculaSpinnerBorder@109e806,flags=328,maximumSize=,minimumSize=,preferredSize=]
 INFO [org.netbeans.modules.form]: Cannot clone javax.swing.SpinnerNumberModel
 java.io.NotSerializableException: com.bulenkov.darcula.ui.DarculaSpinnerBorder
 	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
@@ -720,7 +722,8 @@ java.io.NotSerializableException: com.bulenkov.darcula.ui.DarculaSpinnerBorder
 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
 	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-INFO [org.netbeans.modules.form]: Reinstalling ComponentUI after interrupted serialization of component: javax.swing.JSpinner[,0,0,0x0,invalid,layout=com.bulenkov.darcula.ui.DarculaSpinnerUI$2,alignmentX=0.0,alignmentY=0.0,border=com.bulenkov.darcula.ui.DarculaSpinnerBorder@a5a58c,flags=328,maximumSize=,minimumSize=,preferredSize=]
+INFO [org.netbeans.modules.form]: Reinstalling ComponentUI after interrupted serialization of component: javax.swing.JSpinner[,0,0,0x0,invalid,layout=com.bulenkov.darcula.ui.DarculaSpinnerUI$2,alignmentX=0.0,alignmentY=0.0,border=com.bulenkov.darcula.ui.DarculaSpinnerBorder@109e806,flags=328,maximumSize=,minimumSize=,preferredSize=]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 28 binary roots took: 1,263 ms
 INFO [org.netbeans.modules.form]: Cannot clone javax.swing.SpinnerNumberModel
 java.io.NotSerializableException: com.bulenkov.darcula.ui.DarculaSpinnerBorder
 	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
@@ -791,7 +794,8 @@ java.io.NotSerializableException: com.bulenkov.darcula.ui.DarculaSpinnerBorder
 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
 	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-INFO [org.netbeans.modules.form]: Reinstalling ComponentUI after interrupted serialization of component: javax.swing.JSpinner[,0,0,0x0,invalid,layout=com.bulenkov.darcula.ui.DarculaSpinnerUI$2,alignmentX=0.0,alignmentY=0.0,border=com.bulenkov.darcula.ui.DarculaSpinnerBorder@a5a58c,flags=328,maximumSize=,minimumSize=,preferredSize=]
+INFO [org.netbeans.modules.form]: Reinstalling ComponentUI after interrupted serialization of component: javax.swing.JSpinner[,0,0,0x0,invalid,layout=com.bulenkov.darcula.ui.DarculaSpinnerUI$2,alignmentX=0.0,alignmentY=0.0,border=com.bulenkov.darcula.ui.DarculaSpinnerBorder@109e806,flags=328,maximumSize=,minimumSize=,preferredSize=]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\test took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
 INFO [org.netbeans.modules.form]: Cannot clone javax.swing.SpinnerNumberModel
 java.io.NotSerializableException: com.bulenkov.darcula.ui.DarculaSpinnerBorder
 	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
@@ -862,18 +866,279 @@ java.io.NotSerializableException: com.bulenkov.darcula.ui.DarculaSpinnerBorder
 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
 	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-INFO [org.netbeans.modules.form]: Reinstalling ComponentUI after interrupted serialization of component: javax.swing.JSpinner[,0,0,0x0,invalid,layout=com.bulenkov.darcula.ui.DarculaSpinnerUI$2,alignmentX=0.0,alignmentY=0.0,border=com.bulenkov.darcula.ui.DarculaSpinnerBorder@a5a58c,flags=328,maximumSize=,minimumSize=,preferredSize=]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 28 binary roots took: 1,401 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\test took: 4 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\StudentLabs\wack took: 1,244 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 547 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\src took: 544 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 4 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\test took: 8 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 465 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 32 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 5 source roots took: 2,265 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 583 ms]
+INFO [org.netbeans.modules.form]: Reinstalling ComponentUI after interrupted serialization of component: javax.swing.JSpinner[,0,0,0x0,invalid,layout=com.bulenkov.darcula.ui.DarculaSpinnerUI$2,alignmentX=0.0,alignmentY=0.0,border=com.bulenkov.darcula.ui.DarculaSpinnerBorder@109e806,flags=328,maximumSize=,minimumSize=,preferredSize=]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\StudentLabs\wack took: 1,350 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 364 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\src took: 328 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 4 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\test took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 556 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 24 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 5 source roots took: 2,234 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 392 ms]
 WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.home has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.Clusters.relativeDirsWithHome(Clusters.java:137)
+INFO [org.netbeans.modules.parsing.impl.TaskProcessor]: Task: class org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper ignored cancel for 440 ms.
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 4 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 binary roots took: 516 ms
+INFO [org.netbeans.modules.parsing.impl.TaskProcessor]: Task: class org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper ignored cancel for 1,028 ms.
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 2,600 ms (New or modified files: 2, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 1 source roots took: 2,600 ms (New or modified files: 2, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 12 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\reststubs.zip took: 188 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@1288463[MultiFileObject@ead21b[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
+WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@1288463[MultiFileObject@ead21b[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\corestubs.zip took: 152 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\domstubs.zip took: 108 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 448 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.enabled = false
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.type = none
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.project.path = 
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.class = 
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.jar.filename = 
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.jar.path = 
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 939 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src\snake took: 1,314 ms (New or modified files: 82, Deleted files: 0) [Adding listeners took: 12 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 1 source roots took: 1,314 ms (New or modified files: 82, Deleted files: 0) [Adding listeners took: 12 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 8 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 source roots took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.enabled = false
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.type = none
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.project.path = 
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.class = 
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.jar.filename = 
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.jar.path = 
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 534 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 1,189 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 16 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 1 source roots took: 1,189 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 16 ms]
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 4 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 source roots took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 256
-INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
-INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
+INFO [org.netbeans.modules.autoupdate.updateprovider.DownloadListener]: Connection content length was 0 bytes (read 0bytes), expected file size can`t be that size - likely server with file at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e is temporary down
+INFO [org.netbeans.modules.autoupdate.ui.Utilities]: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e
+java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.doCopy(DownloadListener.java:155)
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.streamOpened(DownloadListener.java:78)
+	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$1.run(NetworkAccess.java:111)
+Caused: java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.notifyException(DownloadListener.java:103)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.copy(AutoupdateCatalogCache.java:246)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.writeCatalogToCache(AutoupdateCatalogCache.java:99)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogProvider.refresh(AutoupdateCatalogProvider.java:154)
+	at org.netbeans.modules.autoupdate.services.UpdateUnitProviderImpl.refresh(UpdateUnitProviderImpl.java:180)
+	at org.netbeans.api.autoupdate.UpdateUnitProvider.refresh(UpdateUnitProvider.java:196)
+[catch] at org.netbeans.modules.autoupdate.ui.Utilities.tryRefreshProviders(Utilities.java:433)
+	at org.netbeans.modules.autoupdate.ui.Utilities.doRefreshProviders(Utilities.java:411)
+	at org.netbeans.modules.autoupdate.ui.Utilities.presentRefreshProviders(Utilities.java:405)
+	at org.netbeans.modules.autoupdate.ui.UnitTab$14.run(UnitTab.java:806)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO [org.netbeans.modules.autoupdate.updateprovider.DownloadListener]: Connection content length was 0 bytes (read 0bytes), expected file size can`t be that size - likely server with file at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e is temporary down
+INFO [org.netbeans.modules.autoupdate.ui.Utilities]: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e
+java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.doCopy(DownloadListener.java:155)
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.streamOpened(DownloadListener.java:78)
+	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$1.run(NetworkAccess.java:111)
+Caused: java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.notifyException(DownloadListener.java:103)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.copy(AutoupdateCatalogCache.java:246)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.writeCatalogToCache(AutoupdateCatalogCache.java:99)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogProvider.refresh(AutoupdateCatalogProvider.java:154)
+	at org.netbeans.modules.autoupdate.services.UpdateUnitProviderImpl.refresh(UpdateUnitProviderImpl.java:180)
+	at org.netbeans.api.autoupdate.UpdateUnitProvider.refresh(UpdateUnitProvider.java:196)
+[catch] at org.netbeans.modules.autoupdate.ui.Utilities.tryRefreshProviders(Utilities.java:433)
+	at org.netbeans.modules.autoupdate.ui.Utilities.doRefreshProviders(Utilities.java:411)
+	at org.netbeans.modules.autoupdate.ui.Utilities.presentRefreshProviders(Utilities.java:405)
+	at org.netbeans.modules.autoupdate.ui.UnitTab$14.run(UnitTab.java:806)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO [org.netbeans.modules.autoupdate.updateprovider.DownloadListener]: Connection content length was 0 bytes (read 0bytes), expected file size can`t be that size - likely server with file at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e is temporary down
+INFO [org.netbeans.modules.autoupdate.ui.Utilities]: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e
+java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.doCopy(DownloadListener.java:155)
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.streamOpened(DownloadListener.java:78)
+	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$1.run(NetworkAccess.java:111)
+Caused: java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.notifyException(DownloadListener.java:103)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.copy(AutoupdateCatalogCache.java:246)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.writeCatalogToCache(AutoupdateCatalogCache.java:99)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogProvider.refresh(AutoupdateCatalogProvider.java:154)
+	at org.netbeans.modules.autoupdate.services.UpdateUnitProviderImpl.refresh(UpdateUnitProviderImpl.java:180)
+	at org.netbeans.api.autoupdate.UpdateUnitProvider.refresh(UpdateUnitProvider.java:196)
+[catch] at org.netbeans.modules.autoupdate.ui.Utilities.tryRefreshProviders(Utilities.java:433)
+	at org.netbeans.modules.autoupdate.ui.Utilities.doRefreshProviders(Utilities.java:411)
+	at org.netbeans.modules.autoupdate.ui.Utilities.presentRefreshProviders(Utilities.java:405)
+	at org.netbeans.modules.autoupdate.ui.UnitTab$14.run(UnitTab.java:806)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.enabled = false
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.type = none
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.project.path = 
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.class = 
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.jar.filename = 
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.jar.path = 
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.enabled = false
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.type = none
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.project.path = 
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.class = 
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.jar.filename = 
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.jar.path = 
+INFO [org.netbeans.core.windows.persistence]: [PersistenceManager.getTopComponentForID] Problem when deserializing TopComponent for tcID:'MultiView-java#002Eso10CA9CC7xt#002Ehistory#007C_7'. Reason:  Object not found: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src\snake\AWTToolbox.java@de2edd52:1cdd16[invalid]. It was probably deleted.
+
+msg
+msg
+msg
+Caused: org.openide.filesystems.FileStateInvalidException: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src\snake\AWTToolbox.java@de2edd52:1cdd16[invalid]
+	at org.openide.loaders.DataObject.find(DataObject.java:555)
+Caused: org.openide.loaders.DataObjectNotFoundException: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src\snake\AWTToolbox.java@de2edd52:1cdd16[invalid]
+	at org.openide.loaders.DataObject.find(DataObject.java:575)
+	at org.openide.loaders.DataObject$Replace.readObject(DataObject.java:1193)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1170)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2178)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2287)
+	at java.io.ObjectInputStream.defaultReadObject(ObjectInputStream.java:561)
+	at org.openide.loaders.OpenSupport$Env.readObject(OpenSupport.java:169)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1170)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2178)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2287)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2211)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:431)
+	at org.openide.windows.CloneableTopComponent.readExternal(CloneableTopComponent.java:254)
+	at org.netbeans.core.multiview.MultiViewCloneableTopComponent.readExternal(MultiViewCloneableTopComponent.java:265)
+	at org.openide.windows.TopComponent$Replacer.readObject(TopComponent.java:1859)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1170)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2178)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:431)
+	at org.netbeans.modules.settings.convertors.XMLSettingsSupport$SettingsRecognizer.readSerial(XMLSettingsSupport.java:571)
+	at org.netbeans.modules.settings.convertors.XMLSettingsSupport$SettingsRecognizer.instanceCreate(XMLSettingsSupport.java:603)
+	at org.netbeans.modules.settings.convertors.SerialDataConvertor$SettingsInstance.instanceCreate(SerialDataConvertor.java:426)
+[catch] at org.netbeans.core.windows.persistence.PersistenceManager.getTopComponentPersistentForID(PersistenceManager.java:571)
+	at org.netbeans.core.windows.persistence.PersistenceManager.getTopComponentForID(PersistenceManager.java:681)
+	at org.netbeans.core.windows.PersistenceHandler.getTopComponentForID(PersistenceHandler.java:478)
+	at org.netbeans.core.windows.WindowManagerImpl.getTopComponentForID(WindowManagerImpl.java:962)
+	at org.netbeans.core.windows.WindowManagerImpl.findTopComponent(WindowManagerImpl.java:292)
+	at org.netbeans.core.windows.RecentViewList.getTopComponents(RecentViewList.java:92)
+	at org.netbeans.core.windows.WindowManagerImpl.getRecentViewList(WindowManagerImpl.java:1113)
+	at org.netbeans.core.windows.PersistenceHandler.getConfig(PersistenceHandler.java:644)
+	at org.netbeans.core.windows.PersistenceHandler.save(PersistenceHandler.java:314)
+	at org.netbeans.core.windows.WindowSystemImpl.save(WindowSystemImpl.java:93)
+	at org.netbeans.core.NbLifeExit.doStopInfra(NbLifeExit.java:150)
+	at org.netbeans.core.NbLifeExit.run(NbLifeExit.java:97)
+	at org.netbeans.core.startup.ModuleSystem$2.run(ModuleSystem.java:343)
+	at org.netbeans.ModuleManager.shutDownAsync(ModuleManager.java:1991)
+	at org.netbeans.core.startup.ModuleSystem.shutDownAsync(ModuleSystem.java:349)
+	at org.netbeans.core.NbLifeExit.doExit(NbLifeExit.java:137)
+	at org.netbeans.core.NbLifeExit.run(NbLifeExit.java:94)
+	at org.openide.util.Mutex.doEvent(Mutex.java:1356)
+	at org.openide.util.Mutex.readAccess(Mutex.java:355)
+	at org.netbeans.core.NbLifecycleManager.exit(NbLifecycleManager.java:213)
+	at org.netbeans.core.NbLifecycleManager.exit(NbLifecycleManager.java:119)
+	at org.netbeans.core.windows.view.ui.MainWindow$9.windowClosing(MainWindow.java:528)
+	at java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:349)
+	at java.awt.Window.processWindowEvent(Window.java:2054)
+	at javax.swing.JFrame.processWindowEvent(JFrame.java:305)
+	at java.awt.Window.processEvent(Window.java:2013)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Content: 
+<?xml version="1.0"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+    <module name="org.netbeans.core.multiview/1" spec="1.39.1"/>
+    <instanceof class="java.awt.Component"/>
+    <instanceof class="java.awt.Container"/>
+    <instanceof class="java.awt.MenuContainer"/>
+    <instanceof class="java.awt.image.ImageObserver"/>
+    <instanceof class="java.io.Externalizable"/>
+    <instanceof class="java.io.Serializable"/>
+    <instanceof class="java.lang.Object"/>
+    <instanceof class="javax.accessibility.Accessible"/>
+    <instanceof class="javax.swing.JComponent"/>
+    <instanceof class="javax.swing.TransferHandler$HasGetTransferHandler"/>
+    <instanceof class="org.netbeans.core.multiview.MultiViewCloneableTopComponent"/>
+    <instanceof class="org.netbeans.core.multiview.MultiViewModel$ActionRequestObserverFactory"/>
+    <instanceof class="org.netbeans.core.multiview.Splitable"/>
+    <instanceof class="org.openide.text.CloneableEditorSupport$Pane"/>
+    <instanceof class="org.openide.util.HelpCtx$Provider"/>
+    <instanceof class="org.openide.util.Lookup$Provider"/>
+    <instanceof class="org.openide.windows.CloneableTopComponent"/>
+    <instanceof class="org.openide.windows.TopComponent"/>
+    <instanceof class="org.openide.windows.TopComponent$Cloneable"/>
+    <serialdata class="org.netbeans.core.multiview.MultiViewCloneableTopComponent">
+        ACED0005737200296F72672E6F70656E6964652E77696E646F77732E546F70436F6D706F6E656E74245265706C6163657284
+        874494BDDF6D64030000787074003A6F72672E6E65746265616E732E636F72652E6D756C7469766965772E4D756C74695669
+        6577436C6F6E6561626C65546F70436F6D706F6E656E747372000F6A6176612E6C616E672E53686F7274684D37133460DA52
+        02000153000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B0200007870000177040000
+        000174000F415754546F6F6C626F782E6A617661740050433A5C55736572735C6261726265722E74696D6F74687932305C44
+        6F63756D656E74735C4769746875625C536E616B655C536E616B655C7372635C736E616B655C415754546F6F6C626F782E6A
+        61766174000F415754546F6F6C626F782E6A61766170737200316F72672E6F70656E6964652E77696E646F77732E436C6F6E
+        6561626C654F70656E537570706F7274244C697374656E6572E525E314060C682D0200014C0003656E7674002E4C6F72672F
+        6F70656E6964652F77696E646F77732F436C6F6E6561626C654F70656E537570706F727424456E763B7872002D6F72672E6F
+        70656E6964652E77696E646F77732E436C6F6E6561626C65546F70436F6D706F6E656E74245265664CED3888AC524ABC0200
+        007870737200396F72672E6E65746265616E732E6D6F64756C65732E6F70656E6964652E6C6F61646572732E53696D706C65
+        455324456E7669726F6E6D656E744BA762A1D4D7CAE70200014C0005656E74727974002B4C6F72672F6F70656E6964652F6C
+        6F61646572732F4D756C7469446174614F626A65637424456E7472793B787200266F72672E6F70656E6964652E746578742E
+        44617461456469746F72537570706F727424456E76D720E894A9D2FA270200014900154249475F46494C455F544852455348
+        4F4C445F4D42787200236F72672E6F70656E6964652E6C6F61646572732E4F70656E537570706F727424456E76E525E31406
+        0C682D0200014C00036F626A7400204C6F72672F6F70656E6964652F6C6F61646572732F446174614F626A6563743B787073
+        7200266F72672E6F70656E6964652E6C6F61646572732E446174614F626A656374245265706C616365F7497413DEEC538E02
+        00014C0002666F7400244C6F72672F6F70656E6964652F66696C6573797374656D732F46696C654F626A6563743B78707372
+        004D6F72672E6E65746265616E732E6D6F64756C65732E6D617374657266732E66696C65626173656466732E66696C656F62
+        6A656374732E5265706C616365466F7253657269616C697A6174696F6E98978CE6D3E9619F0200014C000C6162736F6C7574
+        65506174687400124C6A6176612F6C616E672F537472696E673B7870740050433A5C55736572735C6261726265722E74696D
+        6F74687932305C446F63756D656E74735C4769746875625C536E616B655C536E616B655C7372635C736E616B655C41575454
+        6F6F6C626F782E6A61766100000001737200306F72672E6F70656E6964652E6C6F61646572732E4D756C7469446174614F62
+        6A65637424456E7472795265706C616365EB3332ABDAFB88A20200014C000466696C6571007E0014787071007E001874000B
+        746578742F782D6A61766171007E001574000B6A6176612E736F757263657372003B6F72672E6E65746265616E732E636F72
+        652E7370692E6D756C7469766965772E746578742E4D756C746956696577456469746F72456C656D656E74000187D8CEF94C
+        9B0200014C0006656469746F7274003F4C6F72672F6E65746265616E732F636F72652F7370692F6D756C7469766965772F74
+        6578742F4D756C746956696577436C6F6E6561626C65456469746F723B78707371007E000074003D6F72672E6E6574626561
+        6E732E636F72652E7370692E6D756C7469766965772E746578742E4D756C746956696577436C6F6E6561626C65456469746F
+        727371007E0003000177040000000071007E000671007E000771007E0008707371007E000B71007E0012737200116A617661
+        2E6C616E672E496E746567657212E2A0A4F781873802000149000576616C75657871007E0004000000007701007871007E00
+        1D74000C746578742E686973746F727971007E00277371007E0025000000007371007E0025000000007371007E0025FFFFFF
+        FF7400153C68746D6C3E415754546F6F6C626F782E6A61766178
+    </serialdata>
+</settings>
+ALL [null]: Source: MultiFileObject@1064620[Windows2Local/Components/MultiView-java#002Eso10CA9CC7xt#002Ehistory#007C_7.settings]
+ALL [null]: Cannot read class: org.netbeans.core.multiview.MultiViewCloneableTopComponent
