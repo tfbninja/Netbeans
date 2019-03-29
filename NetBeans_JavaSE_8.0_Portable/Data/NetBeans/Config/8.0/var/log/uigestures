@@ -783,3 +783,15 @@
   <param>1</param>
   <param>0</param>
 </record>
+<record>
+  <date>2019-03-29T10:58:59</date>
+  <millis>1553878739249</millis>
+  <sequence>629</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>FINE</level>
+  <thread>79</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>1881</param>
+</record>
