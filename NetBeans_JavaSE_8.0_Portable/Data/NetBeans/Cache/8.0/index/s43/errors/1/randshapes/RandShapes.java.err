@@ -1,0 +1,1 @@
+ERROR:26:cannot find symbol\n  symbol\d   method getCanvas()\n  location\d variable screen of type randshapes.Screen
