@@ -1002,3 +1002,9 @@ INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kin
 INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.org.apache.xml.internal.security.signature.reference.ReferenceSubTreeData$DelayedNodeIterator ]
 WARNING [org.netbeans.modules.openide.loaders.DataObjectEncodingQueryImplementation]: Invalid DataObject: C:\Users\barber.timothy20\Documents\Github\RandShapes\RandShapes\src\randshapes\Shape.java
 INFO [org.netbeans.core.execution.Install]: KILL_PENDING_TASKS
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 0 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 source roots took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 256
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
