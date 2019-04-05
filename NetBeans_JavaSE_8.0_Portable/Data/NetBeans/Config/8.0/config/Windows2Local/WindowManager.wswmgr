@@ -34,7 +34,7 @@
     <editor-area state="joined" frame-state="0">
   <constraints>
   <path orientation="horizontal" number="60" weight="0.8181818181818182" />
-  <path orientation="vertical" number="40" weight="0.7597765363128491" />
+  <path orientation="vertical" number="40" weight="0.6882681564245811" />
   <path orientation="horizontal" number="40" weight="0.7" />
   <path orientation="vertical" number="40" weight="0.5" />
   </constraints>
@@ -44,11 +44,9 @@
     <active-mode name="editor"/>
     <toolbar configuration="Standard" preferred-icon-size="24"/>
     <tc-list>
-  <tc-id id="MultiView-java#002Eso888FB92t#002Ehistory#007C_13"/>
-  <tc-id id="MultiView-java#002Eso888FB90t#002Ehistory#007C_11"/>
-  <tc-id id="projectTabLogical_tc"/>
-  <tc-id id="MultiView-java#002Eso888FB91t#002Ehistory#007C_12"/>
+  <tc-id id="MultiView-java#002Eso2D0988CFtext#002Ehistory#007C"/>
   <tc-id id="output"/>
+  <tc-id id="projectTabLogical_tc"/>
   <tc-id id="NotificationCenterTopComponent"/>
   <tc-id id="navigatorTC"/>
   <tc-id id="services"/>

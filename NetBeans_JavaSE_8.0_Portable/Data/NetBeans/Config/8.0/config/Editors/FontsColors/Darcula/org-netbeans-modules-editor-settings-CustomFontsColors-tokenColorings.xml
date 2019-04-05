@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE fontscolors PUBLIC "-//NetBeans//DTD Editor Fonts and Colors settings 1.1//EN" "http://www.netbeans.org/dtds/EditorFontsColors-1_1.dtd">
 <fontscolors>
+    <fontcolor name="identifier"/>
     <fontcolor bgColor="ff2b2b2b" foreColor="ffa9b7c6" name="default">
-        <font name="Monospaced" size="18"/>
+        <font name="Monospaced" size="18" style="plain"/>
     </fontcolor>
 </fontscolors>

@@ -1,6 +1,0 @@
-ERROR:47:cannot find symbol\n  symbol\d   variable xPoints\n  location\d class randshapes.Shape
-ERROR:47:cannot find symbol\n  symbol\d   variable yPoints\n  location\d class randshapes.Shape
-ERROR:53:variable xPs is already defined in method draw(javafx.scene.canvas.Canvas)
-ERROR:54:variable yPs is already defined in method draw(javafx.scene.canvas.Canvas)
-ERROR:55:cannot find symbol\n  symbol\d   variable xPoints\n  location\d class randshapes.Shape
-ERROR:55:cannot find symbol\n  symbol\d   variable yPoints\n  location\d class randshapes.Shape

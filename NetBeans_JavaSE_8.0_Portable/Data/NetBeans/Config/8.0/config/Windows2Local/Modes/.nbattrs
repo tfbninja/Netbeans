@@ -11,7 +11,7 @@
         <attr name="_palette_visible__empty_" boolvalue="false"/>
     </fileobject>
     <fileobject name="editor">
-        <attr name="WinSys-TCRef-Order" stringvalue="CoverageReportTopComponent/HQLEditorTopComponent/dbgInstances/MultiView-java#002Eso888FB90t#002Ehistory#007C_11/MultiView-java#002Eso888FB91t#002Ehistory#007C_12/MultiView-java#002Eso888FB92t#002Ehistory#007C_13"/>
+        <attr name="WinSys-TCRef-Order" stringvalue="CoverageReportTopComponent/HQLEditorTopComponent/dbgInstances/MultiView-java#002Eso2D0988CFtext#002Ehistory#007C"/>
     </fileobject>
     <fileobject name="explorer">
         <attr name="WinSys-TCRef-Order" stringvalue="projectTabLogical_tc/projectTab_tc/services/favorites/DashboardTopComponent/debuggingView/profiler_cp"/>
