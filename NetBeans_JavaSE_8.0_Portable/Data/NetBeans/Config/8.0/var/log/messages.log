@@ -1,36 +1,35 @@
 -------------------------------------------------------------------------------
->Log Session: Thursday, April 11, 2019 2:47:47 PM MDT
+>Log Session: Monday, April 15, 2019 5:39:00 PM MDT
 >System Info: 
   Product Version         = NetBeans IDE 8.0 (Build 201403101706) (#b8e35b888b3f)
   Operating System        = Windows 10 version 10.0 running on x86
   Java; VM; Vendor        = 1.8.0_181; Java HotSpot(TM) Client VM 25.181-b13; Oracle Corporation
   Runtime                 = Java(TM) SE Runtime Environment 1.8.0_181-b13
-  Java Home               = C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre
+  Java Home               = C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre
   System Locale; Encoding = en_US (nb); Cp1252
-  Home Directory          = C:\Users\barber.timothy20
-  Current Directory       = C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\bin
-  User Directory          = C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\Data\NetBeans\Config\8.0
-  Cache Directory         = C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\Data\NetBeans\Cache\8.0
-  Installation            = C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb
-                            C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide
-                            C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\extide
-                            C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java
-                            C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\apisupport
-                            C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\websvccommon
-                            C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\profiler
-                            C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\harness
-                            C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\javafx
-                            C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform
-  Boot & Ext. Classpath   = C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\resources.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\rt.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\sunrsasign.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\jsse.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\jce.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\charsets.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\jfr.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\classes;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\access-bridge-32.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\access-bridge.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\cldrdata.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\dnsns.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\jaccess.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\jfxrt.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\localedata.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\nashorn.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\sunec.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\sunjce_provider.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\sunmscapi.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\sunpkcs11.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\zipfs.jar
-  Application Classpath   = C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\boot.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\org-openide-modules.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\org-openide-util-lookup.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\org-openide-util.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\boot_ja.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\boot_pt_BR.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\boot_ru.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\boot_zh_CN.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-modules_ja.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-modules_pt_BR.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-modules_ru.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-modules_zh_CN.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-util-lookup_ja.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-util-lookup_pt_BR.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-util-lookup_ru.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-util-lookup_zh_CN.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-util_ja.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-util_pt_BR.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-util_ru.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-util_zh_CN.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\lib\dt.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\lib\tools.jar
-  Startup Classpath       = C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\core\core.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\core\org-openide-filesystems.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\core\locale\core_ja.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\core\locale\core_pt_BR.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\core\locale\core_ru.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\core\locale\core_zh_CN.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\core\locale\org-openide-filesystems_ja.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\core\locale\org-openide-filesystems_pt_BR.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\core\locale\org-openide-filesystems_ru.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\core\locale\org-openide-filesystems_zh_CN.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb\core\org-netbeans-upgrader.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb\core\locale\core_nb.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb\core\locale\core_nb_ja.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb\core\locale\core_nb_pt_BR.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb\core\locale\core_nb_ru.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb\core\locale\core_nb_zh_CN.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb\core\locale\org-netbeans-upgrader_ja.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb\core\locale\org-netbeans-upgrader_pt_BR.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb\core\locale\org-netbeans-upgrader_ru.jar;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb\core\locale\org-netbeans-upgrader_zh_CN.jar
+  Home Directory          = C:\Users\win10ct
+  Current Directory       = C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable
+  User Directory          = C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\Data\NetBeans\Config\8.0
+  Cache Directory         = C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\Data\NetBeans\Cache\8.0
+  Installation            = C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb
+                            C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide
+                            C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\extide
+                            C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java
+                            C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\apisupport
+                            C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\websvccommon
+                            C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\profiler
+                            C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\harness
+                            C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\javafx
+                            C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform
+  Boot & Ext. Classpath   = C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\resources.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\rt.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\sunrsasign.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\jsse.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\jce.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\charsets.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\jfr.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\classes;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\access-bridge-32.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\access-bridge.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\cldrdata.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\dnsns.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\jaccess.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\jfxrt.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\localedata.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\nashorn.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\sunec.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\sunjce_provider.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\sunmscapi.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\sunpkcs11.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\zipfs.jar
+  Application Classpath   = C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\boot.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\org-openide-modules.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\org-openide-util-lookup.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\org-openide-util.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\boot_ja.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\boot_pt_BR.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\boot_ru.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\boot_zh_CN.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-modules_ja.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-modules_pt_BR.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-modules_ru.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-modules_zh_CN.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-util-lookup_ja.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-util-lookup_pt_BR.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-util-lookup_ru.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-util-lookup_zh_CN.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-util_ja.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-util_pt_BR.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-util_ru.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-util_zh_CN.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\lib\dt.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\lib\tools.jar
+  Startup Classpath       = C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\core\core.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\core\org-openide-filesystems.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\core\locale\core_ja.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\core\locale\core_pt_BR.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\core\locale\core_ru.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\core\locale\core_zh_CN.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\core\locale\org-openide-filesystems_ja.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\core\locale\org-openide-filesystems_pt_BR.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\core\locale\org-openide-filesystems_ru.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\core\locale\org-openide-filesystems_zh_CN.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb\core\org-netbeans-upgrader.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb\core\locale\core_nb.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb\core\locale\core_nb_ja.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb\core\locale\core_nb_pt_BR.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb\core\locale\core_nb_ru.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb\core\locale\core_nb_zh_CN.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb\core\locale\org-netbeans-upgrader_ja.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb\core\locale\org-netbeans-upgrader_pt_BR.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb\core\locale\org-netbeans-upgrader_ru.jar;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb\core\locale\org-netbeans-upgrader_zh_CN.jar
 -------------------------------------------------------------------------------
-INFO [org.netbeans.modules.netbinox]: Install area set to file:/C:/Users/barber.timothy20/Documents/Github/Netbeans/NetBeans_JavaSE_8.0_Portable/App/netbeans/
+INFO [org.netbeans.modules.netbinox]: Install area set to file:/C:/Users/win10ct/Documents/GitHub/Netbeans/NetBeans_JavaSE_8.0_Portable/App/netbeans/
 WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.form.nb] use org.jdesktop.layout which is deprecated: Use javax.swing.GroupLayout instead. (In form editor: select Form ... in Inspector; change Layout Generation Style to Standard Java 6 code.)
 WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.java.editor.lib, org.netbeans.modules.xml.text] use org.netbeans.modules.editor.deprecated.pre65formatting which is deprecated.
 WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.ide.kit, org.netbeans.modules.xml.text] use org.netbeans.modules.editor.structure which is deprecated.
 WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.apisupport.ant, org.netbeans.modules.java.hints, org.netbeans.modules.maven.hints] use org.netbeans.modules.java.hints.legacy.spi which is deprecated: Use Java Hints SPI (org.netbeans.spi.java.hints) instead.
-WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-properties.jar took 645 ms
 INFO [com.revivius.nb.darcula.DarculaLFCustoms]: Can not find class, will not be able to replace its field...
 java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completion.api.JspCompletionItem
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
@@ -38,7 +37,7 @@ java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completio
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
 	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:222)
-Caused: java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completion.api.JspCompletionItem starting from SystemClassLoader[473 modules] with possible defining loaders null and declared parents [org.netbeans.MainImpl$BootClassLoader@8c4c35, ModuleCL@6264d6[org.netbeans.api.annotations.common], ModuleCL@1fb0bd0[org.openide.awt], ModuleCL@9905ad[org.netbeans.api.progress], ModuleCL@1506c2e[org.openide.dialogs], ModuleCL@a1ed46[org.openide.nodes], ModuleCL@153c4c9[org.openide.windows], ModuleCL@1b51023[org.netbeans.modules.editor.mimelookup], ModuleCL@18c3a67[org.openide.text], ModuleCL@762a8d[org.netbeans.swing.tabcontrol], ...457 more]
+Caused: java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completion.api.JspCompletionItem starting from SystemClassLoader[473 modules] with possible defining loaders null and declared parents [org.netbeans.MainImpl$BootClassLoader@1ff54e6, ModuleCL@1f431a6[org.netbeans.api.annotations.common], ModuleCL@4064fb[org.openide.awt], ModuleCL@1f51fe[org.netbeans.api.progress], ModuleCL@8aaade[org.openide.dialogs], ModuleCL@c72fa2[org.openide.nodes], ModuleCL@12303e6[org.openide.windows], ModuleCL@9a5dd5[org.netbeans.modules.editor.mimelookup], ModuleCL@18ed436[org.openide.text], ModuleCL@790238[org.netbeans.swing.tabcontrol], ...457 more]
 	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:224)
 	at org.netbeans.ModuleManager$SystemClassLoader.loadClass(ModuleManager.java:722)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
@@ -65,6 +64,41 @@ Caused: java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.c
 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
 	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/StudentLabs/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/Breakout/Breakout/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/RandShapes/RandShapes/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/StudentLabs/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/Breakout/Breakout/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/RandShapes/RandShapes/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/StudentLabs/ not found!
+WARNING [org.netbeans.modules.localhistory]: source group StudentLabs returned null root folder
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/StudentLabs/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/StudentLabs/ not found!
+WARNING [org.netbeans.modules.localhistory]: project AbstractFileObject@f6aea3[root of MemoryFileSystem15[org.openide.filesystems.MemoryFileSystem@1cbb860]] returned null root folder
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/Breakout/Breakout/ not found!
+WARNING [org.netbeans.modules.localhistory]: source group Breakout returned null root folder
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/Breakout/Breakout/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/Breakout/Breakout/ not found!
+WARNING [org.netbeans.modules.localhistory]: project AbstractFileObject@1c8b221[root of MemoryFileSystem18[org.openide.filesystems.MemoryFileSystem@420cdd]] returned null root folder
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/ not found!
+WARNING [org.netbeans.modules.localhistory]: source group Snake returned null root folder
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/ not found!
+WARNING [org.netbeans.modules.localhistory]: project AbstractFileObject@1e23500[root of MemoryFileSystem21[org.openide.filesystems.MemoryFileSystem@19c8d64]] returned null root folder
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/RandShapes/RandShapes/ not found!
+WARNING [org.netbeans.modules.localhistory]: source group RandShapes returned null root folder
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/RandShapes/RandShapes/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/RandShapes/RandShapes/ not found!
+WARNING [org.netbeans.modules.localhistory]: project AbstractFileObject@1f3688c[root of MemoryFileSystem24[org.openide.filesystems.MemoryFileSystem@1a1a80b]] returned null root folder
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/ not found!
+WARNING [org.netbeans.modules.localhistory]: source group EncryptionMath returned null root folder
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/ not found!
+WARNING [org.netbeans.modules.localhistory]: project AbstractFileObject@1bfd94a[root of MemoryFileSystem27[org.openide.filesystems.MemoryFileSystem@9f8774]] returned null root folder
 INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.openide.util.lookup [8.24.1 201403101706]
 	org.openide.util [8.37.1 201403101706]
@@ -539,53 +573,242 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	javaewah.dummy [0.5.6 0.5.6]
 	com.revivius.nb.darcula [1.5 1.5 201604091036]
 	com.jcraft.jzlib [1.0.7 1.0.7]
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.mylyn.wikitext.textile.core@1.9.0.20131007-2055 resolved
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.mylyn.wikitext.confluence.core@1.9.0.20131007-2055 resolved
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 started
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy resolver: Windows
-INFO [org.netbeans.core.network.proxy.windows.WindowsNetworkProxy]: Windows system proxy resolver: auto detect
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy reloading succeeded.
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy - mode: direct
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy: fell to default (correct if direct mode went before)
-INFO [org.netbeans.modules.uihandler.Installer]: findIdentity: fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e
-INFO [org.netbeans.modules.uihandler.Installer]
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at java.net.Socket.connect(Socket.java:538)
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
-	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040)
-	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038)
+INFO [org.netbeans.core.windows.persistence]: [PersistenceManager.getTopComponentForID] Problem when deserializing TopComponent for tcID:'MultiView-java#002Eso2D0988CFtext#002Ehistory#007C'. Reason:  Object not found: C:\Users\barber.timothy20\Documents\Github\EncryptionMath\EncryptionMath\src\encryptionmath\Main.java@a06a8cfb:1876e90[invalid]. It was probably deleted.
+
+msg
+msg
+msg
+Caused: org.openide.filesystems.FileStateInvalidException: C:\Users\barber.timothy20\Documents\Github\EncryptionMath\EncryptionMath\src\encryptionmath\Main.java@a06a8cfb:1876e90[invalid]
+	at org.openide.loaders.DataObject.find(DataObject.java:555)
+Caused: org.openide.loaders.DataObjectNotFoundException: C:\Users\barber.timothy20\Documents\Github\EncryptionMath\EncryptionMath\src\encryptionmath\Main.java@a06a8cfb:1876e90[invalid]
+	at org.openide.loaders.DataObject.find(DataObject.java:575)
+	at org.openide.loaders.DataObject$Replace.readObject(DataObject.java:1193)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1170)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2178)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2287)
+	at java.io.ObjectInputStream.defaultReadObject(ObjectInputStream.java:561)
+	at org.openide.loaders.OpenSupport$Env.readObject(OpenSupport.java:169)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1170)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2178)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2287)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2211)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:431)
+	at org.openide.windows.CloneableTopComponent.readExternal(CloneableTopComponent.java:254)
+	at org.netbeans.core.multiview.MultiViewCloneableTopComponent.readExternal(MultiViewCloneableTopComponent.java:265)
+	at org.openide.windows.TopComponent$Replacer.readObject(TopComponent.java:1859)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1170)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2178)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:431)
+	at org.netbeans.modules.settings.convertors.XMLSettingsSupport$SettingsRecognizer.readSerial(XMLSettingsSupport.java:571)
+	at org.netbeans.modules.settings.convertors.XMLSettingsSupport$SettingsRecognizer.instanceCreate(XMLSettingsSupport.java:603)
+	at org.netbeans.modules.settings.convertors.SerialDataConvertor$SettingsInstance.instanceCreate(SerialDataConvertor.java:426)
+[catch] at org.netbeans.core.windows.persistence.PersistenceManager.getTopComponentPersistentForID(PersistenceManager.java:571)
+	at org.netbeans.core.windows.persistence.PersistenceManager.getTopComponentForID(PersistenceManager.java:681)
+	at org.netbeans.core.windows.PersistenceHandler.getTopComponentForID(PersistenceHandler.java:478)
+	at org.netbeans.core.windows.LazyLoader.lazyLoad(LazyLoader.java:138)
+	at org.netbeans.core.windows.PersistenceHandler.initModeFromConfig(PersistenceHandler.java:441)
+	at org.netbeans.core.windows.PersistenceHandler.load(PersistenceHandler.java:204)
+	at org.netbeans.core.windows.WindowSystemImpl.load(WindowSystemImpl.java:81)
+	at org.netbeans.core.GuiRunLevel$InitWinSys.run(GuiRunLevel.java:229)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Content: 
+<?xml version="1.0"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+    <module name="org.netbeans.core.multiview/1" spec="1.39.1"/>
+    <instanceof class="java.awt.Component"/>
+    <instanceof class="java.awt.Container"/>
+    <instanceof class="java.awt.MenuContainer"/>
+    <instanceof class="java.awt.image.ImageObserver"/>
+    <instanceof class="java.io.Externalizable"/>
+    <instanceof class="java.io.Serializable"/>
+    <instanceof class="java.lang.Object"/>
+    <instanceof class="javax.accessibility.Accessible"/>
+    <instanceof class="javax.swing.JComponent"/>
+    <instanceof class="javax.swing.TransferHandler$HasGetTransferHandler"/>
+    <instanceof class="org.netbeans.core.multiview.MultiViewCloneableTopComponent"/>
+    <instanceof class="org.netbeans.core.multiview.MultiViewModel$ActionRequestObserverFactory"/>
+    <instanceof class="org.netbeans.core.multiview.Splitable"/>
+    <instanceof class="org.openide.text.CloneableEditorSupport$Pane"/>
+    <instanceof class="org.openide.util.HelpCtx$Provider"/>
+    <instanceof class="org.openide.util.Lookup$Provider"/>
+    <instanceof class="org.openide.windows.CloneableTopComponent"/>
+    <instanceof class="org.openide.windows.TopComponent"/>
+    <instanceof class="org.openide.windows.TopComponent$Cloneable"/>
+    <serialdata class="org.netbeans.core.multiview.MultiViewCloneableTopComponent">
+        ACED0005737200296F72672E6F70656E6964652E77696E646F77732E546F70436F6D706F6E656E74245265706C6163657284
+        874494BDDF6D64030000787074003A6F72672E6E65746265616E732E636F72652E6D756C7469766965772E4D756C74695669
+        6577436C6F6E6561626C65546F70436F6D706F6E656E747372000F6A6176612E6C616E672E53686F7274684D37133460DA52
+        02000153000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B0200007870000177040000
+        00017400094D61696E2E6A617661740065433A5C55736572735C6261726265722E74696D6F74687932305C446F63756D656E
+        74735C4769746875625C456E6372797074696F6E4D6174685C456E6372797074696F6E4D6174685C7372635C656E63727970
+        74696F6E6D6174685C4D61696E2E6A6176617400094D61696E2E6A61766170737200316F72672E6F70656E6964652E77696E
+        646F77732E436C6F6E6561626C654F70656E537570706F7274244C697374656E6572E525E314060C682D0200014C0003656E
+        7674002E4C6F72672F6F70656E6964652F77696E646F77732F436C6F6E6561626C654F70656E537570706F727424456E763B
+        7872002D6F72672E6F70656E6964652E77696E646F77732E436C6F6E6561626C65546F70436F6D706F6E656E74245265664C
+        ED3888AC524ABC0200007870737200396F72672E6E65746265616E732E6D6F64756C65732E6F70656E6964652E6C6F616465
+        72732E53696D706C65455324456E7669726F6E6D656E744BA762A1D4D7CAE70200014C0005656E74727974002B4C6F72672F
+        6F70656E6964652F6C6F61646572732F4D756C7469446174614F626A65637424456E7472793B787200266F72672E6F70656E
+        6964652E746578742E44617461456469746F72537570706F727424456E76D720E894A9D2FA270200014900154249475F4649
+        4C455F5448524553484F4C445F4D42787200236F72672E6F70656E6964652E6C6F61646572732E4F70656E537570706F7274
+        24456E76E525E314060C682D0200014C00036F626A7400204C6F72672F6F70656E6964652F6C6F61646572732F446174614F
+        626A6563743B7870737200266F72672E6F70656E6964652E6C6F61646572732E446174614F626A656374245265706C616365
+        F7497413DEEC538E0200014C0002666F7400244C6F72672F6F70656E6964652F66696C6573797374656D732F46696C654F62
+        6A6563743B78707372004D6F72672E6E65746265616E732E6D6F64756C65732E6D617374657266732E66696C656261736564
+        66732E66696C656F626A656374732E5265706C616365466F7253657269616C697A6174696F6E98978CE6D3E9619F0200014C
+        000C6162736F6C757465506174687400124C6A6176612F6C616E672F537472696E673B7870740065433A5C55736572735C62
+        61726265722E74696D6F74687932305C446F63756D656E74735C4769746875625C456E6372797074696F6E4D6174685C456E
+        6372797074696F6E4D6174685C7372635C656E6372797074696F6E6D6174685C4D61696E2E6A61766100000001737200306F
+        72672E6F70656E6964652E6C6F61646572732E4D756C7469446174614F626A65637424456E7472795265706C616365EB3332
+        ABDAFB88A20200014C000466696C6571007E0014787071007E001874000B746578742F782D6A61766171007E001574000B6A
+        6176612E736F757263657372003B6F72672E6E65746265616E732E636F72652E7370692E6D756C7469766965772E74657874
+        2E4D756C746956696577456469746F72456C656D656E74000187D8CEF94C9B0200014C0006656469746F7274003F4C6F7267
+        2F6E65746265616E732F636F72652F7370692F6D756C7469766965772F746578742F4D756C746956696577436C6F6E656162
+        6C65456469746F723B78707371007E000074003D6F72672E6E65746265616E732E636F72652E7370692E6D756C7469766965
+        772E746578742E4D756C746956696577436C6F6E6561626C65456469746F727371007E0003000177040000000071007E0006
+        71007E000771007E0008707371007E000B71007E0012737200116A6176612E6C616E672E496E746567657212E2A0A4F78187
+        3802000149000576616C75657871007E0004000001E77701007871007E001D74000C746578742E686973746F727971007E00
+        277371007E0025000000007371007E0025000000007371007E0025FFFFFFFF74002C3C68746D6C3E3C666F6E7420636F6C6F
+        723D2223316162386666223E4D61696E2E6A6176613C2F666F6E743E78
+    </serialdata>
+</settings>
+ALL [null]: Source: MultiFileObject@32ddca[Windows2Local/Components/MultiView-java#002Eso2D0988CFtext#002Ehistory#007C.settings]
+ALL [null]: Cannot read class: org.netbeans.core.multiview.MultiViewCloneableTopComponent
+INFO [org.netbeans.modules.uihandler.Installer]: https://netbeans.org/nonav/uigestures/index4.html
+java.io.FileNotFoundException: https://netbeans.apache.org/nonav/uigestures/index4.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1890)
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:91)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1484)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1482)
 	at java.security.AccessController.doPrivileged(Native Method)
 	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037)
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
-	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1334)
-	at sun.net.www.protocol.http.HttpURLConnection.access$100(HttpURLConnection.java:91)
-	at sun.net.www.protocol.http.HttpURLConnection$8.run(HttpURLConnection.java:1301)
-	at sun.net.www.protocol.http.HttpURLConnection$8.run(HttpURLConnection.java:1299)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1481)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.netbeans.modules.uihandler.Installer$Submit.doShow(Installer.java:1737)
+Caused: java.io.FileNotFoundException: https://netbeans.apache.org/nonav/uigestures/index4.html
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:91)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1484)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1482)
 	at java.security.AccessController.doPrivileged(Native Method)
 	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782)
-	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1298)
-	at org.netbeans.modules.uihandler.Installer.uLogs(Installer.java:1219)
-	at org.netbeans.modules.uihandler.Installer.uploadLogs(Installer.java:1159)
-	at org.netbeans.modules.uihandler.Installer.access$1600(Installer.java:122)
-[catch] at org.netbeans.modules.uihandler.Installer$Submit.uploadAndPost(Installer.java:2085)
-	at org.netbeans.modules.uihandler.Installer$Submit.access$1400(Installer.java:1592)
-	at org.netbeans.modules.uihandler.Installer$Submit$1$2.run(Installer.java:1985)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1481)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+[catch] at org.netbeans.modules.uihandler.Installer$Submit.doShow(Installer.java:1750)
+	at org.netbeans.modules.uihandler.Installer.displaySummary(Installer.java:1010)
+	at org.netbeans.modules.uihandler.Installer.displaySummary(Installer.java:988)
+	at org.netbeans.modules.uihandler.Installer$2Auto.run(Installer.java:609)
 	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
 	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/Breakout/Breakout/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/RandShapes/RandShapes/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/StudentLabs/ not found!
+INFO [org.netbeans.modules.uihandler.Installer]: Cannot decode URL: unknown
+java.net.MalformedURLException: no protocol: unknown
+	at java.net.URL.<init>(URL.java:593)
+	at java.net.URL.<init>(URL.java:490)
+	at java.net.URL.<init>(URL.java:439)
+[catch] at org.netbeans.modules.uihandler.Installer.decodeButtons(Installer.java:1138)
+	at org.netbeans.modules.uihandler.Installer.access$900(Installer.java:122)
+	at org.netbeans.modules.uihandler.Installer$Submit.actionPerformed(Installer.java:1918)
+	at org.netbeans.modules.uihandler.Installer$SubmitAutomatic$1.run(Installer.java:2698)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/Breakout/Breakout/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: LazyProjects remain visible
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: LazyProjects remain visible
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/Breakout/Breakout/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/RandShapes/RandShapes/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: LazyProjects remain visible
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: LazyProjects remain visible
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/StudentLabs/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: LazyProjects remain visible
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/Breakout/Breakout/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/Breakout/Breakout/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/Breakout/Breakout/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/RandShapes/RandShapes/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/RandShapes/RandShapes/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/RandShapes/RandShapes/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/RandShapes/RandShapes/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/Snake/Snake/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/StudentLabs/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/StudentLabs/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/StudentLabs/ not found!
+WARNING [org.netbeans.modules.project.ui.OpenProjectList]: Project dir with file:/C:/Users/barber.timothy20/Documents/Github/StudentLabs/ not found!
 Diagnostic information
 Input arguments:
 	-Dnetbeans.importclass=org.netbeans.upgrade.AutoUpgrade
@@ -601,42 +824,626 @@ Input arguments:
 	-Dsun.zip.disableMemoryMapping=true
 	-Xmx409m
 	-XX:MaxPermSize=256m
-	-Djdk.home=C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk
-	-Dnetbeans.home=C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform
-	-Dnetbeans.user=C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\Data\NetBeans\Config\8.0
-	-Dnetbeans.default_userdir_root=C:\Users\barber.timothy20\AppData\Roaming\NetBeans
+	-Djdk.home=C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk
+	-Dnetbeans.home=C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform
+	-Dnetbeans.user=C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\Data\NetBeans\Config\8.0
+	-Dnetbeans.default_userdir_root=C:\Users\win10ct\AppData\Roaming\NetBeans
 	-XX:+HeapDumpOnOutOfMemoryError
-	-XX:HeapDumpPath=C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\Data\NetBeans\Config\8.0\var\log\heapdump.hprof
+	-XX:HeapDumpPath=C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\Data\NetBeans\Config\8.0\var\log\heapdump.hprof
 	-Dsun.awt.keepWorkingSetOnMinimize=true
-	-Dnetbeans.dirs=C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ergonomics;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\extide;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\apisupport;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\webcommon;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\websvccommon;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\enterprise;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\mobility;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\profiler;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\python;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\php;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\identity;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\harness;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\cnd;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\dlight;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\groovy;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\extra;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\javacard;C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\javafx
+	-Dnetbeans.dirs=C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ergonomics;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\extide;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\apisupport;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\webcommon;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\websvccommon;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\enterprise;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\mobility;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\profiler;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\python;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\php;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\identity;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\harness;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\cnd;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\dlight;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\groovy;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\extra;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\javacard;C:\Users\win10ct\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\javafx
 	exit
 Compiler: HotSpot Client Compiler
 Heap memory usage: initial 32.0MB maximum 396.4MB
 Non heap memory usage: initial 160.0kB maximum -1b
-Garbage collector: Copy (Collections=72 Total time spent=0s)
-Garbage collector: MarkSweepCompact (Collections=3 Total time spent=0s)
-Classes: loaded=10339 total loaded=10353 unloaded 14
-INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 8,482,144,256
+Garbage collector: Copy (Collections=92 Total time spent=0s)
+Garbage collector: MarkSweepCompact (Collections=4 Total time spent=0s)
+Classes: loaded=7838 total loaded=7843 unloaded 5
+INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 8,457,850,880
+INFO [org.netbeans.modules.autoupdate.updateprovider.DownloadListener]: Connection content length was 0 bytes (read 0bytes), expected file size can`t be that size - likely server with file at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_3493b40b-87ab-40ad-b886-818aee0c224e is temporary down
+INFO [org.netbeans.modules.autoupdate.updateprovider.DownloadListener]: Connection content length was 0 bytes (read 0bytes), expected file size can`t be that size - likely server with file at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_3493b40b-87ab-40ad-b886-818aee0c224e is temporary down
+INFO [org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler]
+java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_3493b40b-87ab-40ad-b886-818aee0c224e
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.doCopy(DownloadListener.java:155)
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.streamOpened(DownloadListener.java:78)
+	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$1.run(NetworkAccess.java:111)
+Caused: java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_3493b40b-87ab-40ad-b886-818aee0c224e
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.notifyException(DownloadListener.java:103)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.copy(AutoupdateCatalogCache.java:246)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.writeCatalogToCache(AutoupdateCatalogCache.java:99)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogProvider.refresh(AutoupdateCatalogProvider.java:154)
+	at org.netbeans.modules.autoupdate.services.UpdateUnitProviderImpl.refresh(UpdateUnitProviderImpl.java:180)
+	at org.netbeans.api.autoupdate.UpdateUnitProvider.refresh(UpdateUnitProvider.java:196)
+[catch] at org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler$4.run(AutoupdateCheckScheduler.java:155)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO [org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler]
+java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_3493b40b-87ab-40ad-b886-818aee0c224e
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.doCopy(DownloadListener.java:155)
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.streamOpened(DownloadListener.java:78)
+	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$1.run(NetworkAccess.java:111)
+Caused: java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_3493b40b-87ab-40ad-b886-818aee0c224e
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.notifyException(DownloadListener.java:103)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.copy(AutoupdateCatalogCache.java:246)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.writeCatalogToCache(AutoupdateCatalogCache.java:99)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogProvider.refresh(AutoupdateCatalogProvider.java:154)
+	at org.netbeans.modules.autoupdate.services.UpdateUnitProviderImpl.refresh(UpdateUnitProviderImpl.java:180)
+	at org.netbeans.api.autoupdate.UpdateUnitProvider.refresh(UpdateUnitProvider.java:196)
+[catch] at org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler$4.run(AutoupdateCheckScheduler.java:155)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
 WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.java.api.common.project.ProjectHooks$ProjectOpenedHookImpl.updateUserBuildPropertiesRef(ProjectHooks.java:573)
-INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@1a23de0
-INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@613479
-INFO [javafx]: Old build script file jfx-impl.xml has been renamed to: jfx-impl_backup_10.xml
+INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@197049b
+INFO [javafx]: Old build script file jfx-impl.xml has been renamed to: jfx-impl_backup.xml
 INFO [javafx]: Build script jfx-impl.xml has been updated to the latest version supported by this NetBeans installation.
-INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@83d9ff
-INFO [javafx]: Old build script file jfx-impl.xml has been renamed to: jfx-impl_backup_2.xml
-INFO [javafx]: Build script jfx-impl.xml has been updated to the latest version supported by this NetBeans installation.
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 629 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 24 binary roots took: 6,756 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\win10ct\Documents\GitHub\2048\2048\src took: 933 ms (New or modified files: 4, Deleted files: 0) [Adding listeners took: 3 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\win10ct\Documents\GitHub\2048\2048\test took: 2 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 2 source roots took: 935 ms (New or modified files: 4, Deleted files: 0) [Adding listeners took: 3 ms]
+INFO [org.netbeans.modules.parsing.impl.TaskProcessor]: Task: class org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper ignored cancel for 680 ms.
 WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.home has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.Clusters.relativeDirsWithHome(Clusters.java:137)
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 844 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 25 binary roots took: 2,127 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\test took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\RandShapes\RandShapes\test took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\StudentLabs\wack took: 672 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 141 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\RandShapes\RandShapes\src took: 500 ms (New or modified files: 1, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\src took: 156 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 15 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\EncryptionMath\EncryptionMath\test took: 16 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\EncryptionMath\EncryptionMath\src took: 320 ms (New or modified files: 1, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 2,001 ms (New or modified files: 21, Deleted files: 1) [Adding listeners took: 11 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 8 source roots took: 3,665 ms (New or modified files: 23, Deleted files: 1) [Adding listeners took: 167 ms]
-INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 256
-INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
-INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
+INFO: No FileObject found for the following URL: file:/C:/Users/win10ct/Documents/GitHub/2048/2048/test/
+java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/win10ct/Documents/GitHub/2048/2048/test/
+	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
+	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
+	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
+	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
+	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
+	at sun.reflect.GeneratedMethodAccessor88.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
+	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
+	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO: No FileObject found for the following URL: file:/C:/Users/win10ct/Documents/GitHub/2048/2048/test/
+java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/win10ct/Documents/GitHub/2048/2048/test/
+	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
+	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
+	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
+	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
+	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
+	at sun.reflect.GeneratedMethodAccessor88.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
+	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
+	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO: No FileObject found for the following URL: file:/C:/Users/win10ct/Documents/GitHub/2048/2048/test/
+java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/win10ct/Documents/GitHub/2048/2048/test/
+	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
+	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
+	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
+	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
+	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
+	at sun.reflect.GeneratedMethodAccessor88.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
+	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
+	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.xml.internal.bind.v2.runtime.reflect.opt.Injector ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.xml.internal.bind.v2.util.DataSourceSource ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.modules.parsing.impl.TaskProcessor]: Task: class org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper ignored cancel for 112 ms.
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.xml.internal.bind.v2.runtime.reflect.opt.Injector ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.xml.internal.bind.v2.util.DataSourceSource ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.media.sound.SoftChannel$4 ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.media.sound.SoftChannel$5 ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.media.sound.SoftPerformer$2 ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.modules.parsing.impl.TaskProcessor]: Task: class org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper ignored cancel for 76 ms.
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO: No FileObject found for the following URL: file:/C:/Users/win10ct/Documents/GitHub/2048/2048/test/
+java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/win10ct/Documents/GitHub/2048/2048/test/
+	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
+	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
+	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
+	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
+	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
+	at sun.reflect.GeneratedMethodAccessor88.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
+	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
+	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO: No FileObject found for the following URL: file:/C:/Users/win10ct/Documents/GitHub/2048/2048/test/
+java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/win10ct/Documents/GitHub/2048/2048/test/
+	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
+	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
+	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
+	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
+	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
+	at sun.reflect.GeneratedMethodAccessor88.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
+	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
+	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCombiningArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$NextCCArgs ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.text.normalizer.NormalizerImpl$PrevArgs ]
+INFO: No FileObject found for the following URL: file:/C:/Users/win10ct/Documents/GitHub/2048/2048/test/
+java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/win10ct/Documents/GitHub/2048/2048/test/
+	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
+	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
+	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
+	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
+	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
+	at sun.reflect.GeneratedMethodAccessor88.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
+	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
+	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO: No FileObject found for the following URL: file:/C:/Users/win10ct/Documents/GitHub/2048/2048/test/
+java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/win10ct/Documents/GitHub/2048/2048/test/
+	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
+	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
+	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
+	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
+	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
+	at sun.reflect.GeneratedMethodAccessor88.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
+	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
+	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO: No FileObject found for the following URL: file:/C:/Users/win10ct/Documents/GitHub/2048/2048/test/
+java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/win10ct/Documents/GitHub/2048/2048/test/
+	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
+	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
+	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
+	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
+	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
+	at sun.reflect.GeneratedMethodAccessor88.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
+	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
+	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO: No FileObject found for the following URL: file:/C:/Users/win10ct/Documents/GitHub/2048/2048/test/
+java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/win10ct/Documents/GitHub/2048/2048/test/
+	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
+	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
+	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
+	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
+	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
+	at sun.reflect.GeneratedMethodAccessor88.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
+	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
+	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO: No FileObject found for the following URL: file:/C:/Users/win10ct/Documents/GitHub/2048/2048/test/
+java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/win10ct/Documents/GitHub/2048/2048/test/
+	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
+	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
+	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
+	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
+	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
+	at sun.reflect.GeneratedMethodAccessor88.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
+	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
+	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
