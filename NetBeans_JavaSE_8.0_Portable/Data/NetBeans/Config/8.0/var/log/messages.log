@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Friday, April 5, 2019 10:15:28 AM MDT
+>Log Session: Thursday, April 11, 2019 2:47:47 PM MDT
 >System Info: 
   Product Version         = NetBeans IDE 8.0 (Build 201403101706) (#b8e35b888b3f)
   Operating System        = Windows 10 version 10.0 running on x86
@@ -8,7 +8,7 @@
   Java Home               = C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre
   System Locale; Encoding = en_US (nb); Cp1252
   Home Directory          = C:\Users\barber.timothy20
-  Current Directory       = C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable
+  Current Directory       = C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\bin
   User Directory          = C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\Data\NetBeans\Config\8.0
   Cache Directory         = C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\Data\NetBeans\Cache\8.0
   Installation            = C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb
@@ -30,6 +30,7 @@ WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.form.nb] 
 WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.java.editor.lib, org.netbeans.modules.xml.text] use org.netbeans.modules.editor.deprecated.pre65formatting which is deprecated.
 WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.ide.kit, org.netbeans.modules.xml.text] use org.netbeans.modules.editor.structure which is deprecated.
 WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.apisupport.ant, org.netbeans.modules.java.hints, org.netbeans.modules.maven.hints] use org.netbeans.modules.java.hints.legacy.spi which is deprecated: Use Java Hints SPI (org.netbeans.spi.java.hints) instead.
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-properties.jar took 645 ms
 INFO [com.revivius.nb.darcula.DarculaLFCustoms]: Can not find class, will not be able to replace its field...
 java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completion.api.JspCompletionItem
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
@@ -37,7 +38,7 @@ java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completio
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
 	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:222)
-Caused: java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completion.api.JspCompletionItem starting from SystemClassLoader[473 modules] with possible defining loaders null and declared parents [org.netbeans.MainImpl$BootClassLoader@8c4c35, ModuleCL@1677a90[org.netbeans.api.annotations.common], ModuleCL@143fab9[org.openide.awt], ModuleCL@1adb193[org.netbeans.api.progress], ModuleCL@41a3e9[org.openide.dialogs], ModuleCL@eaf34b[org.openide.nodes], ModuleCL@744d1d[org.openide.windows], ModuleCL@7f5e69[org.netbeans.modules.editor.mimelookup], ModuleCL@1e2f5e4[org.openide.text], ModuleCL@1328f8[org.netbeans.swing.tabcontrol], ...457 more]
+Caused: java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completion.api.JspCompletionItem starting from SystemClassLoader[473 modules] with possible defining loaders null and declared parents [org.netbeans.MainImpl$BootClassLoader@8c4c35, ModuleCL@6264d6[org.netbeans.api.annotations.common], ModuleCL@1fb0bd0[org.openide.awt], ModuleCL@9905ad[org.netbeans.api.progress], ModuleCL@1506c2e[org.openide.dialogs], ModuleCL@a1ed46[org.openide.nodes], ModuleCL@153c4c9[org.openide.windows], ModuleCL@1b51023[org.netbeans.modules.editor.mimelookup], ModuleCL@18c3a67[org.openide.text], ModuleCL@762a8d[org.netbeans.swing.tabcontrol], ...457 more]
 	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:224)
 	at org.netbeans.ModuleManager$SystemClassLoader.loadClass(ModuleManager.java:722)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
@@ -612,399 +613,30 @@ Input arguments:
 Compiler: HotSpot Client Compiler
 Heap memory usage: initial 32.0MB maximum 396.4MB
 Non heap memory usage: initial 160.0kB maximum -1b
-Garbage collector: Copy (Collections=75 Total time spent=0s)
+Garbage collector: Copy (Collections=72 Total time spent=0s)
 Garbage collector: MarkSweepCompact (Collections=3 Total time spent=0s)
-Classes: loaded=10303 total loaded=10315 unloaded 12
+Classes: loaded=10339 total loaded=10353 unloaded 14
 INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 8,482,144,256
 WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.java.api.common.project.ProjectHooks$ProjectOpenedHookImpl.updateUserBuildPropertiesRef(ProjectHooks.java:573)
-INFO [org.netbeans.modules.autoupdate.updateprovider.DownloadListener]: Connection content length was 0 bytes (read 0bytes), expected file size can`t be that size - likely server with file at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e is temporary down
-INFO [org.netbeans.modules.autoupdate.updateprovider.DownloadListener]: Connection content length was 0 bytes (read 0bytes), expected file size can`t be that size - likely server with file at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e is temporary down
-INFO [org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler]
-java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e
-	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.doCopy(DownloadListener.java:155)
-	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.streamOpened(DownloadListener.java:78)
-	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$1.run(NetworkAccess.java:111)
-Caused: java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e
-	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.notifyException(DownloadListener.java:103)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.copy(AutoupdateCatalogCache.java:246)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.writeCatalogToCache(AutoupdateCatalogCache.java:99)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogProvider.refresh(AutoupdateCatalogProvider.java:154)
-	at org.netbeans.modules.autoupdate.services.UpdateUnitProviderImpl.refresh(UpdateUnitProviderImpl.java:180)
-	at org.netbeans.api.autoupdate.UpdateUnitProvider.refresh(UpdateUnitProvider.java:196)
-[catch] at org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler$4.run(AutoupdateCheckScheduler.java:155)
-	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
-	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-INFO [org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler]
-java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e
-	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.doCopy(DownloadListener.java:155)
-	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.streamOpened(DownloadListener.java:78)
-	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$1.run(NetworkAccess.java:111)
-Caused: java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e
-	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.notifyException(DownloadListener.java:103)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.copy(AutoupdateCatalogCache.java:246)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.writeCatalogToCache(AutoupdateCatalogCache.java:99)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogProvider.refresh(AutoupdateCatalogProvider.java:154)
-	at org.netbeans.modules.autoupdate.services.UpdateUnitProviderImpl.refresh(UpdateUnitProviderImpl.java:180)
-	at org.netbeans.api.autoupdate.UpdateUnitProvider.refresh(UpdateUnitProvider.java:196)
-[catch] at org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler$4.run(AutoupdateCheckScheduler.java:155)
-	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
-	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@5f663b
-WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.home has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.Clusters.relativeDirsWithHome(Clusters.java:137)
-INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@10bf995
+INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@1a23de0
+INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@613479
 INFO [javafx]: Old build script file jfx-impl.xml has been renamed to: jfx-impl_backup_10.xml
 INFO [javafx]: Build script jfx-impl.xml has been updated to the latest version supported by this NetBeans installation.
-INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@109fc03
+INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@83d9ff
 INFO [javafx]: Old build script file jfx-impl.xml has been renamed to: jfx-impl_backup_2.xml
 INFO [javafx]: Build script jfx-impl.xml has been updated to the latest version supported by this NetBeans installation.
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 2,798 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 25 binary roots took: 883 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\test took: 4 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.home has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.Clusters.relativeDirsWithHome(Clusters.java:137)
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 844 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 25 binary roots took: 2,127 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\test took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\RandShapes\RandShapes\test took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\StudentLabs\wack took: 2,560 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 596 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\RandShapes\RandShapes\src took: 11,718 ms (New or modified files: 3, Deleted files: 0) [Adding listeners took: 4 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\src took: 364 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 24 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 9,348 ms (New or modified files: 13, Deleted files: 4) [Adding listeners took: 52 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 6 source roots took: 23,994 ms (New or modified files: 16, Deleted files: 4) [Adding listeners took: 676 ms]
-INFO [org.netbeans.modules.autoupdate.updateprovider.DownloadListener]: Connection content length was 0 bytes (read 0bytes), expected file size can`t be that size - likely server with file at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e is temporary down
-INFO [org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler]
-java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e
-	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.doCopy(DownloadListener.java:155)
-	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.streamOpened(DownloadListener.java:78)
-	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$1.run(NetworkAccess.java:111)
-Caused: java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e
-	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.notifyException(DownloadListener.java:103)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.copy(AutoupdateCatalogCache.java:246)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.writeCatalogToCache(AutoupdateCatalogCache.java:99)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogProvider.refresh(AutoupdateCatalogProvider.java:154)
-	at org.netbeans.modules.autoupdate.services.UpdateUnitProviderImpl.refresh(UpdateUnitProviderImpl.java:180)
-	at org.netbeans.api.autoupdate.UpdateUnitProvider.refresh(UpdateUnitProvider.java:196)
-[catch] at org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler$4.run(AutoupdateCheckScheduler.java:155)
-	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
-	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-INFO [org.netbeans.modules.autoupdate.updateprovider.DownloadListener]: Connection content length was 0 bytes (read 0bytes), expected file size can`t be that size - likely server with file at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e is temporary down
-INFO [org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler]
-java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e
-	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.doCopy(DownloadListener.java:155)
-	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.streamOpened(DownloadListener.java:78)
-	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$1.run(NetworkAccess.java:111)
-Caused: java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_6b154ed6-bbe5-4964-852f-b0789d98cd0e
-	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.notifyException(DownloadListener.java:103)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.copy(AutoupdateCatalogCache.java:246)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.writeCatalogToCache(AutoupdateCatalogCache.java:99)
-	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogProvider.refresh(AutoupdateCatalogProvider.java:154)
-	at org.netbeans.modules.autoupdate.services.UpdateUnitProviderImpl.refresh(UpdateUnitProviderImpl.java:180)
-	at org.netbeans.api.autoupdate.UpdateUnitProvider.refresh(UpdateUnitProvider.java:196)
-[catch] at org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler$4.run(AutoupdateCheckScheduler.java:155)
-	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
-	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 28 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 4 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\EncryptionMath\EncryptionMath\test took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\EncryptionMath\EncryptionMath\src took: 436 ms (New or modified files: 1, Deleted files: 0) [Adding listeners took: 4 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 2 source roots took: 436 ms (New or modified files: 1, Deleted files: 0) [Adding listeners took: 4 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 16 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\reststubs.zip took: 172 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\corestubs.zip took: 104 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\domstubs.zip took: 120 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 396 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@1fd5b58[MultiFileObject@1bc57fc[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
-WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@1fd5b58[MultiFileObject@1bc57fc[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
-WARNING [org.openide.filesystems.Ordering]: Not all children in / marked with the position attribute: [org-netbeans-modules-editor-java-JavaBracesMatcher.shadow], but some are: [org-netbeans-modules-editor-bracesmatching-LegacyEssMatcher.instance, org-netbeans-modules-editor-bracesmatching-DefaultMatcher.instance]
-WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-junit.jar took 804 ms
-INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.xml.internal.bind.v2.runtime.unmarshaller.StAXExConnector ]
-INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.xml.internal.messaging.saaj.packaging.mime.internet.BMMimeMultipart ]
-INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.xml.internal.messaging.saaj.packaging.mime.internet.MimePullMultipart ]
-INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.net.ftp.impl.FtpClient ]
-INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.xml.internal.org.jvnet.mimepull.MIMEMessage ]
-INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=sun.net.ftp.impl.FtpClient$FtpFileIterator ]
-INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.xml.internal.ws.util.xml.XMLStreamReaderToXMLStreamWriter ]
-INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.xml.internal.ws.transport.http.server.ServerConnectionImpl ]
-INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.xml.internal.messaging.saaj.util.JAXMStreamSource ]
-INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.xml.internal.org.jvnet.mimepull.MIMEParser ]
-INFO: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/test/
-java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/test/
-	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
-	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
-	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
-	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
-	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
-	at sun.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
-	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
-	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
-	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
-	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-INFO: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/test/
-java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/test/
-	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
-	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
-	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
-	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
-	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
-	at sun.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
-	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
-	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
-	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
-	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-INFO: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/test/
-java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/test/
-	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
-	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
-	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
-	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
-	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
-	at sun.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
-	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
-	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
-	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
-	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-INFO: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/test/
-java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/test/
-	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
-	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
-	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
-	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
-	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
-	at sun.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
-	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
-	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
-	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
-	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-INFO: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/test/
-java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/test/
-	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
-	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
-	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
-	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
-	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
-	at sun.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
-	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
-	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
-	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
-	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-INFO: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/test/
-java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/test/
-	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
-	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
-	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
-	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
-	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
-	at sun.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
-	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
-	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
-	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
-	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-INFO: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/test/
-java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/test/
-	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
-	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
-	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
-	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
-	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
-	at sun.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
-	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
-	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
-	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
-	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-INFO: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/test/
-java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/test/
-	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
-	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
-	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
-	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
-	at org.netbeans.modules.java.testrunner.hints.CreateTestClassHint.computeWarning(CreateTestClassHint.java:121)
-	at sun.reflect.GeneratedMethodAccessor98.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
-	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
-	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
-	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
-	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-INFO [org.netbeans.modules.mercurial]: version: null
-INFO [org.netbeans.modules.subversion]: Finished indexing svn cache with 0 entries. Elapsed time: 0 ms.
-INFO: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/test/
-java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/barber.timothy20/Documents/Github/EncryptionMath/EncryptionMath/test/
-	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
-	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
-	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
-	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
-	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
-	at sun.reflect.GeneratedMethodAccessor101.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
-	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
-	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
-	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
-	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=org.jcp.xml.dsig.internal.dom.DOMSubTreeData$DelayedNodeIterator ]
-INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
-INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.org.apache.xml.internal.security.signature.reference.ReferenceSubTreeData$DelayedNodeIterator ]
-WARNING [org.netbeans.modules.openide.loaders.DataObjectEncodingQueryImplementation]: Invalid DataObject: C:\Users\barber.timothy20\Documents\Github\RandShapes\RandShapes\src\randshapes\Shape.java
-INFO [org.netbeans.core.execution.Install]: KILL_PENDING_TASKS
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 0 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 source roots took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\StudentLabs\wack took: 672 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 141 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\RandShapes\RandShapes\src took: 500 ms (New or modified files: 1, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Breakout\Breakout\src took: 156 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 15 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\EncryptionMath\EncryptionMath\test took: 16 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\EncryptionMath\EncryptionMath\src took: 320 ms (New or modified files: 1, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 2,001 ms (New or modified files: 21, Deleted files: 1) [Adding listeners took: 11 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 8 source roots took: 3,665 ms (New or modified files: 23, Deleted files: 1) [Adding listeners took: 167 ms]
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 256
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
