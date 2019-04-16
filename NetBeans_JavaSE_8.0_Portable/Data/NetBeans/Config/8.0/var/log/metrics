@@ -3072,3 +3072,81 @@
   <param>NB_LOCAL_TASKS</param>
   <param>OTHER</param>
 </record>
+<record>
+  <date>2019-04-15T18:35:11</date>
+  <millis>1555374911266</millis>
+  <sequence>3212</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>134</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-04-15T18:35:11</date>
+  <millis>1555374911266</millis>
+  <sequence>3213</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>134</thread>
+  <message>USG_PROJECT_OPEN_JFX</message>
+</record>
+<record>
+  <date>2019-04-15T18:35:12</date>
+  <millis>1555374912329</millis>
+  <sequence>3224</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>134</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+</record>
+<record>
+  <date>2019-04-15T18:45:57</date>
+  <millis>1555375557241</millis>
+  <sequence>4178</sequence>
+  <logger>org.netbeans.ui.metrics.editor</logger>
+  <level>INFO</level>
+  <thread>248</thread>
+  <message>USG_EDITOR_MIME_TYPE</message>
+  <param>text/x-java</param>
+  <param>7</param>
+</record>
+<record>
+  <date>2019-04-15T18:45:57</date>
+  <millis>1555375557360</millis>
+  <sequence>4179</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-04-15T18:45:57</date>
+  <millis>1555375557495</millis>
+  <sequence>4180</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE_JFX</message>
+</record>
+<record>
+  <date>2019-04-15T18:45:57</date>
+  <millis>1555375557749</millis>
+  <sequence>4183</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-04-15T18:45:57</date>
+  <millis>1555375557869</millis>
+  <sequence>4185</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE_JFX</message>
+</record>
