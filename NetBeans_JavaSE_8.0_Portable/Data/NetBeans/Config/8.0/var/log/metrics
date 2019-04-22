@@ -3784,3 +3784,33 @@
   <message>USG_PROJECT_OPEN</message>
   <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
 </record>
+<record>
+  <date>2019-04-22T10:50:42</date>
+  <millis>1555951842087</millis>
+  <sequence>1997</sequence>
+  <logger>org.netbeans.ui.metrics.editor</logger>
+  <level>INFO</level>
+  <thread>136</thread>
+  <message>USG_EDITOR_MIME_TYPE</message>
+  <param>text/x-java</param>
+  <param>4</param>
+</record>
+<record>
+  <date>2019-04-22T10:50:43</date>
+  <millis>1555951843628</millis>
+  <sequence>1999</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-04-22T10:50:43</date>
+  <millis>1555951843628</millis>
+  <sequence>2000</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE_JFX</message>
+</record>

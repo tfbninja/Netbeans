@@ -1482,3 +1482,28 @@ INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete in
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 2,402 ms (New or modified files: 9, Deleted files: 0) [Adding listeners took: 16 ms]
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 1 source roots took: 2,402 ms (New or modified files: 9, Deleted files: 0) [Adding listeners took: 16 ms]
 INFO [org.netbeans.modules.parsing.impl.TaskProcessor]: Task: class org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper ignored cancel for 580 ms.
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.enabled = false
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.type = none
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.project.path = 
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.class = 
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.jar.filename = 
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.jar.path = 
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 15 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\reststubs.zip took: 219 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\corestubs.zip took: 110 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@701b6e[MultiFileObject@a2e278[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
+WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@701b6e[MultiFileObject@a2e278[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\domstubs.zip took: 141 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 470 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\core\org-openide-filesystems.jar took 572 ms
+INFO [org.netbeans.modules.parsing.impl.TaskProcessor]: Task: class org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper ignored cancel for 156 ms.
+WARNING [org.netbeans.modules.java.source.parsing.JavacParser]: Javac returned startpos: 3,659 > endpos: -1
+WARNING [org.netbeans.modules.java.source.parsing.JavacParser]: Javac returned startpos: 3,659 > endpos: -1
+WARNING [org.netbeans.modules.java.source.parsing.JavacParser]: Javac returned startpos: 3,659 > endpos: -1
+WARNING [org.openide.filesystems.Ordering]: Not all children in / marked with the position attribute: [org-netbeans-modules-editor-java-JavaBracesMatcher.shadow], but some are: [org-netbeans-modules-editor-bracesmatching-LegacyEssMatcher.instance, org-netbeans-modules-editor-bracesmatching-DefaultMatcher.instance]
+WARNING [org.netbeans.modules.java.source.parsing.JavacParser]: Javac returned startpos: 3,659 > endpos: -1
+INFO [org.netbeans.modules.uihandler.Installer]: UIGesture Collector logging has failed: Stream Closed
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 256
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
