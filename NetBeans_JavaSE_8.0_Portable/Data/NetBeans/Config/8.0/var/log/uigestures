@@ -705,3 +705,46 @@
   <param>1</param>
   <param>0</param>
 </record>
+<record>
+  <date>2019-05-06T10:55:58</date>
+  <millis>1557161758207</millis>
+  <sequence>1112</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE</message>
+  <param>org.netbeans.modules.javafx2.project.JFXProject</param>
+</record>
+<record>
+  <date>2019-05-06T10:55:58</date>
+  <millis>1557161758211</millis>
+  <sequence>1113</sequence>
+  <logger>org.netbeans.ui.metrics.jfx</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_PROJECT_CLOSE_JFX</message>
+</record>
+<record>
+  <date>2019-05-06T10:55:59</date>
+  <millis>1557161759584</millis>
+  <sequence>1114</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>80</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>1908427</param>
+</record>
+<record>
+  <date>2019-05-06T10:55:59</date>
+  <millis>1557161759588</millis>
+  <sequence>1115</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>80</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
