@@ -1,7 +1,7 @@
 <record>
-  <date>2019-05-06T10:21:29</date>
-  <millis>1557159689830</millis>
-  <sequence>15</sequence>
+  <date>2019-05-08T14:58:10</date>
+  <millis>1557349090681</millis>
+  <sequence>14</sequence>
   <level>FINEST</level>
   <thread>13</thread>
   <message>SCREEN SIZE</message>
@@ -10,17 +10,17 @@
   <param>1</param>
 </record>
 <record>
-  <date>2019-05-06T10:21:29</date>
-  <millis>1557159689830</millis>
-  <sequence>16</sequence>
+  <date>2019-05-08T14:58:10</date>
+  <millis>1557349090681</millis>
+  <sequence>15</sequence>
   <level>CONFIG</level>
   <thread>13</thread>
   <message>IDE_STARTUP</message>
 </record>
 <record>
-  <date>2019-05-06T10:21:30</date>
-  <millis>1557159690989</millis>
-  <sequence>25</sequence>
+  <date>2019-05-08T14:58:11</date>
+  <millis>1557349091760</millis>
+  <sequence>24</sequence>
   <logger>org.netbeans.ui.metrics.laf</logger>
   <level>INFO</level>
   <thread>13</thread>
@@ -29,23 +29,23 @@
   <param>Darcula</param>
 </record>
 <record>
-  <date>2019-05-06T10:21:32</date>
-  <millis>1557159692968</millis>
-  <sequence>1044</sequence>
+  <date>2019-05-08T14:58:14</date>
+  <millis>1557349094104</millis>
+  <sequence>1377</sequence>
   <logger>org.netbeans.ui.metrics.vcs</logger>
   <level>INFO</level>
-  <thread>44</thread>
+  <thread>39</thread>
   <message>USG_VCS_CLIENT</message>
   <param>GIT</param>
   <param>JAVALIB</param>
 </record>
 <record>
-  <date>2019-05-06T10:21:34</date>
-  <millis>1557159694289</millis>
-  <sequence>1076</sequence>
+  <date>2019-05-08T14:58:15</date>
+  <millis>1557349095633</millis>
+  <sequence>1460</sequence>
   <logger>org.netbeans.modules.uihandler.Installer</logger>
   <level>INFO</level>
-  <thread>41</thread>
+  <thread>38</thread>
   <exception>
     <message>java.net.ConnectException: Connection refused: connect</message>
     <frame>
@@ -276,248 +276,74 @@
   </exception>
 </record>
 <record>
-  <date>2019-05-06T10:21:36</date>
-  <millis>1557159696295</millis>
-  <sequence>1079</sequence>
+  <date>2019-05-08T14:58:16</date>
+  <millis>1557349096695</millis>
+  <sequence>1463</sequence>
   <level>INFO</level>
-  <thread>51</thread>
+  <thread>20</thread>
   <message>MEMORY</message>
   <key>MEMORY</key>
   <catalog>&lt;null&gt;</catalog>
   <param>8482144256</param>
 </record>
 <record>
-  <date>2019-05-06T10:21:37</date>
-  <millis>1557159697784</millis>
-  <sequence>1081</sequence>
+  <date>2019-05-08T14:58:18</date>
+  <millis>1557349098024</millis>
+  <sequence>1465</sequence>
   <logger>org.netbeans.ui.metrics.projects</logger>
   <level>INFO</level>
-  <thread>24</thread>
+  <thread>42</thread>
   <message>USG_PROJECT_OPEN</message>
   <param>org.netbeans.modules.javafx2.project.JFXProject</param>
 </record>
 <record>
-  <date>2019-05-06T10:21:37</date>
-  <millis>1557159697784</millis>
-  <sequence>1082</sequence>
+  <date>2019-05-08T14:58:18</date>
+  <millis>1557349098024</millis>
+  <sequence>1466</sequence>
   <logger>org.netbeans.ui.metrics.jfx</logger>
   <level>INFO</level>
-  <thread>24</thread>
+  <thread>42</thread>
   <message>USG_PROJECT_OPEN_JFX</message>
 </record>
 <record>
-  <date>2019-05-06T10:21:38</date>
-  <millis>1557159698761</millis>
-  <sequence>1086</sequence>
-  <logger>org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler</logger>
-  <level>INFO</level>
-  <thread>38</thread>
-  <exception>
-    <message>java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_3493b40b-87ab-40ad-b886-818aee0c224e</message>
-    <frame>
-      <class>org.netbeans.modules.autoupdate.updateprovider.DownloadListener</class>
-      <method>notifyException</method>
-      <line>103</line>
-      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache</class>
-      <method>copy</method>
-      <line>246</line>
-      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache</class>
-      <method>writeCatalogToCache</method>
-      <line>99</line>
-      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogProvider</class>
-      <method>refresh</method>
-      <line>154</line>
-      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.autoupdate.services.UpdateUnitProviderImpl</class>
-      <method>refresh</method>
-      <line>180</line>
-      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.api.autoupdate.UpdateUnitProvider</class>
-      <method>refresh</method>
-      <line>196</line>
-      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler$4</class>
-      <method>run</method>
-      <line>155</line>
-      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-ui.jar</file>
-    </frame>
-    <frame>
-      <class>org.openide.util.RequestProcessor$Task</class>
-      <method>run</method>
-      <line>1423</line>
-      <file>${netbeans.home}lib/org-openide-util.jar</file>
-    </frame>
-    <frame>
-      <class>org.openide.util.RequestProcessor$Processor</class>
-      <method>run</method>
-      <line>2033</line>
-      <file>${netbeans.home}lib/org-openide-util.jar</file>
-    </frame>
-  </exception>
-  <exception>
-   <message>java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_3493b40b-87ab-40ad-b886-818aee0c224e</message>
-    <frame>
-      <class>org.netbeans.modules.autoupdate.updateprovider.DownloadListener</class>
-      <method>doCopy</method>
-      <line>155</line>
-      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.autoupdate.updateprovider.DownloadListener</class>
-      <method>streamOpened</method>
-      <line>78</line>
-      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$1</class>
-      <method>run</method>
-      <line>111</line>
-      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
-    </frame>
-   <more>2</more>
-  </exception>
-</record>
-<record>
-  <date>2019-05-06T10:21:38</date>
-  <millis>1557159698769</millis>
-  <sequence>1088</sequence>
-  <logger>org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler</logger>
-  <level>INFO</level>
-  <thread>45</thread>
-  <exception>
-    <message>java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_3493b40b-87ab-40ad-b886-818aee0c224e</message>
-    <frame>
-      <class>org.netbeans.modules.autoupdate.updateprovider.DownloadListener</class>
-      <method>notifyException</method>
-      <line>103</line>
-      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache</class>
-      <method>copy</method>
-      <line>246</line>
-      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache</class>
-      <method>writeCatalogToCache</method>
-      <line>99</line>
-      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogProvider</class>
-      <method>refresh</method>
-      <line>154</line>
-      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.autoupdate.services.UpdateUnitProviderImpl</class>
-      <method>refresh</method>
-      <line>180</line>
-      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.api.autoupdate.UpdateUnitProvider</class>
-      <method>refresh</method>
-      <line>196</line>
-      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler$4</class>
-      <method>run</method>
-      <line>155</line>
-      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-ui.jar</file>
-    </frame>
-    <frame>
-      <class>org.openide.util.RequestProcessor$Task</class>
-      <method>run</method>
-      <line>1423</line>
-      <file>${netbeans.home}lib/org-openide-util.jar</file>
-    </frame>
-    <frame>
-      <class>org.openide.util.RequestProcessor$Processor</class>
-      <method>run</method>
-      <line>2033</line>
-      <file>${netbeans.home}lib/org-openide-util.jar</file>
-    </frame>
-  </exception>
-  <exception>
-   <message>java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_3493b40b-87ab-40ad-b886-818aee0c224e</message>
-    <frame>
-      <class>org.netbeans.modules.autoupdate.updateprovider.DownloadListener</class>
-      <method>doCopy</method>
-      <line>155</line>
-      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.autoupdate.updateprovider.DownloadListener</class>
-      <method>streamOpened</method>
-      <line>78</line>
-      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$1</class>
-      <method>run</method>
-      <line>111</line>
-      <file>${netbeans.home}modules/org-netbeans-modules-autoupdate-services.jar</file>
-    </frame>
-   <more>2</more>
-  </exception>
-</record>
-<record>
-  <date>2019-05-06T10:21:38</date>
-  <millis>1557159698918</millis>
-  <sequence>1089</sequence>
+  <date>2019-05-08T14:58:18</date>
+  <millis>1557349098899</millis>
+  <sequence>1469</sequence>
   <logger>org.netbeans.ui.vcs</logger>
   <level>INFO</level>
-  <thread>24</thread>
+  <thread>42</thread>
   <message>USG_VCS_CMD</message>
   <key>USG_VCS_CMD</key>
   <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
   <param>GIT</param>
-  <param>65</param>
+  <param>93</param>
   <param>0</param>
   <param>rename</param>
   <param>INTERNAL</param>
 </record>
 <record>
-  <date>2019-05-06T10:21:39</date>
-  <millis>1557159699058</millis>
-  <sequence>1091</sequence>
+  <date>2019-05-08T14:58:18</date>
+  <millis>1557349098993</millis>
+  <sequence>1471</sequence>
   <logger>org.netbeans.ui.vcs</logger>
   <level>INFO</level>
-  <thread>24</thread>
+  <thread>42</thread>
   <message>USG_VCS_CMD</message>
   <key>USG_VCS_CMD</key>
   <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
   <param>GIT</param>
-  <param>73</param>
+  <param>62</param>
   <param>0</param>
   <param>reset</param>
   <param>INTERNAL</param>
 </record>
 <record>
-  <date>2019-05-06T10:21:39</date>
-  <millis>1557159699458</millis>
-  <sequence>1095</sequence>
+  <date>2019-05-08T14:58:19</date>
+  <millis>1557349099243</millis>
+  <sequence>1475</sequence>
   <logger>org.netbeans.ui.projects</logger>
   <level>CONFIG</level>
-  <thread>24</thread>
+  <thread>42</thread>
   <message>UI_INIT_PROJECTS</message>
   <key>UI_INIT_PROJECTS</key>
   <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
@@ -526,47 +352,47 @@
   <param>1</param>
 </record>
 <record>
-  <date>2019-05-06T10:21:39</date>
-  <millis>1557159699458</millis>
-  <sequence>1096</sequence>
+  <date>2019-05-08T14:58:19</date>
+  <millis>1557349099243</millis>
+  <sequence>1476</sequence>
   <logger>org.netbeans.ui.metrics.projects</logger>
   <level>INFO</level>
-  <thread>24</thread>
+  <thread>42</thread>
   <message>USG_PROJECT_OPEN</message>
   <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
 </record>
 <record>
-  <date>2019-05-06T10:21:39</date>
-  <millis>1557159699517</millis>
-  <sequence>1097</sequence>
+  <date>2019-05-08T14:58:19</date>
+  <millis>1557349099337</millis>
+  <sequence>1477</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>INFO</level>
-  <thread>52</thread>
+  <thread>23</thread>
   <message>INDEXING_STARTED</message>
   <key>INDEXING_STARTED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
   <param>0</param>
 </record>
 <record>
-  <date>2019-05-06T10:21:46</date>
-  <millis>1557159706274</millis>
-  <sequence>1103</sequence>
+  <date>2019-05-08T14:58:25</date>
+  <millis>1557349105213</millis>
+  <sequence>1483</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>INFO</level>
-  <thread>52</thread>
+  <thread>23</thread>
   <message>INDEXING_FINISHED</message>
   <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>6756</param>
+  <param>5876</param>
   <param>java</param>
-  <param>76</param>
-  <param>2870</param>
+  <param>79</param>
+  <param>1718</param>
   <param>SpringBinary</param>
-  <param>75</param>
-  <param>4</param>
+  <param>78</param>
+  <param>31</param>
   <param>TaskListIndexer</param>
   <param>1</param>
-  <param>8</param>
+  <param>0</param>
   <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
   <param>1</param>
   <param>0</param>
@@ -575,12 +401,91 @@
   <param>0</param>
   <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
   <param>1</param>
-  <param>12</param>
+  <param>0</param>
 </record>
 <record>
-  <date>2019-05-06T10:23:53</date>
-  <millis>1557159833432</millis>
-  <sequence>1104</sequence>
+  <date>2019-05-08T14:58:29</date>
+  <millis>1557349109967</millis>
+  <sequence>1484</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>FINER</level>
+  <thread>19</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.DropDownButton[null]</param>
+  <param>org.openide.awt.DropDownButton</param>
+  <param>org.netbeans.modules.project.ui.actions.MainProjectActionWithHistory[&amp;Run Main Project]</param>
+  <param>org.netbeans.modules.project.ui.actions.MainProjectActionWithHistory</param>
+  <param>&amp;Run Main Project</param>
+</record>
+<record>
+  <date>2019-05-08T14:58:29</date>
+  <millis>1557349109967</millis>
+  <sequence>1485</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>FINE</level>
+  <thread>19</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>org.openide.awt.DropDownButton[null]</param>
+  <param>org.openide.awt.DropDownButton</param>
+  <param>org.netbeans.modules.project.ui.actions.MainProjectActionWithHistory[&amp;Run Main Project]</param>
+  <param>org.netbeans.modules.project.ui.actions.MainProjectActionWithHistory</param>
+  <param>&amp;Run Main Project</param>
+</record>
+<record>
+  <date>2019-05-08T14:58:29</date>
+  <millis>1557349109967</millis>
+  <sequence>1486</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>FINE</level>
+  <thread>19</thread>
+  <message>PROJECT_ACTION</message>
+  <key>PROJECT_ACTION</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>org.netbeans.modules.project.ui.actions.MainProjectActionWithHistory</param>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+  <param>&amp;Run Main Project</param>
+</record>
+<record>
+  <date>2019-05-08T14:58:32</date>
+  <millis>1557349112515</millis>
+  <sequence>1487</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>47</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>7302</param>
+</record>
+<record>
+  <date>2019-05-08T14:58:33</date>
+  <millis>1557349113030</millis>
+  <sequence>1494</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>47</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>515</param>
+  <param>TaskListIndexer</param>
+  <param>3</param>
+  <param>0</param>
+  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
+  <param>3</param>
+  <param>0</param>
+  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
+  <param>3</param>
+  <param>0</param>
+</record>
+<record>
+  <date>2019-05-08T14:58:45</date>
+  <millis>1557349125101</millis>
+  <sequence>1497</sequence>
   <logger>org.netbeans.ui.focus</logger>
   <level>FINE</level>
   <thread>19</thread>
@@ -589,34 +494,188 @@
   <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
 </record>
 <record>
-  <date>2019-05-06T10:24:09</date>
-  <millis>1557159849028</millis>
-  <sequence>1105</sequence>
+  <date>2019-05-08T15:04:24</date>
+  <millis>1557349464252</millis>
+  <sequence>1498</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>FINE</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2019-05-08T15:04:24</date>
+  <millis>1557349464298</millis>
+  <sequence>1499</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>INFO</level>
-  <thread>64</thread>
+  <thread>71</thread>
   <message>INDEXING_STARTED</message>
   <key>INDEXING_STARTED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>142754</param>
+  <param>351268</param>
 </record>
 <record>
-  <date>2019-05-06T10:24:09</date>
-  <millis>1557159849542</millis>
-  <sequence>1106</sequence>
+  <date>2019-05-08T15:04:24</date>
+  <millis>1557349464564</millis>
+  <sequence>1500</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>INFO</level>
-  <thread>64</thread>
+  <thread>71</thread>
   <message>INDEXING_FINISHED</message>
   <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>514</param>
+  <param>266</param>
   <param>java</param>
   <param>1</param>
-  <param>8</param>
+  <param>0</param>
   <param>TaskListIndexer</param>
   <param>1</param>
-  <param>5</param>
+  <param>0</param>
+  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
+  <param>1</param>
+  <param>15</param>
+  <param>CopyResourcesIndexer</param>
+  <param>1</param>
+  <param>0</param>
+  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
+  <param>1</param>
+  <param>0</param>
+</record>
+<record>
+  <date>2019-05-08T15:04:27</date>
+  <millis>1557349467064</millis>
+  <sequence>1501</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>FINE</level>
+  <thread>68</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>1937</param>
+</record>
+<record>
+  <date>2019-05-08T15:05:20</date>
+  <millis>1557349520773</millis>
+  <sequence>1502</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>FINE</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2019-05-08T15:05:21</date>
+  <millis>1557349521930</millis>
+  <sequence>1503</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>FINE</level>
+  <thread>67</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2019-05-08T15:05:24</date>
+  <millis>1557349524014</millis>
+  <sequence>1504</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>FINER</level>
+  <thread>19</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.DropDownButton[null]</param>
+  <param>org.openide.awt.DropDownButton</param>
+  <param>org.netbeans.modules.project.ui.actions.MainProjectActionWithHistory[&amp;Run Main Project]</param>
+  <param>org.netbeans.modules.project.ui.actions.MainProjectActionWithHistory</param>
+  <param>&amp;Run Main Project</param>
+</record>
+<record>
+  <date>2019-05-08T15:05:24</date>
+  <millis>1557349524014</millis>
+  <sequence>1505</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>FINE</level>
+  <thread>19</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>org.openide.awt.DropDownButton[null]</param>
+  <param>org.openide.awt.DropDownButton</param>
+  <param>org.netbeans.modules.project.ui.actions.MainProjectActionWithHistory[&amp;Run Main Project]</param>
+  <param>org.netbeans.modules.project.ui.actions.MainProjectActionWithHistory</param>
+  <param>&amp;Run Main Project</param>
+</record>
+<record>
+  <date>2019-05-08T15:05:24</date>
+  <millis>1557349524014</millis>
+  <sequence>1506</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>FINE</level>
+  <thread>19</thread>
+  <message>PROJECT_ACTION</message>
+  <key>PROJECT_ACTION</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>org.netbeans.modules.project.ui.actions.MainProjectActionWithHistory</param>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+  <param>&amp;Run Main Project</param>
+</record>
+<record>
+  <date>2019-05-08T15:05:25</date>
+  <millis>1557349525561</millis>
+  <sequence>1507</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>FINE</level>
+  <thread>67</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>1026</param>
+</record>
+<record>
+  <date>2019-05-08T15:05:29</date>
+  <millis>1557349529127</millis>
+  <sequence>1508</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>FINE</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2019-05-08T15:14:27</date>
+  <millis>1557350067728</millis>
+  <sequence>1509</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>87</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>603164</param>
+</record>
+<record>
+  <date>2019-05-08T15:14:27</date>
+  <millis>1557350067838</millis>
+  <sequence>1510</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>87</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>110</param>
+  <param>java</param>
+  <param>1</param>
+  <param>15</param>
+  <param>TaskListIndexer</param>
+  <param>1</param>
+  <param>0</param>
   <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
   <param>1</param>
   <param>0</param>
@@ -628,37 +687,128 @@
   <param>0</param>
 </record>
 <record>
-  <date>2019-05-06T10:24:09</date>
-  <millis>1557159849542</millis>
-  <sequence>1107</sequence>
+  <date>2019-05-08T15:14:29</date>
+  <millis>1557350069947</millis>
+  <sequence>1511</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>FINE</level>
+  <thread>38</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>969</param>
+</record>
+<record>
+  <date>2019-05-08T15:14:32</date>
+  <millis>1557350072432</millis>
+  <sequence>1512</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>FINE</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2019-05-08T15:14:45</date>
+  <millis>1557350085333</millis>
+  <sequence>1513</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>FINE</level>
+  <thread>91</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>20</param>
+</record>
+<record>
+  <date>2019-05-08T15:14:48</date>
+  <millis>1557350088139</millis>
+  <sequence>1514</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>FINER</level>
+  <thread>19</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.Toolbar$DefaultIconButton[]</param>
+  <param>org.openide.awt.Toolbar$DefaultIconButton</param>
+  <param>org.netbeans.modules.project.ui.actions.OpenProject[Open Proj&amp;ect...]</param>
+  <param>org.netbeans.modules.project.ui.actions.OpenProject</param>
+  <param>Open Proj&amp;ect...</param>
+</record>
+<record>
+  <date>2019-05-08T15:14:57</date>
+  <millis>1557350097812</millis>
+  <sequence>1516</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>INFO</level>
+  <thread>38</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>78</param>
+  <param>0</param>
+  <param>reset</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2019-05-08T15:14:57</date>
+  <millis>1557350097921</millis>
+  <sequence>1520</sequence>
+  <logger>org.netbeans.ui.projects</logger>
+  <level>CONFIG</level>
+  <thread>38</thread>
+  <message>UI_OPEN_PROJECTS</message>
+  <key>UI_OPEN_PROJECTS</key>
+  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+  <param>J2SEProject</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2019-05-08T15:14:57</date>
+  <millis>1557350097921</millis>
+  <sequence>1521</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>38</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+</record>
+<record>
+  <date>2019-05-08T15:14:57</date>
+  <millis>1557350097921</millis>
+  <sequence>1523</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>INFO</level>
-  <thread>64</thread>
+  <thread>38</thread>
   <message>INDEXING_STARTED</message>
   <key>INDEXING_STARTED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>0</param>
+  <param>30083</param>
 </record>
 <record>
-  <date>2019-05-06T10:24:10</date>
-  <millis>1557159850663</millis>
-  <sequence>1108</sequence>
+  <date>2019-05-08T15:14:58</date>
+  <millis>1557350098421</millis>
+  <sequence>1550</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>INFO</level>
-  <thread>64</thread>
+  <thread>38</thread>
   <message>INDEXING_FINISHED</message>
   <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>1121</param>
+  <param>500</param>
   <param>java</param>
   <param>1</param>
-  <param>523</param>
+  <param>281</param>
   <param>TaskListIndexer</param>
   <param>1</param>
   <param>0</param>
   <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
   <param>1</param>
-  <param>4</param>
+  <param>0</param>
   <param>CopyResourcesIndexer</param>
   <param>1</param>
   <param>0</param>
@@ -667,31 +817,127 @@
   <param>0</param>
 </record>
 <record>
-  <date>2019-05-06T10:24:10</date>
-  <millis>1557159850667</millis>
-  <sequence>1109</sequence>
+  <date>2019-05-08T15:15:08</date>
+  <millis>1557350108204</millis>
+  <sequence>1551</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>FINER</level>
+  <thread>19</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.DropDownButton[null]</param>
+  <param>org.openide.awt.DropDownButton</param>
+  <param>org.netbeans.modules.project.ui.actions.MainProjectActionWithHistory[&amp;Run Main Project]</param>
+  <param>org.netbeans.modules.project.ui.actions.MainProjectActionWithHistory</param>
+  <param>&amp;Run Main Project</param>
+</record>
+<record>
+  <date>2019-05-08T15:15:08</date>
+  <millis>1557350108204</millis>
+  <sequence>1552</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>FINE</level>
+  <thread>19</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>org.openide.awt.DropDownButton[null]</param>
+  <param>org.openide.awt.DropDownButton</param>
+  <param>org.netbeans.modules.project.ui.actions.MainProjectActionWithHistory[&amp;Run Main Project]</param>
+  <param>org.netbeans.modules.project.ui.actions.MainProjectActionWithHistory</param>
+  <param>&amp;Run Main Project</param>
+</record>
+<record>
+  <date>2019-05-08T15:15:08</date>
+  <millis>1557350108204</millis>
+  <sequence>1553</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>FINE</level>
+  <thread>19</thread>
+  <message>PROJECT_ACTION</message>
+  <key>PROJECT_ACTION</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>org.netbeans.modules.project.ui.actions.MainProjectActionWithHistory</param>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+  <param>&amp;Run Main Project</param>
+</record>
+<record>
+  <date>2019-05-08T15:15:13</date>
+  <millis>1557350113620</millis>
+  <sequence>1554</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>FINE</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2019-05-08T15:15:15</date>
+  <millis>1557350115819</millis>
+  <sequence>1555</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>INFO</level>
-  <thread>64</thread>
+  <thread>111</thread>
   <message>INDEXING_STARTED</message>
   <key>INDEXING_STARTED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>4</param>
+  <param>17398</param>
 </record>
 <record>
-  <date>2019-05-06T10:24:11</date>
-  <millis>1557159851157</millis>
-  <sequence>1110</sequence>
+  <date>2019-05-08T15:15:15</date>
+  <millis>1557350115969</millis>
+  <sequence>1556</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>INFO</level>
-  <thread>64</thread>
+  <thread>111</thread>
   <message>INDEXING_FINISHED</message>
   <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>490</param>
+  <param>149</param>
   <param>java</param>
   <param>1</param>
-  <param>294</param>
+  <param>2</param>
+  <param>TaskListIndexer</param>
+  <param>1</param>
+  <param>0</param>
+  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
+  <param>1</param>
+  <param>2</param>
+  <param>CopyResourcesIndexer</param>
+  <param>1</param>
+  <param>0</param>
+  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
+  <param>1</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2019-05-08T15:15:16</date>
+  <millis>1557350116688</millis>
+  <sequence>1557</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>38</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>719</param>
+</record>
+<record>
+  <date>2019-05-08T15:15:17</date>
+  <millis>1557350117000</millis>
+  <sequence>1558</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>38</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>312</param>
+  <param>java</param>
+  <param>1</param>
+  <param>0</param>
   <param>TaskListIndexer</param>
   <param>1</param>
   <param>0</param>
@@ -706,9 +952,87 @@
   <param>0</param>
 </record>
 <record>
-  <date>2019-05-06T10:55:58</date>
-  <millis>1557161758207</millis>
-  <sequence>1112</sequence>
+  <date>2019-05-08T15:15:17</date>
+  <millis>1557350117063</millis>
+  <sequence>1559</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>FINER</level>
+  <thread>19</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.Toolbar$DefaultIconButton[]</param>
+  <param>org.openide.awt.Toolbar$DefaultIconButton</param>
+  <param>org.netbeans.modules.project.ui.actions.FileAction[Run &amp;File]</param>
+  <param>org.netbeans.modules.project.ui.actions.FileAction</param>
+  <param>Run &amp;File</param>
+</record>
+<record>
+  <date>2019-05-08T15:15:17</date>
+  <millis>1557350117063</millis>
+  <sequence>1560</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>FINE</level>
+  <thread>19</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>org.openide.awt.Toolbar$DefaultIconButton[]</param>
+  <param>org.openide.awt.Toolbar$DefaultIconButton</param>
+  <param>org.netbeans.modules.project.ui.actions.FileAction[Run &amp;File]</param>
+  <param>org.netbeans.modules.project.ui.actions.FileAction</param>
+  <param>Run &amp;File</param>
+</record>
+<record>
+  <date>2019-05-08T15:15:18</date>
+  <millis>1557350118739</millis>
+  <sequence>1561</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>FINE</level>
+  <thread>108</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>852</param>
+</record>
+<record>
+  <date>2019-05-08T15:15:19</date>
+  <millis>1557350119187</millis>
+  <sequence>1562</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>FINE</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2019-05-08T15:16:36</date>
+  <millis>1557350196222</millis>
+  <sequence>1563</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>FINE</level>
+  <thread>108</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>943</param>
+</record>
+<record>
+  <date>2019-05-08T15:16:36</date>
+  <millis>1557350196435</millis>
+  <sequence>1564</sequence>
+  <logger>org.netbeans.ui.metrics.editor</logger>
+  <level>INFO</level>
+  <thread>108</thread>
+  <message>USG_EDITOR_MIME_TYPE</message>
+  <param>text/x-java</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2019-05-08T15:16:41</date>
+  <millis>1557350201856</millis>
+  <sequence>1566</sequence>
   <logger>org.netbeans.ui.metrics.projects</logger>
   <level>INFO</level>
   <thread>19</thread>
@@ -716,35 +1040,86 @@
   <param>org.netbeans.modules.javafx2.project.JFXProject</param>
 </record>
 <record>
-  <date>2019-05-06T10:55:58</date>
-  <millis>1557161758211</millis>
-  <sequence>1113</sequence>
+  <date>2019-05-08T15:16:41</date>
+  <millis>1557350201856</millis>
+  <sequence>1567</sequence>
   <logger>org.netbeans.ui.metrics.jfx</logger>
   <level>INFO</level>
   <thread>19</thread>
   <message>USG_PROJECT_CLOSE_JFX</message>
 </record>
 <record>
-  <date>2019-05-06T10:55:59</date>
-  <millis>1557161759584</millis>
-  <sequence>1114</sequence>
+  <date>2019-05-08T15:16:42</date>
+  <millis>1557350202198</millis>
+  <sequence>1568</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>INFO</level>
-  <thread>80</thread>
+  <thread>148</thread>
   <message>INDEXING_STARTED</message>
   <key>INDEXING_STARTED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>1908427</param>
+  <param>85198</param>
 </record>
 <record>
-  <date>2019-05-06T10:55:59</date>
-  <millis>1557161759588</millis>
-  <sequence>1115</sequence>
+  <date>2019-05-08T15:16:42</date>
+  <millis>1557350202245</millis>
+  <sequence>1569</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>47</param>
+  <param>0</param>
+  <param>reset</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2019-05-08T15:16:42</date>
+  <millis>1557350202276</millis>
+  <sequence>1571</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>INFO</level>
-  <thread>80</thread>
+  <thread>148</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>78</param>
+</record>
+<record>
+  <date>2019-05-08T15:16:42</date>
+  <millis>1557350202276</millis>
+  <sequence>1572</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>148</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2019-05-08T15:16:42</date>
+  <millis>1557350202276</millis>
+  <sequence>1573</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>148</thread>
   <message>INDEXING_FINISHED</message>
   <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
   <param>0</param>
+</record>
+<record>
+  <date>2019-05-08T15:16:42</date>
+  <millis>1557350202276</millis>
+  <sequence>1577</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>FINE</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
 </record>
