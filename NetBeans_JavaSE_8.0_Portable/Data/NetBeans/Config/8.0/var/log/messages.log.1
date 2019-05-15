@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Tuesday, May 7, 2019 10:44:17 AM MDT
+>Log Session: Wednesday, May 15, 2019 10:25:23 AM MDT
 >System Info: 
   Product Version         = NetBeans IDE 8.0 (Build 201403101706) (#b8e35b888b3f)
   Operating System        = Windows 10 version 10.0 running on x86
@@ -37,7 +37,7 @@ java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completio
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
 	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:222)
-Caused: java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completion.api.JspCompletionItem starting from SystemClassLoader[473 modules] with possible defining loaders null and declared parents [org.netbeans.MainImpl$BootClassLoader@8c4c35, ModuleCL@17be15b[org.netbeans.api.annotations.common], ModuleCL@e0c6f3[org.openide.awt], ModuleCL@17c682a[org.netbeans.api.progress], ModuleCL@164d201[org.openide.dialogs], ModuleCL@1f58ecf[org.openide.nodes], ModuleCL@1e80fdc[org.openide.windows], ModuleCL@1811b33[org.netbeans.modules.editor.mimelookup], ModuleCL@f62e98[org.openide.text], ModuleCL@19c50bf[org.netbeans.swing.tabcontrol], ...457 more]
+Caused: java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completion.api.JspCompletionItem starting from SystemClassLoader[473 modules] with possible defining loaders null and declared parents [org.netbeans.MainImpl$BootClassLoader@8c4c35, ModuleCL@8a0fc1[org.netbeans.api.annotations.common], ModuleCL@1418243[org.openide.awt], ModuleCL@12a439[org.netbeans.api.progress], ModuleCL@15077e0[org.openide.dialogs], ModuleCL@15c82cc[org.openide.nodes], ModuleCL@aa52fe[org.openide.windows], ModuleCL@16e00fe[org.netbeans.modules.editor.mimelookup], ModuleCL@1358bc4[org.openide.text], ModuleCL@5426cc[org.netbeans.swing.tabcontrol], ...457 more]
 	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:224)
 	at org.netbeans.ModuleManager$SystemClassLoader.loadClass(ModuleManager.java:722)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
@@ -544,47 +544,19 @@ INFO [org.netbeans.core.network.proxy.windows.WindowsNetworkProxy]: Windows syst
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy reloading succeeded.
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy - mode: direct
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy: fell to default (correct if direct mode went before)
-INFO [org.netbeans.modules.uihandler.Installer]: findIdentity: fa7c6b83-6113-4863-9696-582adbbbed53_3493b40b-87ab-40ad-b886-818aee0c224e
-INFO [org.netbeans.modules.uihandler.Installer]
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at java.net.Socket.connect(Socket.java:538)
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
-	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040)
-	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037)
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
-	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1334)
-	at sun.net.www.protocol.http.HttpURLConnection.access$100(HttpURLConnection.java:91)
-	at sun.net.www.protocol.http.HttpURLConnection$8.run(HttpURLConnection.java:1301)
-	at sun.net.www.protocol.http.HttpURLConnection$8.run(HttpURLConnection.java:1299)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782)
-	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1298)
-	at org.netbeans.modules.uihandler.Installer.uLogs(Installer.java:1219)
-	at org.netbeans.modules.uihandler.Installer.uploadLogs(Installer.java:1159)
-	at org.netbeans.modules.uihandler.Installer.access$1600(Installer.java:122)
-[catch] at org.netbeans.modules.uihandler.Installer$Submit.uploadAndPost(Installer.java:2085)
-	at org.netbeans.modules.uihandler.Installer$Submit.access$1400(Installer.java:1592)
-	at org.netbeans.modules.uihandler.Installer$Submit$1$2.run(Installer.java:1985)
-	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
-	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.home has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.Clusters.relativeDirsWithHome(Clusters.java:137)
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-editor-settings-storage.jar took 1,038 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-web-common.jar took 670 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-editor.jar took 2,039 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-css-editor.jar took 2,146 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\modules\org-openide-dialogs.jar took 687 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\modules\ext\felix-4.2.1.jar took 932 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-java-sourceui.jar took 840 ms
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.java.api.common.project.ProjectHooks$ProjectOpenedHookImpl.updateUserBuildPropertiesRef(ProjectHooks.java:573)
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-css-prep.jar took 1,483 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-project-ant.jar took 2,307 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-javadoc.jar took 1,170 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-api-java-classpath.jar took 666 ms
 Diagnostic information
 Input arguments:
 	-Dnetbeans.importclass=org.netbeans.upgrade.AutoUpgrade
@@ -612,34 +584,111 @@ Input arguments:
 Compiler: HotSpot Client Compiler
 Heap memory usage: initial 32.0MB maximum 396.4MB
 Non heap memory usage: initial 160.0kB maximum -1b
-Garbage collector: Copy (Collections=66 Total time spent=0s)
+Garbage collector: Copy (Collections=67 Total time spent=0s)
 Garbage collector: MarkSweepCompact (Collections=3 Total time spent=0s)
-Classes: loaded=10302 total loaded=10316 unloaded 14
+Classes: loaded=8987 total loaded=9000 unloaded 13
 INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 8,482,144,256
-WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.java.api.common.project.ProjectHooks$ProjectOpenedHookImpl.updateUserBuildPropertiesRef(ProjectHooks.java:573)
-INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@1501f8f
-INFO [javafx]: Old build script file jfx-impl.xml has been renamed to: jfx-impl_backup_12.xml
-INFO [javafx]: Build script jfx-impl.xml has been updated to the latest version supported by this NetBeans installation.
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 990 ms
-WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.home has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.Clusters.relativeDirsWithHome(Clusters.java:137)
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 26 binary roots took: 2,561 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 2,261 ms (New or modified files: 3, Deleted files: 0) [Adding listeners took: 16 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 1 source roots took: 2,261 ms (New or modified files: 3, Deleted files: 0) [Adding listeners took: 16 ms]
-INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.enabled = false
-INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.type = none
-INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.project.path = 
-INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.class = 
-INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.jar.filename = 
-INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.jar.path = 
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 16 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\modules\org-netbeans-core-ui.jar took 870 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb\modules\locale\org-netbeans-core-ui_nb.jar took 894 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-java-j2seproject.jar took 2,726 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\modules\ext\updater.jar took 891 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-diff.jar took 2,791 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-project-libraries.jar took 901 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\modules\org-openide-nodes.jar took 1,931 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-java-j2seplatform.jar took 1,288 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-debugger-jpda-projects.jar took 1,559 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-projectapi.jar took 625 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\modules\org-openide-text.jar took 1,124 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-utilities.jar took 516 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-spi-editor-hints.jar took 706 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-editor-codetemplates.jar took 859 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-java-project.jar took 1,878 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-spellchecker.jar took 617 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\modules\org-openide-actions.jar took 587 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\modules\org-netbeans-modules-print.jar took 742 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-editor-fold.jar took 907 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-ant-freeform.jar took 891 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-editor-fold-nbui.jar took 616 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-java-freeform.jar took 1,197 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-parsing-lucene.jar took 650 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\modules\org-netbeans-core.jar took 1,577 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-projectuiapi.jar took 1,021 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\modules\org-openide-awt.jar took 2,026 ms
+INFO [org.openide.awt.Toolbar]: Too long AWTTask: 2,247 ms for org.openide.awt.MenuBar$LazyMenu$MenuFolder@1968d34(FolderList{MultiFileObject@1c5419f[Menu/File]})
+INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@16d9ef6
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-gsf-testrunner.jar took 1,311 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-projectimport-eclipse-core.jar took 1,124 ms
+INFO [org.openide.awt.Toolbar]: Too long AWTTask: 1,152 ms for org.openide.awt.MenuBar$LazyMenu$MenuFolder@1b374c2(FolderList{MultiFileObject@a0b11[Menu/File/Import]})
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-java-navigation.jar took 1,310 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\profiler\modules\org-netbeans-modules-profiler-ppoints.jar took 1,995 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-java-hints-declarative.jar took 651 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-javawebstart.jar took 556 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\profiler\modules\org-netbeans-modules-profiler-nbimpl.jar took 798 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-xml-jaxb.jar took 705 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-form-nb.jar took 764 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-maven-grammar.jar took 2,009 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-spi-palette.jar took 1,350 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-versioning-ui.jar took 1,437 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\apisupport\modules\org-netbeans-modules-apisupport-project.jar took 1,998 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\modules\org-netbeans-core-multitabs.jar took 823 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-editor-macros.jar took 648 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-properties-syntax.jar took 551 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\profiler\modules\org-netbeans-modules-profiler-oql-language.jar took 666 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-javascript2-debug.jar took 503 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-jumpto.jar took 1,980 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\profiler\modules\org-netbeans-lib-profiler-common.jar took 806 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-xml.jar took 1,697 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-db-sql-editor.jar took 814 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\profiler\modules\org-netbeans-modules-profiler-api.jar took 642 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-editor-completion.jar took 931 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-api-debugger.jar took 1,235 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-api-debugger-jpda.jar took 970 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\modules\org-netbeans-swing-tabcontrol.jar took 628 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-spi-java-hints.jar took 2,418 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-debugger-jpda-visual.jar took 1,558 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-j2ee-jpa-verification.jar took 1,309 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-image.jar took 529 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\javafx\modules\org-netbeans-modules-javafx2-editor.jar took 3,005 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-xml-text.jar took 2,650 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-code-analysis.jar took 1,069 ms
+INFO [org.openide.awt.Toolbar]: Too long AWTTask: 1,176 ms for org.openide.awt.MenuBar$LazyMenu$MenuFolder@499f7c(FolderList{MultiFileObject@119de4[Menu/Source]})
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-java-hints-ui.jar took 1,017 ms
+INFO [org.openide.awt.Toolbar]: Too long AWTTask: 1,383 ms for org.openide.awt.MenuBar$LazyMenu$MenuFolder@e30126(FolderList{MultiFileObject@161a865[Menu/Refactoring]})
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\modules\org-netbeans-modules-options-api.jar took 1,376 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 12,660 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-hudson-ui.jar took 863 ms
+INFO [org.openide.awt.Toolbar]: Too long AWTTask: 2,577 ms for org.openide.awt.MenuBar$LazyMenu$MenuFolder@b70d87(FolderList{MultiFileObject@1fc93b1[Menu/Versioning]})
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-i18n.jar took 1,151 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-junit.jar took 1,560 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-testng.jar took 1,500 ms
+WARNING [org.openide.awt.Toolbar]: Too long AWTTask: 3,698 ms for org.openide.awt.MenuBar$LazyMenu$MenuFolder@1b110a0(FolderList{MultiFileObject@1418f76[Menu/Tools]})
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-html.jar took 904 ms
+INFO [org.openide.awt.Toolbar]: Too long AWTTask: 913 ms for org.openide.awt.MenuBar$LazyMenu$MenuFolder@1e08b22(FolderList{MultiFileObject@63f4d4[Menu/Tools/PaletteManager]})
+INFO [org.openide.awt.Toolbar]: Too long AWTTask: 675 ms for org.openide.awt.MenuBar$LazyMenu$MenuFolder@163c8c8(FolderList{MultiFileObject@46bd44[Menu/Window]})
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-maven-hints.jar took 798 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-j2ee-persistenceapi.jar took 706 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-css-visual.jar took 1,327 ms
+INFO [org.openide.awt.Toolbar]: Too long AWTTask: 1,363 ms for org.openide.awt.MenuBar$LazyMenu$MenuFolder@163c8c8(FolderList{MultiFileObject@46bd44[Menu/Window]})
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-notifications.jar took 628 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\modules\org-netbeans-modules-uihandler.jar took 928 ms
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb\modules\org-netbeans-modules-welcome.jar took 652 ms
+INFO [org.openide.awt.Toolbar]: Too long AWTTask: 681 ms for org.openide.awt.MenuBar$LazyMenu$MenuFolder@ccec2c(FolderList{MultiFileObject@109632b[Menu/Help]})
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 26 binary roots took: 25,342 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\GOL\GOL\test took: 12 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\GOL\GOL\src took: 1,170 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 35 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 2,505 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 408 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 3,687 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 443 ms]
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\org-netbeans-modules-beans.jar took 504 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 28 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\reststubs.zip took: 219 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\corestubs.zip took: 169 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\domstubs.zip took: 169 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 557 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@1b8a319[MultiFileObject@5988da[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
-WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@1b8a319[MultiFileObject@5988da[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 4 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\reststubs.zip took: 232 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@390102[MultiFileObject@1fbd3e0[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
+WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@390102[MultiFileObject@1fbd3e0[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\corestubs.zip took: 128 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\domstubs.zip took: 2,311 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 2,671 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-bugzilla.jar took 719 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 0 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 source roots took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 256

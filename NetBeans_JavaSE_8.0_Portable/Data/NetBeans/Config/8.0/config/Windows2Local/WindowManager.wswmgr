@@ -44,13 +44,21 @@
     <active-mode name="editor"/>
     <toolbar configuration="Standard" preferred-icon-size="24"/>
     <tc-list>
-  <tc-id id="MultiView-java#002Eso10CA9CC3xt#002Ehistory#007C_3"/>
+  <tc-id id="MultiView-java#002Eso888FB95t#002Ehistory#007C_16"/>
   <tc-id id="projectTabLogical_tc"/>
+  <tc-id id="MultiView-java#002Eso888FB96t#002Ehistory#007C_17"/>
+  <tc-id id="MultiView-java#002Eso888FB94t#002Ehistory#007C_15"/>
+  <tc-id id="MultiView-java#002Eso888FB93t#002Ehistory#007C_14"/>
   <tc-id id="MultiView-java#002Eso2D0988CFtext#002Ehistory#007C"/>
-  <tc-id id="MultiView-java#002Eso10CA9CC9xt#002Ehistory#007C_9"/>
+  <tc-id id="MultiView-java#002Eso888FB92t#002Ehistory#007C_13"/>
+  <tc-id id="MultiView-java#002Eso10CA9CC8xt#002Ehistory#007C_8"/>
   <tc-id id="output"/>
   <tc-id id="MultiView-java#002Eso10CA9CC6xt#002Ehistory#007C_6"/>
-  <tc-id id="MultiView-java#002Eso10CA9CC8xt#002Ehistory#007C_8"/>
+  <tc-id id="MultiView-java#002Eso888FB91t#002Ehistory#007C_12"/>
+  <tc-id id="MultiView-java#002Eso888FB90t#002Ehistory#007C_11"/>
+  <tc-id id="MultiView-java#002Eso10CA9CC9xt#002Ehistory#007C_9"/>
+  <tc-id id="MultiView-java#002Eso888FB8Ft#002Ehistory#007C_10"/>
+  <tc-id id="MultiView-java#002Eso10CA9CC3xt#002Ehistory#007C_3"/>
   <tc-id id="NotificationCenterTopComponent"/>
   <tc-id id="navigatorTC"/>
   <tc-id id="services"/>

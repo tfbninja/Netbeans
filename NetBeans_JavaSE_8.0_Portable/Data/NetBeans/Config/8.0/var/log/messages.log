@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Wednesday, May 8, 2019 2:57:14 PM MDT
+>Log Session: Wednesday, May 15, 2019 2:50:54 PM MDT
 >System Info: 
   Product Version         = NetBeans IDE 8.0 (Build 201403101706) (#b8e35b888b3f)
   Operating System        = Windows 10 version 10.0 running on x86
@@ -37,7 +37,7 @@ java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completio
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
 	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:222)
-Caused: java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completion.api.JspCompletionItem starting from SystemClassLoader[473 modules] with possible defining loaders null and declared parents [org.netbeans.MainImpl$BootClassLoader@8c4c35, ModuleCL@1db6fa5[org.netbeans.api.annotations.common], ModuleCL@906151[org.openide.awt], ModuleCL@1f1214e[org.netbeans.api.progress], ModuleCL@bc071b[org.openide.dialogs], ModuleCL@64f5ee[org.openide.nodes], ModuleCL@14b9a9a[org.openide.windows], ModuleCL@1c43aec[org.netbeans.modules.editor.mimelookup], ModuleCL@13865d0[org.openide.text], ModuleCL@32205c[org.netbeans.swing.tabcontrol], ...457 more]
+Caused: java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completion.api.JspCompletionItem starting from SystemClassLoader[473 modules] with possible defining loaders null and declared parents [org.netbeans.MainImpl$BootClassLoader@8c4c35, ModuleCL@19cfd53[org.netbeans.api.annotations.common], ModuleCL@1afb735[org.openide.awt], ModuleCL@f34e93[org.netbeans.api.progress], ModuleCL@9c5184[org.openide.dialogs], ModuleCL@5e58e1[org.openide.nodes], ModuleCL@e85d00[org.openide.windows], ModuleCL@7d1498[org.netbeans.modules.editor.mimelookup], ModuleCL@5d6fe2[org.openide.text], ModuleCL@50bad8[org.netbeans.swing.tabcontrol], ...457 more]
 	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:224)
 	at org.netbeans.ModuleManager$SystemClassLoader.loadClass(ModuleManager.java:722)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
@@ -544,47 +544,6 @@ INFO [org.netbeans.core.network.proxy.windows.WindowsNetworkProxy]: Windows syst
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy reloading succeeded.
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy - mode: direct
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy: fell to default (correct if direct mode went before)
-INFO [org.netbeans.modules.uihandler.Installer]: findIdentity: fa7c6b83-6113-4863-9696-582adbbbed53_3493b40b-87ab-40ad-b886-818aee0c224e
-INFO [org.netbeans.modules.uihandler.Installer]
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at java.net.Socket.connect(Socket.java:538)
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
-	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040)
-	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037)
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
-	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1334)
-	at sun.net.www.protocol.http.HttpURLConnection.access$100(HttpURLConnection.java:91)
-	at sun.net.www.protocol.http.HttpURLConnection$8.run(HttpURLConnection.java:1301)
-	at sun.net.www.protocol.http.HttpURLConnection$8.run(HttpURLConnection.java:1299)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782)
-	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1298)
-	at org.netbeans.modules.uihandler.Installer.uLogs(Installer.java:1219)
-	at org.netbeans.modules.uihandler.Installer.uploadLogs(Installer.java:1159)
-	at org.netbeans.modules.uihandler.Installer.access$1600(Installer.java:122)
-[catch] at org.netbeans.modules.uihandler.Installer$Submit.uploadAndPost(Installer.java:2085)
-	at org.netbeans.modules.uihandler.Installer$Submit.access$1400(Installer.java:1592)
-	at org.netbeans.modules.uihandler.Installer$Submit$1$2.run(Installer.java:1985)
-	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
-	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
 Diagnostic information
 Input arguments:
 	-Dnetbeans.importclass=org.netbeans.upgrade.AutoUpgrade
@@ -612,39 +571,47 @@ Input arguments:
 Compiler: HotSpot Client Compiler
 Heap memory usage: initial 32.0MB maximum 396.4MB
 Non heap memory usage: initial 160.0kB maximum -1b
-Garbage collector: Copy (Collections=69 Total time spent=0s)
+Garbage collector: Copy (Collections=82 Total time spent=0s)
 Garbage collector: MarkSweepCompact (Collections=3 Total time spent=0s)
-Classes: loaded=10325 total loaded=10336 unloaded 11
+Classes: loaded=9839 total loaded=9851 unloaded 12
 INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 8,482,144,256
 WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.java.api.common.project.ProjectHooks$ProjectOpenedHookImpl.updateUserBuildPropertiesRef(ProjectHooks.java:573)
-INFO [org.openide.awt.Toolbar]: Too long AWTTask: 865 ms for org.openide.awt.MenuBar$LazyMenu$MenuFolder@19d78f2(FolderList{MultiFileObject@298547[Menu/Refactoring]})
-INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@1603295
-INFO [javafx]: Old build script file jfx-impl.xml has been renamed to: jfx-impl_backup_12.xml
+INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@1d5a5f0
+INFO [javafx]: Old build script file jfx-impl.xml has been renamed to: jfx-impl_backup_16.xml
 INFO [javafx]: Build script jfx-impl.xml has been updated to the latest version supported by this NetBeans installation.
-INFO [org.openide.awt.Toolbar]: Too long AWTTask: 751 ms for org.openide.awt.MenuBar$LazyMenu$MenuFolder@15c05ab(FolderList{MultiFileObject@145c233[Menu/Tools]})
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 359 ms
+INFO [org.openide.awt.Toolbar]: Too long AWTTask: 854 ms for org.openide.awt.MenuBar$LazyMenu$MenuFolder@18d8de(FolderList{MultiFileObject@79dba8[Menu/Refactoring]})
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 2,377 ms
 WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.home has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.Clusters.relativeDirsWithHome(Clusters.java:137)
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 26 binary roots took: 4,172 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 1,032 ms (New or modified files: 3, Deleted files: 1) [Adding listeners took: 31 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 1 source roots took: 1,032 ms (New or modified files: 3, Deleted files: 1) [Adding listeners took: 31 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 0 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 26 binary roots took: 3,110 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\GOL\GOL\test took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\GOL\GOL\src took: 344 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 1,192 ms (New or modified files: 8, Deleted files: 0) [Adding listeners took: 62 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 1,536 ms (New or modified files: 8, Deleted files: 0) [Adding listeners took: 62 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 31 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\reststubs.zip took: 203 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\corestubs.zip took: 125 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\reststubs.zip took: 216 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\corestubs.zip took: 141 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@18cbd26[MultiFileObject@15fdca7[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
+WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@18cbd26[MultiFileObject@15fdca7[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\domstubs.zip took: 156 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 484 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@155d902[MultiFileObject@5c1116[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
-WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@155d902[MultiFileObject@5c1116[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 513 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+WARNING [org.netbeans.modules.editor.completion.PatchedHtmlRenderer]: Malformed or unsupported HTML
+WARNING [org.netbeans.modules.editor.completion.PatchedHtmlRenderer]:   for (Map.Entry<KeyType, ValueType> <b>entry</b> : <b>map</b>.entrySet()) { ...
+WARNING [org.netbeans.modules.editor.completion.PatchedHtmlRenderer]:                 ^
+WARNING [org.netbeans.modules.editor.completion.PatchedHtmlRenderer]:  Full HTML string:for (Map.Entry<KeyType, ValueType> <b>entry</b> : <b>map</b>.entrySet()) { ...
+INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@1032e72
+INFO [javafx]: Old build script file jfx-impl.xml has been renamed to: jfx-impl_backup_4.xml
+INFO [javafx]: Build script jfx-impl.xml has been updated to the latest version supported by this NetBeans installation.
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 16 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\GOL\GOL\test took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\GOL\GOL\src took: 484 ms (New or modified files: 6, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 2 source roots took: 484 ms (New or modified files: 6, Deleted files: 0) [Adding listeners took: 0 ms]
-WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\maven\lib\sisu-inject-bean-2.3.0.jar took 517 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\2048\2048\test took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+WARNING [org.openide.filesystems.FileUtil]: FileUtil.normalizeFile(C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\Data\NetBeans\Cache\8.0\index\s81\errors) took 626 ms. Result is C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\Data\NetBeans\Cache\8.0\index\s81\errors
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\2048\2048\src took: 2,592 ms (New or modified files: 5, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 2 source roots took: 2,592 ms (New or modified files: 5, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.uihandler.Installer]: UIGesture Collector logging has failed: Stream Closed
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 256
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
-WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
 WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
 WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
 WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
