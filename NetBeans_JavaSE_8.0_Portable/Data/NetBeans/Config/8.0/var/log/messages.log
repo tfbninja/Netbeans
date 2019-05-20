@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Wednesday, May 15, 2019 2:50:54 PM MDT
+>Log Session: Monday, May 20, 2019 10:13:41 AM MDT
 >System Info: 
   Product Version         = NetBeans IDE 8.0 (Build 201403101706) (#b8e35b888b3f)
   Operating System        = Windows 10 version 10.0 running on x86
@@ -37,7 +37,7 @@ java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completio
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
 	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:222)
-Caused: java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completion.api.JspCompletionItem starting from SystemClassLoader[473 modules] with possible defining loaders null and declared parents [org.netbeans.MainImpl$BootClassLoader@8c4c35, ModuleCL@19cfd53[org.netbeans.api.annotations.common], ModuleCL@1afb735[org.openide.awt], ModuleCL@f34e93[org.netbeans.api.progress], ModuleCL@9c5184[org.openide.dialogs], ModuleCL@5e58e1[org.openide.nodes], ModuleCL@e85d00[org.openide.windows], ModuleCL@7d1498[org.netbeans.modules.editor.mimelookup], ModuleCL@5d6fe2[org.openide.text], ModuleCL@50bad8[org.netbeans.swing.tabcontrol], ...457 more]
+Caused: java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completion.api.JspCompletionItem starting from SystemClassLoader[473 modules] with possible defining loaders null and declared parents [org.netbeans.MainImpl$BootClassLoader@8c4c35, ModuleCL@1670684[org.netbeans.api.annotations.common], ModuleCL@16ccfb1[org.openide.awt], ModuleCL@d8d8f7[org.netbeans.api.progress], ModuleCL@1b0faf7[org.openide.dialogs], ModuleCL@209163[org.openide.nodes], ModuleCL@152c1d1[org.openide.windows], ModuleCL@131b46c[org.netbeans.modules.editor.mimelookup], ModuleCL@120947f[org.openide.text], ModuleCL@1bdbdf1[org.netbeans.swing.tabcontrol], ...457 more]
 	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:224)
 	at org.netbeans.ModuleManager$SystemClassLoader.loadClass(ModuleManager.java:722)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
@@ -544,6 +544,40 @@ INFO [org.netbeans.core.network.proxy.windows.WindowsNetworkProxy]: Windows syst
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy reloading succeeded.
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy - mode: direct
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy: fell to default (correct if direct mode went before)
+WARNING [org.openide.filesystems.FileUtil]: FileUtil.normalizeFile(C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\ext\spring-4\spring-aop-4.0.1.RELEASE.jar) took 644 ms. Result is C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\ext\spring-4\spring-aop-4.0.1.RELEASE.jar
+INFO [org.netbeans.modules.autoupdate.updateprovider.DownloadListener]: Connection content length was 0 bytes (read 0bytes), expected file size can`t be that size - likely server with file at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_3493b40b-87ab-40ad-b886-818aee0c224e is temporary down
+INFO [org.netbeans.modules.autoupdate.updateprovider.DownloadListener]: Connection content length was 0 bytes (read 0bytes), expected file size can`t be that size - likely server with file at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_3493b40b-87ab-40ad-b886-818aee0c224e is temporary down
+INFO [org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler]
+java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_3493b40b-87ab-40ad-b886-818aee0c224e
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.doCopy(DownloadListener.java:155)
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.streamOpened(DownloadListener.java:78)
+	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$1.run(NetworkAccess.java:111)
+Caused: java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_3493b40b-87ab-40ad-b886-818aee0c224e
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.notifyException(DownloadListener.java:103)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.copy(AutoupdateCatalogCache.java:246)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.writeCatalogToCache(AutoupdateCatalogCache.java:99)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogProvider.refresh(AutoupdateCatalogProvider.java:154)
+	at org.netbeans.modules.autoupdate.services.UpdateUnitProviderImpl.refresh(UpdateUnitProviderImpl.java:180)
+	at org.netbeans.api.autoupdate.UpdateUnitProvider.refresh(UpdateUnitProvider.java:196)
+[catch] at org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler$4.run(AutoupdateCheckScheduler.java:155)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO [org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler]
+java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_3493b40b-87ab-40ad-b886-818aee0c224e
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.doCopy(DownloadListener.java:155)
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.streamOpened(DownloadListener.java:78)
+	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$1.run(NetworkAccess.java:111)
+Caused: java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_3493b40b-87ab-40ad-b886-818aee0c224e
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.notifyException(DownloadListener.java:103)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.copy(AutoupdateCatalogCache.java:246)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.writeCatalogToCache(AutoupdateCatalogCache.java:99)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogProvider.refresh(AutoupdateCatalogProvider.java:154)
+	at org.netbeans.modules.autoupdate.services.UpdateUnitProviderImpl.refresh(UpdateUnitProviderImpl.java:180)
+	at org.netbeans.api.autoupdate.UpdateUnitProvider.refresh(UpdateUnitProvider.java:196)
+[catch] at org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler$4.run(AutoupdateCheckScheduler.java:155)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.java.api.common.project.ProjectHooks$ProjectOpenedHookImpl.updateUserBuildPropertiesRef(ProjectHooks.java:573)
 Diagnostic information
 Input arguments:
 	-Dnetbeans.importclass=org.netbeans.upgrade.AutoUpgrade
@@ -571,53 +605,103 @@ Input arguments:
 Compiler: HotSpot Client Compiler
 Heap memory usage: initial 32.0MB maximum 396.4MB
 Non heap memory usage: initial 160.0kB maximum -1b
-Garbage collector: Copy (Collections=82 Total time spent=0s)
+Garbage collector: Copy (Collections=70 Total time spent=0s)
 Garbage collector: MarkSweepCompact (Collections=3 Total time spent=0s)
-Classes: loaded=9839 total loaded=9851 unloaded 12
+Classes: loaded=9536 total loaded=9548 unloaded 12
 INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 8,482,144,256
-WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.java.api.common.project.ProjectHooks$ProjectOpenedHookImpl.updateUserBuildPropertiesRef(ProjectHooks.java:573)
-INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@1d5a5f0
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.home has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.Clusters.relativeDirsWithHome(Clusters.java:137)
+INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@1c983a0
 INFO [javafx]: Old build script file jfx-impl.xml has been renamed to: jfx-impl_backup_16.xml
 INFO [javafx]: Build script jfx-impl.xml has been updated to the latest version supported by this NetBeans installation.
-INFO [org.openide.awt.Toolbar]: Too long AWTTask: 854 ms for org.openide.awt.MenuBar$LazyMenu$MenuFolder@18d8de(FolderList{MultiFileObject@79dba8[Menu/Refactoring]})
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 2,377 ms
-WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.home has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.Clusters.relativeDirsWithHome(Clusters.java:137)
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 26 binary roots took: 3,110 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\GOL\GOL\test took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\GOL\GOL\src took: 344 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 1,192 ms (New or modified files: 8, Deleted files: 0) [Adding listeners took: 62 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 1,536 ms (New or modified files: 8, Deleted files: 0) [Adding listeners took: 62 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 31 ms
+INFO [org.openide.awt.Toolbar]: Too long AWTTask: 1,152 ms for org.openide.awt.MenuBar$LazyMenu$MenuFolder@b1edc(FolderList{MultiFileObject@1b0ef05[Menu/BuildProject]})
+INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@4743b2
+INFO [org.openide.awt.Toolbar]: Too long AWTTask: 708 ms for org.openide.awt.MenuBar$LazyMenu$MenuFolder@ff6d56(FolderList{MultiFileObject@133bec7[Menu/Tools]})
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\modules\ext\felix-4.2.1.jar took 553 ms
+WARNING [org.openide.filesystems.FileUtil]: FileUtil.normalizeFile(C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\ext\eclipselink\javax.persistence_2.1.0.v201304241213.jar) took 4,328 ms. Result is C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java\modules\ext\eclipselink\javax.persistence_2.1.0.v201304241213.jar
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 19,171 ms
+INFO [org.netbeans.modules.parsing.impl.TaskProcessor]: Task: class org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper ignored cancel for 1,386 ms.
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 26 binary roots took: 7,491 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\GOL\GOL\test took: 12 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\2048\2048\test took: 4 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\GOL\GOL\src took: 260 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 4 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\2048\2048\src took: 204 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 4 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Snake\Snake\src took: 4,272 ms (New or modified files: 24, Deleted files: 1) [Adding listeners took: 204 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 5 source roots took: 4,752 ms (New or modified files: 24, Deleted files: 1) [Adding listeners took: 212 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 32 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\reststubs.zip took: 216 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\corestubs.zip took: 141 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@18cbd26[MultiFileObject@15fdca7[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
-WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@18cbd26[MultiFileObject@15fdca7[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\domstubs.zip took: 156 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 513 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-WARNING [org.netbeans.modules.editor.completion.PatchedHtmlRenderer]: Malformed or unsupported HTML
-WARNING [org.netbeans.modules.editor.completion.PatchedHtmlRenderer]:   for (Map.Entry<KeyType, ValueType> <b>entry</b> : <b>map</b>.entrySet()) { ...
-WARNING [org.netbeans.modules.editor.completion.PatchedHtmlRenderer]:                 ^
-WARNING [org.netbeans.modules.editor.completion.PatchedHtmlRenderer]:  Full HTML string:for (Map.Entry<KeyType, ValueType> <b>entry</b> : <b>map</b>.entrySet()) { ...
-INFO [javafx]: FX PCP: org.netbeans.modules.java.api.common.project.ProjectConfigurations$ConfigurationProviderImpl@1032e72
-INFO [javafx]: Old build script file jfx-impl.xml has been renamed to: jfx-impl_backup_4.xml
-INFO [javafx]: Build script jfx-impl.xml has been updated to the latest version supported by this NetBeans installation.
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 16 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\2048\2048\test took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-WARNING [org.openide.filesystems.FileUtil]: FileUtil.normalizeFile(C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\Data\NetBeans\Cache\8.0\index\s81\errors) took 626 ms. Result is C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\Data\NetBeans\Cache\8.0\index\s81\errors
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\2048\2048\src took: 2,592 ms (New or modified files: 5, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 2 source roots took: 2,592 ms (New or modified files: 5, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.uihandler.Installer]: UIGesture Collector logging has failed: Stream Closed
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\reststubs.zip took: 251 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\corestubs.zip took: 125 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@1c4351f[MultiFileObject@19d2f8a[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
+WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@1c4351f[MultiFileObject@19d2f8a[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\domstubs.zip took: 232 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 608 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.autoupdate.updateprovider.DownloadListener]: Connection content length was 0 bytes (read 0bytes), expected file size can`t be that size - likely server with file at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_3493b40b-87ab-40ad-b886-818aee0c224e is temporary down
+INFO [org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler]
+java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_3493b40b-87ab-40ad-b886-818aee0c224e
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.doCopy(DownloadListener.java:155)
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.streamOpened(DownloadListener.java:78)
+	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$1.run(NetworkAccess.java:111)
+Caused: java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_3493b40b-87ab-40ad-b886-818aee0c224e
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.notifyException(DownloadListener.java:103)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.copy(AutoupdateCatalogCache.java:246)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.writeCatalogToCache(AutoupdateCatalogCache.java:99)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogProvider.refresh(AutoupdateCatalogProvider.java:154)
+	at org.netbeans.modules.autoupdate.services.UpdateUnitProviderImpl.refresh(UpdateUnitProviderImpl.java:180)
+	at org.netbeans.api.autoupdate.UpdateUnitProvider.refresh(UpdateUnitProvider.java:196)
+[catch] at org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler$4.run(AutoupdateCheckScheduler.java:155)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO [org.netbeans.modules.autoupdate.updateprovider.DownloadListener]: Connection content length was 0 bytes (read 0bytes), expected file size can`t be that size - likely server with file at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_3493b40b-87ab-40ad-b886-818aee0c224e is temporary down
+INFO [org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler]
+java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_3493b40b-87ab-40ad-b886-818aee0c224e
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.doCopy(DownloadListener.java:155)
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.streamOpened(DownloadListener.java:78)
+	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$1.run(NetworkAccess.java:111)
+Caused: java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_3493b40b-87ab-40ad-b886-818aee0c224e
+	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.notifyException(DownloadListener.java:103)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.copy(AutoupdateCatalogCache.java:246)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.writeCatalogToCache(AutoupdateCatalogCache.java:99)
+	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogProvider.refresh(AutoupdateCatalogProvider.java:154)
+	at org.netbeans.modules.autoupdate.services.UpdateUnitProviderImpl.refresh(UpdateUnitProviderImpl.java:180)
+	at org.netbeans.api.autoupdate.UpdateUnitProvider.refresh(UpdateUnitProvider.java:196)
+[catch] at org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler$4.run(AutoupdateCheckScheduler.java:155)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.enabled = false
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.type = none
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.project.path = 
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.class = 
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.jar.filename = 
+INFO [org.netbeans.modules.javafx2.project.JFXProjectProperties]: javafx.preloader.jar.path = 
+WARNING [org.netbeans.JarClassLoader]: Opening C:\Users\barber.timothy20\Documents\Github\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\modules\org-netbeans-modules-diff.jar took 975 ms
+WARNING [org.openide.filesystems.Ordering]: Not all children in / marked with the position attribute: [org-netbeans-modules-editor-java-JavaBracesMatcher.shadow], but some are: [org-netbeans-modules-editor-bracesmatching-LegacyEssMatcher.instance, org-netbeans-modules-editor-bracesmatching-DefaultMatcher.instance]
+WARNING [org.netbeans.modules.java.source.parsing.JavacParser]: Javac returned startpos: 4,571 > endpos: -1
+INFO [org.netbeans.modules.parsing.impl.TaskProcessor]: Task: class org.netbeans.modules.java.editor.semantic.SemanticHighlighter ignored cancel for 100 ms.
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.Snake$2 ]
+WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.Snake$2 ] has dissapeared
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.Snake$2 ]
+WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.Snake$2 ] has dissapeared
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=OTHER; sigs=snake.Snake$2 ]
+WARNING [org.netbeans.modules.j2ee.metadata.model.api.support.annotation.PersistentObjectManager]: typesChanged: type ElementHandle[kind=OTHER; sigs=snake.Snake$2 ] has dissapeared
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.xml.internal.ws.binding.WebServiceFeatureList ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.xml.internal.ws.db.glassfish.JAXBRIContextFactory ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.xml.internal.bind.v2.runtime.unmarshaller.StAXEventConnector ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.xml.internal.ws.binding.WebServiceFeatureList ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.xml.internal.ws.db.glassfish.JAXBRIContextFactory ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.xml.internal.bind.v2.runtime.unmarshaller.StAXEventConnector ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.xml.internal.ws.binding.WebServiceFeatureList ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.xml.internal.ws.db.glassfish.JAXBRIContextFactory ]
+INFO [org.netbeans.api.java.source.ElementHandle]: Resolved type is null for kind = CLASS
+INFO [org.netbeans.api.java.source.ElementHandle]: Cannot resolve: ElementHandle[kind=CLASS; sigs=com.sun.xml.internal.bind.v2.runtime.unmarshaller.StAXEventConnector ]
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 256
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
-WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
-WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
-WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
-WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
-WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
-WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
-WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
-WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
 WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
