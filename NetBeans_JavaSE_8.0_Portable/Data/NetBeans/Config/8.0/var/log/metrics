@@ -1,30 +1,72 @@
 <record>
-  <date>2023-01-20T09:09:22</date>
-  <millis>1674230962801</millis>
-  <sequence>804</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
+  <date>2023-01-25T10:06:06</date>
+  <millis>1674666366085</millis>
+  <sequence>88</sequence>
+  <logger>org.netbeans.ui.metrics.vcs</logger>
   <level>INFO</level>
-  <thread>44</thread>
-  <message>USG_PROJECT_CLOSE</message>
-  <param>org.netbeans.modules.project.ui.LazyProject</param>
+  <thread>39</thread>
+  <message>USG_VCS_CLIENT</message>
+  <param>GIT</param>
+  <param>JAVALIB</param>
 </record>
 <record>
-  <date>2023-01-20T09:09:23</date>
-  <millis>1674230963163</millis>
-  <sequence>869</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
+  <date>2023-01-25T10:06:06</date>
+  <millis>1674666366995</millis>
+  <sequence>136</sequence>
+  <logger>org.netbeans.ui.metrics.maven</logger>
   <level>INFO</level>
-  <thread>44</thread>
-  <message>USG_PROJECT_CLOSE</message>
-  <param>org.netbeans.modules.project.ui.LazyProject</param>
+  <thread>25</thread>
+  <message>USG_PROJECT_OPEN_MAVEN</message>
+  <param>jar</param>
 </record>
 <record>
-  <date>2023-01-20T09:09:23</date>
-  <millis>1674230963210</millis>
-  <sequence>875</sequence>
+  <date>2023-01-25T10:06:07</date>
+  <millis>1674666367079</millis>
+  <sequence>138</sequence>
   <logger>org.netbeans.ui.metrics.projects</logger>
   <level>INFO</level>
-  <thread>44</thread>
-  <message>USG_PROJECT_CLOSE</message>
-  <param>org.netbeans.modules.project.ui.LazyProject</param>
+  <thread>25</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.maven.NbMavenProjectImpl</param>
+</record>
+<record>
+  <date>2023-01-25T10:07:00</date>
+  <millis>1674666420886</millis>
+  <sequence>176</sequence>
+  <logger>org.netbeans.ui.metrics.j2se</logger>
+  <level>INFO</level>
+  <thread>40</thread>
+  <message>USG_PROJECT_CREATE_J2SE</message>
+</record>
+<record>
+  <date>2023-01-25T10:07:01</date>
+  <millis>1674666421872</millis>
+  <sequence>199</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>INFO</level>
+  <thread>40</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+</record>
+<record>
+  <date>2023-01-25T10:07:06</date>
+  <millis>1674666426235</millis>
+  <sequence>228</sequence>
+  <logger>org.netbeans.ui.metrics.bugtracking</logger>
+  <level>INFO</level>
+  <thread>19</thread>
+  <message>USG_ISSUE_TRACKING_REPOSITORY</message>
+  <param>NB_LOCAL_TASKS</param>
+  <param>OTHER</param>
+</record>
+<record>
+  <date>2023-01-25T10:07:45</date>
+  <millis>1674666465857</millis>
+  <sequence>250</sequence>
+  <logger>org.netbeans.ui.metrics.editor</logger>
+  <level>INFO</level>
+  <thread>25</thread>
+  <message>USG_EDITOR_MIME_TYPE</message>
+  <param>text/x-java</param>
+  <param>1</param>
 </record>

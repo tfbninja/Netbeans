@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
 <attributes version="1.0">
+    <fileobject name="C:|Users|S02712605|Documents|GitHub|FRCC|CSC1060-601 Comp Sci I|Java Projects|TemperatureConversion">
+        <attr name="AuxilaryConfiguration" stringvalue="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>\u000d\u000a&lt;project-private>\u000d\u000a    &lt;editor-bookmarks xmlns=&quot;http://www.netbeans.org/ns/editor-bookmarks/2&quot; lastBookmarkId=&quot;0&quot;/>\u000d\u000a    &lt;open-files xmlns=&quot;http://www.netbeans.org/ns/projectui-open-files/2&quot;>\u000d\u000a        &lt;group/>\u000d\u000a    &lt;/open-files>\u000d\u000a&lt;/project-private>\u000d\u000a"/>
+    </fileobject>
+    <fileobject name="C:|Users|S02712605|Documents|GitHub|Netbeans|NetBeans_JavaSE_8.0_Portable|Data|NetBeans|Cache|8.0|mavencachedirs|1185208573|org-netbeans-modules-profiler">
+        <attr name="settingsFor" urlvalue="file:/C:/Users/S02712605/Documents/GitHub/FRCC/CSC1060-601%20Comp%20Sci%20I/Java%20Projects/TemperatureConversion/"/>
+    </fileobject>
     <fileobject name="C:|Users|win10ct|Documents|GitHub|Netbeans|NetBeans_JavaSE_8.0_Portable|Data|NetBeans|Cache|8.0|index|s46|java|14|gensrc|java|lang|Math.java">
         <attr name="classfile-binaryName" stringvalue="java/lang/Math"/>
         <attr name="classfile-root" urlvalue="jar:file:/C:/Users/win10ct/Documents/GitHub/Netbeans/NetBeans_JavaSE_8.0_Portable/App/jdk/jre/lib/rt.jar!/"/>
