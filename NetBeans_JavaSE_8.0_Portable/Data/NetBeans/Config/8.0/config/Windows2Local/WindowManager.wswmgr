@@ -41,11 +41,12 @@
   <bounds x="633" y="244" width="806" height="448" />
     </editor-area>
     <screen width="1920" height="1080"/>
-    <active-mode name="output"/>
+    <active-mode name="editor"/>
     <toolbar configuration="Standard" preferred-icon-size="24"/>
     <tc-list>
-  <tc-id id="output"/>
+  <tc-id id="MultiView-java#002Eso2D0988CFtext#002Ehistory#007C"/>
   <tc-id id="projectTabLogical_tc"/>
+  <tc-id id="output"/>
   <tc-id id="NotificationCenterTopComponent"/>
   <tc-id id="navigatorTC"/>
   <tc-id id="services"/>

@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Wednesday, January 25, 2023 10:06:01 AM MST
+>Log Session: Friday, January 27, 2023 9:15:44 AM MST
 >System Info: 
   Product Version         = NetBeans IDE 8.0 (Build 201403101706) (#b8e35b888b3f)
   Operating System        = Windows 10 version 10.0 running on x86
@@ -20,6 +20,7 @@
                             C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\profiler
                             C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\harness
                             C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\javafx
+                            C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\politenetbeans
                             C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform
   Boot & Ext. Classpath   = C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\resources.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\rt.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\sunrsasign.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\jsse.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\jce.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\charsets.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\jfr.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\classes;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\access-bridge-32.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\access-bridge.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\cldrdata.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\dnsns.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\jaccess.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\jfxrt.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\localedata.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\nashorn.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\sunec.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\sunjce_provider.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\sunmscapi.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\sunpkcs11.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\jre\lib\ext\zipfs.jar
   Application Classpath   = C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\boot.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\org-openide-modules.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\org-openide-util-lookup.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\org-openide-util.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\boot_ja.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\boot_pt_BR.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\boot_ru.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\boot_zh_CN.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-modules_ja.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-modules_pt_BR.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-modules_ru.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-modules_zh_CN.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-util-lookup_ja.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-util-lookup_pt_BR.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-util-lookup_ru.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-util-lookup_zh_CN.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-util_ja.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-util_pt_BR.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-util_ru.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\platform\lib\locale\org-openide-util_zh_CN.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\lib\dt.jar;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\jdk\lib\tools.jar
@@ -37,7 +38,7 @@ java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completio
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
 	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:222)
-Caused: java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completion.api.JspCompletionItem starting from SystemClassLoader[473 modules] with possible defining loaders null and declared parents [org.netbeans.MainImpl$BootClassLoader@1ff54e6, ModuleCL@1802465[org.netbeans.api.annotations.common], ModuleCL@12114b7[org.openide.awt], ModuleCL@f14241[org.netbeans.api.progress], ModuleCL@1eecae2[org.openide.dialogs], ModuleCL@14564b6[org.openide.nodes], ModuleCL@44c85[org.openide.windows], ModuleCL@65fd0e[org.netbeans.modules.editor.mimelookup], ModuleCL@1a396fa[org.openide.text], ModuleCL@1e925ac[org.netbeans.swing.tabcontrol], ...457 more]
+Caused: java.lang.ClassNotFoundException: org.netbeans.modules.web.core.syntax.completion.api.JspCompletionItem starting from SystemClassLoader[473 modules] with possible defining loaders null and declared parents [org.netbeans.MainImpl$BootClassLoader@1ff54e6, ModuleCL@acd1ad[org.netbeans.api.annotations.common], ModuleCL@1f29c78[org.openide.awt], ModuleCL@175a8da[org.netbeans.api.progress], ModuleCL@5a95d2[org.openide.dialogs], ModuleCL@111f9db[org.openide.nodes], ModuleCL@7014db[org.openide.windows], ModuleCL@69eeef[org.netbeans.modules.editor.mimelookup], ModuleCL@18431be[org.openide.text], ModuleCL@71a3f8[org.netbeans.swing.tabcontrol], ...457 more]
 	at org.netbeans.ProxyClassLoader.loadClass(ProxyClassLoader.java:224)
 	at org.netbeans.ModuleManager$SystemClassLoader.loadClass(ModuleManager.java:722)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
@@ -538,6 +539,8 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	javaewah.dummy [0.5.6 0.5.6]
 	com.revivius.nb.darcula [1.5 1.5 201604091036]
 	com.jcraft.jzlib [1.0.7 1.0.7]
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.mylyn.wikitext.textile.core@1.9.0.20131007-2055 resolved
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.mylyn.wikitext.confluence.core@1.9.0.20131007-2055 resolved
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 started
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy resolver: Windows
 INFO [org.netbeans.core.network.proxy.windows.WindowsNetworkProxy]: Windows system proxy resolver: auto detect
@@ -603,7 +606,8 @@ java.net.MalformedURLException: no protocol: unknown
 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
 	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 0 ms
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.java.api.common.project.ProjectHooks$ProjectOpenedHookImpl.updateUserBuildPropertiesRef(ProjectHooks.java:573)
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 777 ms
 Diagnostic information
 Input arguments:
 	-Dnetbeans.importclass=org.netbeans.upgrade.AutoUpgrade
@@ -626,59 +630,27 @@ Input arguments:
 	-XX:+HeapDumpOnOutOfMemoryError
 	-XX:HeapDumpPath=C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\Data\NetBeans\Config\8.0\var\log\heapdump.hprof
 	-Dsun.awt.keepWorkingSetOnMinimize=true
-	-Dnetbeans.dirs=C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ergonomics;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\extide;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\apisupport;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\webcommon;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\websvccommon;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\enterprise;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\mobility;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\profiler;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\python;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\php;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\identity;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\harness;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\cnd;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\dlight;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\groovy;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\extra;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\javacard;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\javafx
+	-Dnetbeans.dirs=C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\nb;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ergonomics;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\extide;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\java;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\apisupport;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\webcommon;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\websvccommon;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\enterprise;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\mobility;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\profiler;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\python;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\php;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\identity;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\harness;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\cnd;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\dlight;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\groovy;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\extra;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\javacard;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\javafx;C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\politenetbeans
 	exit
 Compiler: HotSpot Client Compiler
 Heap memory usage: initial 32.0MB maximum 396.4MB
 Non heap memory usage: initial 160.0kB maximum -1b
-Garbage collector: Copy (Collections=78 Total time spent=0s)
-Garbage collector: MarkSweepCompact (Collections=3 Total time spent=0s)
-Classes: loaded=11405 total loaded=11405 unloaded 0
+Garbage collector: Copy (Collections=103 Total time spent=0s)
+Garbage collector: MarkSweepCompact (Collections=4 Total time spent=0s)
+Classes: loaded=10319 total loaded=10324 unloaded 5
 INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 8,463,278,080
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 21 binary roots took: 1,306 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\S02712605\Documents\GitHub\FRCC\CSC1060-601 Comp Sci I\Java Projects\TemperatureConversion\src\main\java took: 228 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\S02712605\Documents\GitHub\FRCC\CSC1060-601 Comp Sci I\Java Projects\TemperatureConversion\src\main\resources took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\S02712605\Documents\GitHub\FRCC\CSC1060-601 Comp Sci I\Java Projects\TemperatureConversion\src\test\java took: 15 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\S02712605\Documents\GitHub\FRCC\CSC1060-601 Comp Sci I\Java Projects\TemperatureConversion\src\test\resources took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 4 source roots took: 243 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.home has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.Clusters.relativeDirsWithHome(Clusters.java:137)
-INFO: No FileObject found for the following URL: file:/C:/Users/S02712605/Documents/GitHub/FRCC/CSC1060-601%20Comp%20Sci%20I/Java%20Projects/TemperatureConversion/src/test/java/
-java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/S02712605/Documents/GitHub/FRCC/CSC1060-601%20Comp%20Sci%20I/Java%20Projects/TemperatureConversion/src/test/java/
-	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
-	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
-	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
-	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
-	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:790)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
-	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
-	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
-	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:568)
-	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
-	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 21 binary roots took: 367 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\S02712605\Documents\GitHub\CSC1060-TBarber\TemperatureConversion\test took: 2 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\S02712605\Documents\GitHub\CSC1060-TBarber\TemperatureConversion\src took: 310 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 2 source roots took: 312 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.autoupdate.updateprovider.DownloadListener]: Connection content length was 0 bytes (read 0bytes), expected file size can`t be that size - likely server with file at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_1f489fe3-0a21-4aea-bf0a-50d262721d8d is temporary down
 INFO [org.netbeans.modules.autoupdate.updateprovider.DownloadListener]: Connection content length was 0 bytes (read 0bytes), expected file size can`t be that size - likely server with file at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_1f489fe3-0a21-4aea-bf0a-50d262721d8d is temporary down
 INFO [org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler]
-java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_1f489fe3-0a21-4aea-bf0a-50d262721d8d
+java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_1f489fe3-0a21-4aea-bf0a-50d262721d8d
 	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.doCopy(DownloadListener.java:155)
 	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.streamOpened(DownloadListener.java:78)
 	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$1.run(NetworkAccess.java:111)
-Caused: java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_1f489fe3-0a21-4aea-bf0a-50d262721d8d
+Caused: java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_1f489fe3-0a21-4aea-bf0a-50d262721d8d
 	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.notifyException(DownloadListener.java:103)
 	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.copy(AutoupdateCatalogCache.java:246)
 	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.writeCatalogToCache(AutoupdateCatalogCache.java:99)
@@ -688,13 +660,12 @@ Caused: java.io.IOException: Zero sized file reported at http://updates.netbeans
 [catch] at org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler$4.run(AutoupdateCheckScheduler.java:155)
 	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
 	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-INFO [org.netbeans.modules.autoupdate.updateprovider.DownloadListener]: Connection content length was 0 bytes (read 0bytes), expected file size can`t be that size - likely server with file at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_1f489fe3-0a21-4aea-bf0a-50d262721d8d is temporary down
 INFO [org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler]
-java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_1f489fe3-0a21-4aea-bf0a-50d262721d8d
+java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_1f489fe3-0a21-4aea-bf0a-50d262721d8d
 	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.doCopy(DownloadListener.java:155)
 	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.streamOpened(DownloadListener.java:78)
 	at org.netbeans.modules.autoupdate.updateprovider.NetworkAccess$Task$1.run(NetworkAccess.java:111)
-Caused: java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_1f489fe3-0a21-4aea-bf0a-50d262721d8d
+Caused: java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_1f489fe3-0a21-4aea-bf0a-50d262721d8d
 	at org.netbeans.modules.autoupdate.updateprovider.DownloadListener.notifyException(DownloadListener.java:103)
 	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.copy(AutoupdateCatalogCache.java:246)
 	at org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogCache.writeCatalogToCache(AutoupdateCatalogCache.java:99)
@@ -739,23 +710,37 @@ Caused: java.io.IOException: Connection reset
 [catch] at org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler$4.run(AutoupdateCheckScheduler.java:155)
 	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
 	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 0 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 43 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\reststubs.zip took: 173 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\domstubs.zip took: 128 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@1bf9559[MultiFileObject@b3c4d3[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
-WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@1bf9559[MultiFileObject@b3c4d3[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\corestubs.zip took: 76 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 377 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.java.api.common.project.ProjectHooks$ProjectOpenedHookImpl.updateUserBuildPropertiesRef(ProjectHooks.java:573)
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\S02712605\Documents\GitHub\CSC1060-TBarber\HelloWorld\src took: 1,191 ms (New or modified files: 1, Deleted files: 0) [Adding listeners took: 10 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\S02712605\Documents\GitHub\CSC1060-TBarber\HelloWorld\test took: 1 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 2 source roots took: 1,192 ms (New or modified files: 1, Deleted files: 0) [Adding listeners took: 10 ms]
+WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@3ab240[MultiFileObject@1106d72[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
+WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@3ab240[MultiFileObject@1106d72[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 10 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
+INFO [org.netbeans.modules.parsing.impl.TaskProcessor]: Task: class org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper ignored cancel for 189 ms.
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\reststubs.zip took: 1,131 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\domstubs.zip took: 62 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\S02712605\Documents\GitHub\Netbeans\NetBeans_JavaSE_8.0_Portable\App\netbeans\ide\jsstubs\corestubs.zip took: 42 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 1,235 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.home has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.Clusters.relativeDirsWithHome(Clusters.java:137)
+WARNING [org.openide.filesystems.Ordering]: Not all children in / marked with the position attribute: [org-netbeans-modules-editor-java-JavaBracesMatcher.shadow], but some are: [org-netbeans-modules-editor-bracesmatching-LegacyEssMatcher.instance, org-netbeans-modules-editor-bracesmatching-DefaultMatcher.instance]
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 16 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\S02712605\Documents\GitHub\CSC1060-TBarber\TemperatureConversion\test took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\S02712605\Documents\GitHub\CSC1060-TBarber\TemperatureConversion\src took: 501 ms (New or modified files: 1, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 2 source roots took: 501 ms (New or modified files: 1, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.java.editor.imports.ComputeImports]: Cannot resolve type element "ElementHandle[kind=CLASS; sigs=com.sun.org.apache.xerces.internal.xpointer.XPointerHandler$Scanner ]".
-INFO [org.netbeans.modules.java.editor.imports.ComputeImports]: Cannot resolve type element "ElementHandle[kind=CLASS; sigs=com.sun.org.apache.xerces.internal.xpointer.ElementSchemePointer$Scanner ]".
-WARNING [org.openide.filesystems.Ordering]: Not all children in / marked with the position attribute: [org-netbeans-modules-editor-java-JavaBracesMatcher.shadow], but some are: [org-netbeans-modules-editor-bracesmatching-LegacyEssMatcher.instance, org-netbeans-modules-editor-bracesmatching-DefaultMatcher.instance]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 source roots took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 256
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
+WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
+WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
+WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
+WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
+WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
+WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
+WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
+WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
+WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
+WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
+WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
+WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)

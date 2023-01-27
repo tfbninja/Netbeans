@@ -1,7 +1,7 @@
 <record>
-  <date>2023-01-25T10:06:03</date>
-  <millis>1674666363666</millis>
-  <sequence>13</sequence>
+  <date>2023-01-27T09:15:54</date>
+  <millis>1674836154782</millis>
+  <sequence>43</sequence>
   <level>FINEST</level>
   <thread>13</thread>
   <message>SCREEN SIZE</message>
@@ -10,17 +10,17 @@
   <param>1</param>
 </record>
 <record>
-  <date>2023-01-25T10:06:03</date>
-  <millis>1674666363666</millis>
-  <sequence>14</sequence>
+  <date>2023-01-27T09:15:54</date>
+  <millis>1674836154782</millis>
+  <sequence>44</sequence>
   <level>CONFIG</level>
   <thread>13</thread>
   <message>IDE_STARTUP</message>
 </record>
 <record>
-  <date>2023-01-25T10:06:04</date>
-  <millis>1674666364417</millis>
-  <sequence>23</sequence>
+  <date>2023-01-27T09:15:56</date>
+  <millis>1674836156692</millis>
+  <sequence>55</sequence>
   <logger>org.netbeans.ui.metrics.laf</logger>
   <level>INFO</level>
   <thread>13</thread>
@@ -29,12 +29,12 @@
   <param>Darcula</param>
 </record>
 <record>
-  <date>2023-01-25T10:06:05</date>
-  <millis>1674666365020</millis>
-  <sequence>39</sequence>
+  <date>2023-01-27T09:15:57</date>
+  <millis>1674836157638</millis>
+  <sequence>67</sequence>
   <logger>org.netbeans.modules.uihandler.Installer</logger>
   <level>INFO</level>
-  <thread>24</thread>
+  <thread>12</thread>
   <message>https://netbeans.org/nonav/uigestures/index4.html</message>
   <exception>
     <message>java.io.FileNotFoundException: https://netbeans.apache.org//nonav/uigestures/index4.html</message>
@@ -233,9 +233,9 @@
   </exception>
 </record>
 <record>
-  <date>2023-01-25T10:06:05</date>
-  <millis>1674666365732</millis>
-  <sequence>40</sequence>
+  <date>2023-01-27T09:15:57</date>
+  <millis>1674836157915</millis>
+  <sequence>68</sequence>
   <logger>org.netbeans.modules.uihandler.Installer</logger>
   <level>INFO</level>
   <thread>19</thread>
@@ -376,105 +376,83 @@
   </exception>
 </record>
 <record>
-  <date>2023-01-25T10:06:06</date>
-  <millis>1674666366085</millis>
-  <sequence>88</sequence>
-  <logger>org.netbeans.ui.metrics.vcs</logger>
-  <level>INFO</level>
-  <thread>39</thread>
-  <message>USG_VCS_CLIENT</message>
-  <param>GIT</param>
-  <param>JAVALIB</param>
-</record>
-<record>
-  <date>2023-01-25T10:06:06</date>
-  <millis>1674666366995</millis>
-  <sequence>135</sequence>
-  <logger>org.netbeans.ui.maven.project</logger>
-  <level>INFO</level>
-  <thread>25</thread>
-  <message>UI_MAVEN_PROJECT_OPENED</message>
-  <key>UI_MAVEN_PROJECT_OPENED</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>jar</param>
-</record>
-<record>
-  <date>2023-01-25T10:06:06</date>
-  <millis>1674666366995</millis>
-  <sequence>136</sequence>
-  <logger>org.netbeans.ui.metrics.maven</logger>
-  <level>INFO</level>
-  <thread>25</thread>
-  <message>USG_PROJECT_OPEN_MAVEN</message>
-  <param>jar</param>
-</record>
-<record>
-  <date>2023-01-25T10:06:07</date>
-  <millis>1674666367079</millis>
-  <sequence>137</sequence>
+  <date>2023-01-27T09:15:59</date>
+  <millis>1674836159103</millis>
+  <sequence>126</sequence>
   <logger>org.netbeans.ui.projects</logger>
   <level>CONFIG</level>
-  <thread>25</thread>
+  <thread>28</thread>
   <message>UI_INIT_PROJECTS</message>
   <key>UI_INIT_PROJECTS</key>
   <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
-  <param>org.netbeans.modules.maven.NbMavenProjectImpl</param>
-  <param>NbMavenProjectImpl</param>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
+  <param>J2SEProject</param>
   <param>1</param>
 </record>
 <record>
-  <date>2023-01-25T10:06:07</date>
-  <millis>1674666367079</millis>
-  <sequence>138</sequence>
+  <date>2023-01-27T09:15:59</date>
+  <millis>1674836159103</millis>
+  <sequence>127</sequence>
   <logger>org.netbeans.ui.metrics.projects</logger>
   <level>INFO</level>
-  <thread>25</thread>
+  <thread>28</thread>
   <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.maven.NbMavenProjectImpl</param>
+  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
 </record>
 <record>
-  <date>2023-01-25T10:06:07</date>
-  <millis>1674666367111</millis>
-  <sequence>139</sequence>
+  <date>2023-01-27T09:15:59</date>
+  <millis>1674836159138</millis>
+  <sequence>128</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>INFO</level>
-  <thread>22</thread>
+  <thread>28</thread>
   <message>INDEXING_STARTED</message>
   <key>INDEXING_STARTED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
   <param>0</param>
 </record>
 <record>
-  <date>2023-01-25T10:06:08</date>
-  <millis>1674666368082</millis>
-  <sequence>143</sequence>
+  <date>2023-01-27T09:15:59</date>
+  <millis>1674836159308</millis>
+  <sequence>129</sequence>
+  <logger>org.netbeans.ui.metrics.vcs</logger>
   <level>INFO</level>
-  <thread>40</thread>
+  <thread>27</thread>
+  <message>USG_VCS_CLIENT</message>
+  <param>GIT</param>
+  <param>JAVALIB</param>
+</record>
+<record>
+  <date>2023-01-27T09:16:00</date>
+  <millis>1674836160334</millis>
+  <sequence>133</sequence>
+  <level>INFO</level>
+  <thread>27</thread>
   <message>MEMORY</message>
   <key>MEMORY</key>
   <catalog>&lt;null&gt;</catalog>
   <param>8463278080</param>
 </record>
 <record>
-  <date>2023-01-25T10:06:08</date>
-  <millis>1674666368882</millis>
-  <sequence>150</sequence>
+  <date>2023-01-27T09:16:00</date>
+  <millis>1674836160809</millis>
+  <sequence>138</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>INFO</level>
-  <thread>22</thread>
+  <thread>28</thread>
   <message>INDEXING_FINISHED</message>
   <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>1771</param>
+  <param>1671</param>
   <param>java</param>
   <param>64</param>
-  <param>2485</param>
+  <param>675</param>
   <param>SpringBinary</param>
   <param>63</param>
-  <param>2</param>
+  <param>5</param>
   <param>TaskListIndexer</param>
   <param>1</param>
-  <param>16</param>
+  <param>0</param>
   <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
   <param>1</param>
   <param>16</param>
@@ -486,191 +464,12 @@
   <param>0</param>
 </record>
 <record>
-  <date>2023-01-25T10:06:11</date>
-  <millis>1674666371056</millis>
-  <sequence>152</sequence>
-  <logger></logger>
-  <level>INFO</level>
-  <thread>45</thread>
-  <message>No FileObject found for the following URL: file:/C:/Users/S02712605/Documents/GitHub/FRCC/CSC1060-601%20Comp%20Sci%20I/Java%20Projects/TemperatureConversion/src/test/java/</message>
-  <exception>
-    <message>java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/S02712605/Documents/GitHub/FRCC/CSC1060-601%20Comp%20Sci%20I/Java%20Projects/TemperatureConversion/src/test/java/</message>
-    <frame>
-      <class>org.netbeans.modules.java.testrunner.CommonTestUtil</class>
-      <method>getTestTargets</method>
-      <line>174</line>
-      <file>${netBeansDir}modules/org-netbeans-modules-java-testrunner.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider</class>
-      <method>getTestTargets</method>
-      <line>61</line>
-      <file>${netBeansDir}modules/org-netbeans-modules-java-testrunner.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.java.testrunner.hints.Utils</class>
-      <method>populateLocations</method>
-      <line>146</line>
-      <file>${netBeansDir}modules/org-netbeans-modules-java-testrunner.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.java.testrunner.hints.Utils</class>
-      <method>getValidCombinations</method>
-      <line>86</line>
-      <file>${netBeansDir}modules/org-netbeans-modules-java-testrunner.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint</class>
-      <method>computeWarning</method>
-      <line>127</line>
-      <file>${netBeansDir}modules/org-netbeans-modules-java-testrunner.jar</file>
-    </frame>
-    <frame>
-      <class>sun.reflect.NativeMethodAccessorImpl</class>
-      <method>invoke0</method>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>sun.reflect.NativeMethodAccessorImpl</class>
-      <method>invoke</method>
-      <line>62</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
-      <method>invoke</method>
-      <line>43</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.lang.reflect.Method</class>
-      <method>invoke</method>
-      <line>498</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl</class>
-      <method>createErrors</method>
-      <line>336</line>
-      <file>${netBeansDir}modules/org-netbeans-spi-java-hints.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker</class>
-      <method>runHint</method>
-      <line>790</line>
-      <file>${netBeansDir}modules/org-netbeans-spi-java-hints.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker</class>
-      <method>access$400</method>
-      <line>111</line>
-      <file>${netBeansDir}modules/org-netbeans-spi-java-hints.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl</class>
-      <method>runAndAdd</method>
-      <line>657</line>
-      <file>${netBeansDir}modules/org-netbeans-spi-java-hints.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl</class>
-      <method>scanDoNotGoDeeper</method>
-      <line>711</line>
-      <file>${netBeansDir}modules/org-netbeans-spi-java-hints.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker</class>
-      <method>computeSuggestions</method>
-      <line>396</line>
-      <file>${netBeansDir}modules/org-netbeans-spi-java-hints.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker</class>
-      <method>computeHints</method>
-      <line>232</line>
-      <file>${netBeansDir}modules/org-netbeans-spi-java-hints.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker</class>
-      <method>computeHints</method>
-      <line>209</line>
-      <file>${netBeansDir}modules/org-netbeans-spi-java-hints.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker</class>
-      <method>computeHints</method>
-      <line>182</line>
-      <file>${netBeansDir}modules/org-netbeans-spi-java-hints.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker</class>
-      <method>computeHints</method>
-      <line>149</line>
-      <file>${netBeansDir}modules/org-netbeans-spi-java-hints.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.java.hints.spiimpl.hints.HintsTask</class>
-      <method>run</method>
-      <line>114</line>
-      <file>${netBeansDir}modules/org-netbeans-spi-java-hints.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.java.hints.spiimpl.hints.HintsTask</class>
-      <method>run</method>
-      <line>83</line>
-      <file>${netBeansDir}modules/org-netbeans-spi-java-hints.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper</class>
-      <method>run</method>
-      <line>298</line>
-      <file>${netBeansDir}modules/org-netbeans-modules-java-source.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.parsing.impl.TaskProcessor</class>
-      <method>callParserResultTask</method>
-      <line>568</line>
-      <file>${netBeansDir}modules/org-netbeans-modules-parsing-api.jar</file>
-    </frame>
-    <frame>
-      <class>org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob</class>
-      <method>run</method>
-      <line>744</line>
-      <file>${netBeansDir}modules/org-netbeans-modules-parsing-api.jar</file>
-    </frame>
-    <frame>
-      <class>java.util.concurrent.Executors$RunnableAdapter</class>
-      <method>call</method>
-      <line>511</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>java.util.concurrent.FutureTask</class>
-      <method>run</method>
-      <line>266</line>
-      <file>${java.home}lib/rt.jar</file>
-    </frame>
-    <frame>
-      <class>org.openide.util.RequestProcessor$Task</class>
-      <method>run</method>
-      <line>1423</line>
-      <file>${netbeans.home}lib/org-openide-util.jar</file>
-    </frame>
-    <frame>
-      <class>org.openide.util.RequestProcessor$Processor</class>
-      <method>run</method>
-      <line>2033</line>
-      <file>${netbeans.home}lib/org-openide-util.jar</file>
-    </frame>
-  </exception>
-</record>
-<record>
-  <date>2023-01-25T10:06:11</date>
-  <millis>1674666371125</millis>
-  <sequence>154</sequence>
+  <date>2023-01-27T09:16:03</date>
+  <millis>1674836163147</millis>
+  <sequence>142</sequence>
   <logger>org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler</logger>
   <level>INFO</level>
-  <thread>22</thread>
+  <thread>48</thread>
   <exception>
     <message>java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/distribution/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_1f489fe3-0a21-4aea-bf0a-50d262721d8d</message>
     <frame>
@@ -752,12 +551,12 @@
   </exception>
 </record>
 <record>
-  <date>2023-01-25T10:06:11</date>
-  <millis>1674666371125</millis>
-  <sequence>156</sequence>
+  <date>2023-01-27T09:16:03</date>
+  <millis>1674836163147</millis>
+  <sequence>141</sequence>
   <logger>org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler</logger>
   <level>INFO</level>
-  <thread>23</thread>
+  <thread>25</thread>
   <exception>
     <message>java.io.IOException: Zero sized file reported at http://updates.netbeans.org/netbeans/updates/8.0/uc/final/certified/catalog.xml.gz?unique=0fa7c6b83-6113-4863-9696-582adbbbed53_1f489fe3-0a21-4aea-bf0a-50d262721d8d</message>
     <frame>
@@ -839,12 +638,12 @@
   </exception>
 </record>
 <record>
-  <date>2023-01-25T10:06:11</date>
-  <millis>1674666371241</millis>
-  <sequence>158</sequence>
+  <date>2023-01-27T09:16:03</date>
+  <millis>1674836163233</millis>
+  <sequence>144</sequence>
   <logger>org.netbeans.modules.autoupdate.ui.actions.AutoupdateCheckScheduler</logger>
   <level>INFO</level>
-  <thread>41</thread>
+  <thread>27</thread>
   <exception>
     <message>java.io.IOException: Connection reset</message>
     <frame>
@@ -1039,118 +838,85 @@
   </exception>
 </record>
 <record>
-  <date>2023-01-25T10:06:18</date>
-  <millis>1674666378860</millis>
-  <sequence>159</sequence>
+  <date>2023-01-27T09:16:06</date>
+  <millis>1674836166079</millis>
+  <sequence>145</sequence>
   <logger>org.netbeans.ui.actions</logger>
   <level>FINER</level>
   <thread>19</thread>
   <message>UI_ACTION_BUTTON_PRESS</message>
   <key>UI_ACTION_BUTTON_PRESS</key>
   <catalog>org.openide.awt.Bundle</catalog>
-  <param>javax.swing.JMenuItem[Run File]</param>
-  <param>javax.swing.JMenuItem</param>
-  <param>org.netbeans.modules.project.ui.actions.FileAction[Run &amp;File]</param>
-  <param>org.netbeans.modules.project.ui.actions.FileAction</param>
-  <param>Run &amp;File</param>
-</record>
-<record>
-  <date>2023-01-25T10:06:18</date>
-  <millis>1674666378860</millis>
-  <sequence>160</sequence>
-  <logger>org.netbeans.ui.actions</logger>
-  <level>FINE</level>
-  <thread>19</thread>
-  <message>UI_ACTION_BUTTON_PRESS</message>
-  <key>UI_ACTION_BUTTON_PRESS</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>javax.swing.JMenuItem[Run File]</param>
-  <param>javax.swing.JMenuItem</param>
-  <param>org.netbeans.modules.project.ui.actions.FileAction[Run &amp;File]</param>
-  <param>org.netbeans.modules.project.ui.actions.FileAction</param>
-  <param>Run &amp;File</param>
-</record>
-<record>
-  <date>2023-01-25T10:06:19</date>
-  <millis>1674666379965</millis>
-  <sequence>161</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>39</thread>
-  <message>INDEXING_STARTED</message>
-  <key>INDEXING_STARTED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>11083</param>
-</record>
-<record>
-  <date>2023-01-25T10:06:20</date>
-  <millis>1674666380357</millis>
-  <sequence>170</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>39</thread>
-  <message>INDEXING_FINISHED</message>
-  <key>INDEXING_FINISHED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>392</param>
-  <param>TaskListIndexer</param>
-  <param>3</param>
-  <param>1</param>
-  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
-  <param>3</param>
-  <param>0</param>
-  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
-  <param>3</param>
-  <param>2</param>
-</record>
-<record>
-  <date>2023-01-25T10:06:35</date>
-  <millis>1674666395514</millis>
-  <sequence>171</sequence>
-  <logger>org.netbeans.ui.actions</logger>
-  <level>FINER</level>
-  <thread>19</thread>
-  <message>UI_ACTION_BUTTON_PRESS</message>
-  <key>UI_ACTION_BUTTON_PRESS</key>
-  <catalog>org.openide.awt.Bundle</catalog>
-  <param>org.openide.awt.Toolbar$DefaultIconButton[]</param>
-  <param>org.openide.awt.Toolbar$DefaultIconButton</param>
+  <param>org.openide.awt.Actions$MenuItem[New Project...]</param>
+  <param>org.openide.awt.Actions$MenuItem</param>
   <param>org.openide.awt.AlwaysEnabledAction[Ne&amp;w Project...]</param>
   <param>org.openide.awt.AlwaysEnabledAction</param>
   <param>Ne&amp;w Project...</param>
 </record>
 <record>
-  <date>2023-01-25T10:07:00</date>
-  <millis>1674666420607</millis>
-  <sequence>174</sequence>
+  <date>2023-01-27T09:16:22</date>
+  <millis>1674836182613</millis>
+  <sequence>148</sequence>
   <logger>org.netbeans.ui.vcs</logger>
   <level>INFO</level>
-  <thread>40</thread>
+  <thread>46</thread>
   <message>USG_VCS_CMD</message>
   <key>USG_VCS_CMD</key>
   <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
   <param>GIT</param>
-  <param>33</param>
+  <param>24</param>
   <param>0</param>
   <param>reset</param>
   <param>INTERNAL</param>
 </record>
 <record>
-  <date>2023-01-25T10:07:00</date>
-  <millis>1674666420886</millis>
-  <sequence>176</sequence>
+  <date>2023-01-27T09:16:22</date>
+  <millis>1674836182839</millis>
+  <sequence>150</sequence>
   <logger>org.netbeans.ui.metrics.j2se</logger>
   <level>INFO</level>
-  <thread>40</thread>
+  <thread>46</thread>
   <message>USG_PROJECT_CREATE_J2SE</message>
 </record>
 <record>
-  <date>2023-01-25T10:07:00</date>
-  <millis>1674666420908</millis>
-  <sequence>178</sequence>
+  <date>2023-01-27T09:16:22</date>
+  <millis>1674836182861</millis>
+  <sequence>152</sequence>
   <logger>org.netbeans.ui.vcs</logger>
   <level>INFO</level>
-  <thread>40</thread>
+  <thread>46</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>18</param>
+  <param>0</param>
+  <param>reset</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2023-01-27T09:16:22</date>
+  <millis>1674836182884</millis>
+  <sequence>154</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>INFO</level>
+  <thread>46</thread>
+  <message>USG_VCS_CMD</message>
+  <key>USG_VCS_CMD</key>
+  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
+  <param>GIT</param>
+  <param>18</param>
+  <param>0</param>
+  <param>reset</param>
+  <param>INTERNAL</param>
+</record>
+<record>
+  <date>2023-01-27T09:16:23</date>
+  <millis>1674836183154</millis>
+  <sequence>156</sequence>
+  <logger>org.netbeans.ui.vcs</logger>
+  <level>INFO</level>
+  <thread>46</thread>
   <message>USG_VCS_CMD</message>
   <key>USG_VCS_CMD</key>
   <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
@@ -1161,108 +927,76 @@
   <param>INTERNAL</param>
 </record>
 <record>
-  <date>2023-01-25T10:07:00</date>
-  <millis>1674666420923</millis>
-  <sequence>180</sequence>
+  <date>2023-01-27T09:16:23</date>
+  <millis>1674836183176</millis>
+  <sequence>158</sequence>
   <logger>org.netbeans.ui.vcs</logger>
   <level>INFO</level>
-  <thread>40</thread>
+  <thread>46</thread>
   <message>USG_VCS_CMD</message>
   <key>USG_VCS_CMD</key>
   <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
   <param>GIT</param>
-  <param>15</param>
+  <param>18</param>
   <param>0</param>
   <param>reset</param>
   <param>INTERNAL</param>
 </record>
 <record>
-  <date>2023-01-25T10:07:01</date>
-  <millis>1674666421240</millis>
-  <sequence>182</sequence>
+  <date>2023-01-27T09:16:23</date>
+  <millis>1674836183287</millis>
+  <sequence>160</sequence>
   <logger>org.netbeans.ui.vcs</logger>
   <level>INFO</level>
-  <thread>40</thread>
+  <thread>46</thread>
   <message>USG_VCS_CMD</message>
   <key>USG_VCS_CMD</key>
   <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
   <param>GIT</param>
-  <param>16</param>
+  <param>18</param>
   <param>0</param>
   <param>reset</param>
   <param>INTERNAL</param>
 </record>
 <record>
-  <date>2023-01-25T10:07:01</date>
-  <millis>1674666421271</millis>
-  <sequence>184</sequence>
+  <date>2023-01-27T09:16:23</date>
+  <millis>1674836183393</millis>
+  <sequence>164</sequence>
   <logger>org.netbeans.ui.vcs</logger>
   <level>INFO</level>
-  <thread>40</thread>
+  <thread>46</thread>
   <message>USG_VCS_CMD</message>
   <key>USG_VCS_CMD</key>
   <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
   <param>GIT</param>
-  <param>16</param>
+  <param>21</param>
   <param>0</param>
   <param>reset</param>
   <param>INTERNAL</param>
 </record>
 <record>
-  <date>2023-01-25T10:07:01</date>
-  <millis>1674666421309</millis>
-  <sequence>186</sequence>
+  <date>2023-01-27T09:16:23</date>
+  <millis>1674836183812</millis>
+  <sequence>169</sequence>
   <logger>org.netbeans.ui.vcs</logger>
   <level>INFO</level>
-  <thread>40</thread>
+  <thread>46</thread>
   <message>USG_VCS_CMD</message>
   <key>USG_VCS_CMD</key>
   <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
   <param>GIT</param>
-  <param>16</param>
+  <param>19</param>
   <param>0</param>
   <param>reset</param>
   <param>INTERNAL</param>
 </record>
 <record>
-  <date>2023-01-25T10:07:01</date>
-  <millis>1674666421440</millis>
-  <sequence>190</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>INFO</level>
-  <thread>40</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>15</param>
-  <param>0</param>
-  <param>reset</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2023-01-25T10:07:01</date>
-  <millis>1674666421710</millis>
-  <sequence>195</sequence>
-  <logger>org.netbeans.ui.vcs</logger>
-  <level>INFO</level>
-  <thread>40</thread>
-  <message>USG_VCS_CMD</message>
-  <key>USG_VCS_CMD</key>
-  <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
-  <param>GIT</param>
-  <param>16</param>
-  <param>0</param>
-  <param>reset</param>
-  <param>INTERNAL</param>
-</record>
-<record>
-  <date>2023-01-25T10:07:01</date>
-  <millis>1674666421872</millis>
-  <sequence>198</sequence>
+  <date>2023-01-27T09:16:23</date>
+  <millis>1674836183988</millis>
+  <sequence>171</sequence>
   <logger>org.netbeans.ui.projects</logger>
   <level>CONFIG</level>
-  <thread>40</thread>
+  <thread>25</thread>
   <message>UI_OPEN_PROJECTS</message>
   <key>UI_OPEN_PROJECTS</key>
   <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
@@ -1271,149 +1005,91 @@
   <param>1</param>
 </record>
 <record>
-  <date>2023-01-25T10:07:01</date>
-  <millis>1674666421872</millis>
-  <sequence>199</sequence>
+  <date>2023-01-27T09:16:23</date>
+  <millis>1674836183988</millis>
+  <sequence>172</sequence>
   <logger>org.netbeans.ui.metrics.projects</logger>
   <level>INFO</level>
-  <thread>40</thread>
+  <thread>25</thread>
   <message>USG_PROJECT_OPEN</message>
   <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
 </record>
 <record>
-  <date>2023-01-25T10:07:01</date>
-  <millis>1674666421894</millis>
-  <sequence>200</sequence>
+  <date>2023-01-27T09:16:23</date>
+  <millis>1674836183997</millis>
+  <sequence>173</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>INFO</level>
-  <thread>22</thread>
+  <thread>56</thread>
   <message>INDEXING_STARTED</message>
   <key>INDEXING_STARTED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>41537</param>
+  <param>23188</param>
 </record>
 <record>
-  <date>2023-01-25T10:07:02</date>
-  <millis>1674666422411</millis>
-  <sequence>227</sequence>
+  <date>2023-01-27T09:16:25</date>
+  <millis>1674836185233</millis>
+  <sequence>200</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>INFO</level>
-  <thread>22</thread>
+  <thread>56</thread>
   <message>INDEXING_FINISHED</message>
   <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>517</param>
+  <param>1236</param>
   <param>java</param>
   <param>1</param>
-  <param>247</param>
+  <param>577</param>
   <param>TaskListIndexer</param>
   <param>1</param>
   <param>0</param>
   <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
   <param>1</param>
-  <param>7</param>
+  <param>1</param>
   <param>CopyResourcesIndexer</param>
   <param>1</param>
   <param>0</param>
   <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
   <param>1</param>
-  <param>0</param>
+  <param>5</param>
 </record>
 <record>
-  <date>2023-01-25T10:07:06</date>
-  <millis>1674666426235</millis>
-  <sequence>228</sequence>
-  <logger>org.netbeans.ui.metrics.bugtracking</logger>
+  <date>2023-01-27T09:16:25</date>
+  <millis>1674836185455</millis>
+  <sequence>203</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
   <level>INFO</level>
-  <thread>19</thread>
-  <message>USG_ISSUE_TRACKING_REPOSITORY</message>
-  <param>NB_LOCAL_TASKS</param>
-  <param>OTHER</param>
+  <thread>46</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>222</param>
 </record>
 <record>
-  <date>2023-01-25T10:07:06</date>
-  <millis>1674666426300</millis>
-  <sequence>229</sequence>
-  <logger>org.netbeans.ui.actions.editor</logger>
-  <level>FINE</level>
-  <thread>19</thread>
-  <message>UI_ACTION_EDITOR</message>
-  <key>UI_ACTION_EDITOR</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Ctrl+A,when=1674666426298,modifiers=Ctrl] on org.openide.text.QuietEditorPane[,0,0,1518x930,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.basic.BasicBorders$MarginBorder@330c18,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=java.awt.Color[r=187,g=187,b=187],disabledTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],editable=true,margin=java.awt.Insets[top=0,left=0,bottom=0,right=0],selectedTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],selectionColor=javax.swing.plaf.ColorUIResource[r=75,g=110,b=175],kit=org.netbeans.modules.editor.java.JavaKit@352430,typeHandlers=]</param>
-  <param>java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Ctrl+A,when=1674666426298,modifiers=Ctrl] on org.openide.text.QuietEditorPane[,0,0,1518x930,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.basic.BasicBorders$MarginBorder@330c18,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=java.awt.Color[r=187,g=187,b=187],disabledTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],editable=true,margin=java.awt.Insets[top=0,left=0,bottom=0,right=0],selectedTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],selectionColor=javax.swing.plaf.ColorUIResource[r=75,g=110,b=175],kit=org.netbeans.modules.editor.java.JavaKit@352430,typeHandlers=]</param>
-  <param>org.netbeans.editor.BaseKit$SelectAllAction[select-all]</param>
-  <param>org.netbeans.editor.BaseKit$SelectAllAction@dd1dc7</param>
-  <param>select-all</param>
+  <date>2023-01-27T09:16:26</date>
+  <millis>1674836186720</millis>
+  <sequence>211</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>46</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>1264</param>
+  <param>TaskListIndexer</param>
+  <param>3</param>
+  <param>0</param>
+  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
+  <param>3</param>
+  <param>0</param>
+  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
+  <param>3</param>
+  <param>2</param>
 </record>
 <record>
-  <date>2023-01-25T10:07:06</date>
-  <millis>1674666426984</millis>
-  <sequence>230</sequence>
-  <logger>org.netbeans.ui.actions.editor</logger>
-  <level>FINE</level>
-  <thread>19</thread>
-  <message>UI_ACTION_EDITOR</message>
-  <key>UI_ACTION_EDITOR</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Ctrl+C,when=1674666426984,modifiers=Ctrl] on org.openide.text.QuietEditorPane[,0,-538,2046x930,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.basic.BasicBorders$MarginBorder@330c18,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=java.awt.Color[r=187,g=187,b=187],disabledTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],editable=true,margin=java.awt.Insets[top=0,left=0,bottom=0,right=0],selectedTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],selectionColor=javax.swing.plaf.ColorUIResource[r=75,g=110,b=175],kit=org.netbeans.modules.editor.java.JavaKit@352430,typeHandlers=]</param>
-  <param>java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Ctrl+C,when=1674666426984,modifiers=Ctrl] on org.openide.text.QuietEditorPane[,0,-538,2046x930,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.basic.BasicBorders$MarginBorder@330c18,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=java.awt.Color[r=187,g=187,b=187],disabledTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],editable=true,margin=java.awt.Insets[top=0,left=0,bottom=0,right=0],selectedTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],selectionColor=javax.swing.plaf.ColorUIResource[r=75,g=110,b=175],kit=org.netbeans.modules.editor.java.JavaKit@352430,typeHandlers=]</param>
-  <param>org.netbeans.editor.BaseKit$CopyAction[copy-to-clipboard]</param>
-  <param>org.netbeans.editor.BaseKit$CopyAction@10d3ae4</param>
-  <param>copy-to-clipboard</param>
-</record>
-<record>
-  <date>2023-01-25T10:07:10</date>
-  <millis>1674666430780</millis>
-  <sequence>231</sequence>
-  <logger>org.netbeans.ui.actions.editor</logger>
-  <level>FINE</level>
-  <thread>19</thread>
-  <message>UI_ACTION_EDITOR</message>
-  <key>UI_ACTION_EDITOR</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>java.awt.event.ActionEvent[unknown type,cmd=,when=0,modifiers=] on org.openide.text.QuietEditorPane[,0,0,1518x705,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.basic.BasicBorders$MarginBorder@330c18,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=java.awt.Color[r=187,g=187,b=187],disabledTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],editable=true,margin=java.awt.Insets[top=0,left=0,bottom=0,right=0],selectedTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],selectionColor=javax.swing.plaf.ColorUIResource[r=75,g=110,b=175],kit=org.netbeans.modules.editor.java.JavaKit@352430,typeHandlers=]</param>
-  <param>java.awt.event.ActionEvent[unknown type,cmd=,when=0,modifiers=] on org.openide.text.QuietEditorPane[,0,0,1518x705,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.basic.BasicBorders$MarginBorder@330c18,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=java.awt.Color[r=187,g=187,b=187],disabledTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],editable=true,margin=java.awt.Insets[top=0,left=0,bottom=0,right=0],selectedTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],selectionColor=javax.swing.plaf.ColorUIResource[r=75,g=110,b=175],kit=org.netbeans.modules.editor.java.JavaKit@352430,typeHandlers=]</param>
-  <param>org.netbeans.modules.editor.actions.ZoomTextAction[zoom-text-out]</param>
-  <param>ZoomTextAction@7542156 mime="null" name="zoom-text-out"</param>
-  <param>zoom-text-out</param>
-</record>
-<record>
-  <date>2023-01-25T10:07:11</date>
-  <millis>1674666431213</millis>
-  <sequence>232</sequence>
-  <logger>org.netbeans.ui.actions.editor</logger>
-  <level>FINE</level>
-  <thread>19</thread>
-  <message>UI_ACTION_EDITOR</message>
-  <key>UI_ACTION_EDITOR</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>java.awt.event.ActionEvent[unknown type,cmd=,when=0,modifiers=] on org.openide.text.QuietEditorPane[,0,0,1518x688,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.basic.BasicBorders$MarginBorder@330c18,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=java.awt.Color[r=187,g=187,b=187],disabledTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],editable=true,margin=java.awt.Insets[top=0,left=0,bottom=0,right=0],selectedTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],selectionColor=javax.swing.plaf.ColorUIResource[r=75,g=110,b=175],kit=org.netbeans.modules.editor.java.JavaKit@352430,typeHandlers=]</param>
-  <param>java.awt.event.ActionEvent[unknown type,cmd=,when=0,modifiers=] on org.openide.text.QuietEditorPane[,0,0,1518x688,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.basic.BasicBorders$MarginBorder@330c18,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=java.awt.Color[r=187,g=187,b=187],disabledTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],editable=true,margin=java.awt.Insets[top=0,left=0,bottom=0,right=0],selectedTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],selectionColor=javax.swing.plaf.ColorUIResource[r=75,g=110,b=175],kit=org.netbeans.modules.editor.java.JavaKit@352430,typeHandlers=]</param>
-  <param>org.netbeans.modules.editor.actions.ZoomTextAction[zoom-text-out]</param>
-  <param>ZoomTextAction@7542156 mime="null" name="zoom-text-out"</param>
-  <param>zoom-text-out</param>
-</record>
-<record>
-  <date>2023-01-25T10:07:11</date>
-  <millis>1674666431367</millis>
-  <sequence>233</sequence>
-  <logger>org.netbeans.ui.actions.editor</logger>
-  <level>FINE</level>
-  <thread>19</thread>
-  <message>UI_ACTION_EDITOR</message>
-  <key>UI_ACTION_EDITOR</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>java.awt.event.ActionEvent[unknown type,cmd=,when=0,modifiers=] on org.openide.text.QuietEditorPane[,0,0,1520x651,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.basic.BasicBorders$MarginBorder@330c18,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=java.awt.Color[r=187,g=187,b=187],disabledTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],editable=true,margin=java.awt.Insets[top=0,left=0,bottom=0,right=0],selectedTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],selectionColor=javax.swing.plaf.ColorUIResource[r=75,g=110,b=175],kit=org.netbeans.modules.editor.java.JavaKit@352430,typeHandlers=]</param>
-  <param>java.awt.event.ActionEvent[unknown type,cmd=,when=0,modifiers=] on org.openide.text.QuietEditorPane[,0,0,1520x651,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.basic.BasicBorders$MarginBorder@330c18,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=java.awt.Color[r=187,g=187,b=187],disabledTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],editable=true,margin=java.awt.Insets[top=0,left=0,bottom=0,right=0],selectedTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],selectionColor=javax.swing.plaf.ColorUIResource[r=75,g=110,b=175],kit=org.netbeans.modules.editor.java.JavaKit@352430,typeHandlers=]</param>
-  <param>org.netbeans.modules.editor.actions.ZoomTextAction[zoom-text-out]</param>
-  <param>ZoomTextAction@7542156 mime="null" name="zoom-text-out"</param>
-  <param>zoom-text-out</param>
-</record>
-<record>
-  <date>2023-01-25T10:07:11</date>
-  <millis>1674666431953</millis>
-  <sequence>234</sequence>
+  <date>2023-01-27T09:16:31</date>
+  <millis>1674836191774</millis>
+  <sequence>213</sequence>
   <logger>org.netbeans.ui.actions.editor</logger>
   <level>FINE</level>
   <thread>19</thread>
@@ -1423,84 +1099,40 @@
   <param>no-ActionEvent</param>
   <param>no-ActionEvent</param>
   <param>org.netbeans.editor.BaseKit$SelectWordAction[select-word]</param>
-  <param>org.netbeans.editor.BaseKit$SelectWordAction@154fcbf</param>
+  <param>org.netbeans.editor.BaseKit$SelectWordAction@2051c9</param>
   <param>select-word</param>
 </record>
 <record>
-  <date>2023-01-25T10:07:18</date>
-  <millis>1674666438842</millis>
-  <sequence>236</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>24</thread>
-  <message>INDEXING_STARTED</message>
-  <key>INDEXING_STARTED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>16431</param>
-</record>
-<record>
-  <date>2023-01-25T10:07:19</date>
-  <millis>1674666439305</millis>
-  <sequence>237</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>24</thread>
-  <message>INDEXING_FINISHED</message>
-  <key>INDEXING_FINISHED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>463</param>
-  <param>java</param>
-  <param>1</param>
-  <param>107</param>
-  <param>TaskListIndexer</param>
-  <param>1</param>
-  <param>0</param>
-  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
-  <param>1</param>
-  <param>0</param>
-  <param>CopyResourcesIndexer</param>
-  <param>1</param>
-  <param>0</param>
-  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
-  <param>1</param>
-  <param>0</param>
-</record>
-<record>
-  <date>2023-01-25T10:07:25</date>
-  <millis>1674666445341</millis>
-  <sequence>238</sequence>
+  <date>2023-01-27T09:16:44</date>
+  <millis>1674836204731</millis>
+  <sequence>215</sequence>
   <logger>org.netbeans.ui.actions.editor</logger>
   <level>FINE</level>
   <thread>19</thread>
   <message>UI_ACTION_EDITOR</message>
   <key>UI_ACTION_EDITOR</key>
   <catalog>&lt;null&gt;</catalog>
-  <param>java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Ctrl+C,when=1674666445341,modifiers=Ctrl] on org.openide.text.QuietEditorPane[,0,-463,2046x930,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.basic.BasicBorders$MarginBorder@330c18,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=java.awt.Color[r=187,g=187,b=187],disabledTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],editable=true,margin=java.awt.Insets[top=0,left=0,bottom=0,right=0],selectedTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],selectionColor=javax.swing.plaf.ColorUIResource[r=75,g=110,b=175],kit=org.netbeans.modules.editor.java.JavaKit@352430,typeHandlers=]</param>
-  <param>java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Ctrl+C,when=1674666445341,modifiers=Ctrl] on org.openide.text.QuietEditorPane[,0,-463,2046x930,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.basic.BasicBorders$MarginBorder@330c18,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=java.awt.Color[r=187,g=187,b=187],disabledTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],editable=true,margin=java.awt.Insets[top=0,left=0,bottom=0,right=0],selectedTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],selectionColor=javax.swing.plaf.ColorUIResource[r=75,g=110,b=175],kit=org.netbeans.modules.editor.java.JavaKit@352430,typeHandlers=]</param>
-  <param>org.netbeans.editor.BaseKit$CopyAction[copy-to-clipboard]</param>
-  <param>org.netbeans.editor.BaseKit$CopyAction@10d3ae4</param>
-  <param>copy-to-clipboard</param>
+  <param>java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=ENTER,when=1674836204731,modifiers=] on org.openide.text.QuietEditorPane[,0,-73,1518x563,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.basic.BasicBorders$MarginBorder@d04a33,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=java.awt.Color[r=187,g=187,b=187],disabledTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],editable=true,margin=java.awt.Insets[top=0,left=0,bottom=0,right=0],selectedTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],selectionColor=javax.swing.plaf.ColorUIResource[r=75,g=110,b=175],kit=org.netbeans.modules.editor.java.JavaKit@108d63,typeHandlers=]</param>
+  <param>java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=ENTER,when=1674836204731,modifiers=] on org.openide.text.QuietEditorPane[,0,-73,1518x563,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.basic.BasicBorders$MarginBorder@d04a33,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=java.awt.Color[r=187,g=187,b=187],disabledTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],editable=true,margin=java.awt.Insets[top=0,left=0,bottom=0,right=0],selectedTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],selectionColor=javax.swing.plaf.ColorUIResource[r=75,g=110,b=175],kit=org.netbeans.modules.editor.java.JavaKit@108d63,typeHandlers=]</param>
+  <param>org.netbeans.editor.BaseKit$InsertBreakAction[insert-break]</param>
+  <param>org.netbeans.editor.BaseKit$InsertBreakAction@91cac</param>
+  <param>insert-break</param>
 </record>
 <record>
-  <date>2023-01-25T10:07:29</date>
-  <millis>1674666449939</millis>
-  <sequence>239</sequence>
-  <logger>org.netbeans.ui.actions.editor</logger>
-  <level>FINE</level>
+  <date>2023-01-27T09:16:52</date>
+  <millis>1674836212699</millis>
+  <sequence>217</sequence>
+  <logger>org.netbeans.ui.metrics.bugtracking</logger>
+  <level>INFO</level>
   <thread>19</thread>
-  <message>UI_ACTION_EDITOR</message>
-  <key>UI_ACTION_EDITOR</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Ctrl+V,when=1674666449924,modifiers=Ctrl] on org.openide.text.QuietEditorPane[,0,0,1522x487,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.basic.BasicBorders$MarginBorder@330c18,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=java.awt.Color[r=187,g=187,b=187],disabledTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],editable=true,margin=java.awt.Insets[top=0,left=0,bottom=0,right=0],selectedTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],selectionColor=javax.swing.plaf.ColorUIResource[r=75,g=110,b=175],kit=org.netbeans.modules.editor.java.JavaKit@352430,typeHandlers=]</param>
-  <param>java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Ctrl+V,when=1674666449924,modifiers=Ctrl] on org.openide.text.QuietEditorPane[,0,0,1522x487,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.basic.BasicBorders$MarginBorder@330c18,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=java.awt.Color[r=187,g=187,b=187],disabledTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],editable=true,margin=java.awt.Insets[top=0,left=0,bottom=0,right=0],selectedTextColor=javax.swing.plaf.ColorUIResource[r=187,g=187,b=187],selectionColor=javax.swing.plaf.ColorUIResource[r=75,g=110,b=175],kit=org.netbeans.modules.editor.java.JavaKit@352430,typeHandlers=]</param>
-  <param>org.netbeans.editor.BaseKit$PasteAction[paste-from-clipboard]</param>
-  <param>org.netbeans.editor.BaseKit$PasteAction@1ea13e6</param>
-  <param>paste-from-clipboard</param>
+  <message>USG_ISSUE_TRACKING_REPOSITORY</message>
+  <param>NB_LOCAL_TASKS</param>
+  <param>OTHER</param>
 </record>
 <record>
-  <date>2023-01-25T10:07:33</date>
-  <millis>1674666453247</millis>
-  <sequence>243</sequence>
+  <date>2023-01-27T09:16:53</date>
+  <millis>1674836213256</millis>
+  <sequence>218</sequence>
   <logger>org.netbeans.ui.actions</logger>
   <level>FINER</level>
   <thread>19</thread>
@@ -1509,42 +1141,42 @@
   <catalog>&lt;null&gt;</catalog>
   <param>ctrl pressed S</param>
   <param>ctrl pressed S</param>
-  <param>org.openide.awt.GeneralAction$DelegateAction@e63bf84[key=null]</param>
+  <param>org.openide.awt.GeneralAction$DelegateAction@75db26e[key=null]</param>
   <param>org.openide.awt.GeneralAction$DelegateAction</param>
   <param>&amp;Save</param>
 </record>
 <record>
-  <date>2023-01-25T10:07:33</date>
-  <millis>1674666453284</millis>
-  <sequence>244</sequence>
+  <date>2023-01-27T09:16:53</date>
+  <millis>1674836213303</millis>
+  <sequence>219</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>INFO</level>
-  <thread>25</thread>
+  <thread>46</thread>
   <message>INDEXING_STARTED</message>
   <key>INDEXING_STARTED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>13979</param>
+  <param>26584</param>
 </record>
 <record>
-  <date>2023-01-25T10:07:33</date>
-  <millis>1674666453585</millis>
-  <sequence>245</sequence>
+  <date>2023-01-27T09:16:53</date>
+  <millis>1674836213603</millis>
+  <sequence>220</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>INFO</level>
-  <thread>25</thread>
+  <thread>46</thread>
   <message>INDEXING_FINISHED</message>
   <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>301</param>
+  <param>300</param>
   <param>java</param>
   <param>1</param>
-  <param>116</param>
+  <param>103</param>
   <param>TaskListIndexer</param>
   <param>1</param>
   <param>0</param>
   <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
   <param>1</param>
-  <param>0</param>
+  <param>2</param>
   <param>CopyResourcesIndexer</param>
   <param>1</param>
   <param>0</param>
@@ -1553,49 +1185,41 @@
   <param>0</param>
 </record>
 <record>
-  <date>2023-01-25T10:07:34</date>
-  <millis>1674666454049</millis>
-  <sequence>246</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>25</thread>
-  <message>INDEXING_STARTED</message>
-  <key>INDEXING_STARTED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>464</param>
+  <date>2023-01-27T09:16:54</date>
+  <millis>1674836214474</millis>
+  <sequence>221</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>FINER</level>
+  <thread>19</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.DropDownButton[null]</param>
+  <param>org.openide.awt.DropDownButton</param>
+  <param>org.netbeans.modules.project.ui.actions.MainProjectActionWithHistory[&amp;Run Main Project]</param>
+  <param>org.netbeans.modules.project.ui.actions.MainProjectActionWithHistory</param>
+  <param>&amp;Run Main Project</param>
 </record>
 <record>
-  <date>2023-01-25T10:07:34</date>
-  <millis>1674666454049</millis>
-  <sequence>247</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>25</thread>
-  <message>INDEXING_FINISHED</message>
-  <key>INDEXING_FINISHED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>0</param>
-</record>
-<record>
-  <date>2023-01-25T10:07:35</date>
-  <millis>1674666455442</millis>
-  <sequence>248</sequence>
+  <date>2023-01-27T09:16:54</date>
+  <millis>1674836214474</millis>
+  <sequence>222</sequence>
   <logger>org.netbeans.ui.actions</logger>
   <level>FINE</level>
   <thread>19</thread>
   <message>UI_ACTION_BUTTON_PRESS</message>
   <key>UI_ACTION_BUTTON_PRESS</key>
   <catalog>&lt;null&gt;</catalog>
-  <param>javax.swing.JMenuItem[Run Project (TemperatureConversion)]</param>
-  <param>javax.swing.JMenuItem</param>
+  <param>org.openide.awt.DropDownButton[null]</param>
+  <param>org.openide.awt.DropDownButton</param>
   <param>org.netbeans.modules.project.ui.actions.MainProjectActionWithHistory[&amp;Run Main Project]</param>
   <param>org.netbeans.modules.project.ui.actions.MainProjectActionWithHistory</param>
   <param>&amp;Run Main Project</param>
 </record>
 <record>
-  <date>2023-01-25T10:07:35</date>
-  <millis>1674666455455</millis>
-  <sequence>249</sequence>
+  <date>2023-01-27T09:16:54</date>
+  <millis>1674836214474</millis>
+  <sequence>223</sequence>
   <logger>org.netbeans.ui.actions</logger>
   <level>FINE</level>
   <thread>19</thread>
@@ -1607,44 +1231,44 @@
   <param>&amp;Run Main Project</param>
 </record>
 <record>
-  <date>2023-01-25T10:07:45</date>
-  <millis>1674666465857</millis>
-  <sequence>250</sequence>
-  <logger>org.netbeans.ui.metrics.editor</logger>
-  <level>INFO</level>
-  <thread>25</thread>
-  <message>USG_EDITOR_MIME_TYPE</message>
-  <param>text/x-java</param>
-  <param>1</param>
+  <date>2023-01-27T09:17:17</date>
+  <millis>1674836237408</millis>
+  <sequence>224</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>FINE</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
 </record>
 <record>
-  <date>2023-01-25T10:07:45</date>
-  <millis>1674666465879</millis>
-  <sequence>251</sequence>
+  <date>2023-01-27T09:24:54</date>
+  <millis>1674836694839</millis>
+  <sequence>225</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>FINE</level>
+  <thread>72</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>1064</param>
+</record>
+<record>
+  <date>2023-01-27T09:24:55</date>
+  <millis>1674836695267</millis>
+  <sequence>226</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>INFO</level>
-  <thread>61</thread>
+  <thread>70</thread>
   <message>INDEXING_STARTED</message>
   <key>INDEXING_STARTED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>11830</param>
+  <param>481664</param>
 </record>
 <record>
-  <date>2023-01-25T10:07:45</date>
-  <millis>1674666465880</millis>
-  <sequence>252</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>61</thread>
-  <message>INDEXING_FINISHED</message>
-  <key>INDEXING_FINISHED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>1</param>
-</record>
-<record>
-  <date>2023-01-25T10:07:46</date>
-  <millis>1674666466013</millis>
-  <sequence>253</sequence>
+  <date>2023-01-27T09:24:55</date>
+  <millis>1674836695298</millis>
+  <sequence>227</sequence>
   <logger>org.netbeans.ui.vcs</logger>
   <level>INFO</level>
   <thread>19</thread>
@@ -1652,15 +1276,75 @@
   <key>USG_VCS_CMD</key>
   <catalog>org.netbeans.modules.versioning.util.Bundle</catalog>
   <param>GIT</param>
-  <param>26</param>
+  <param>16</param>
   <param>0</param>
   <param>reset</param>
   <param>INTERNAL</param>
 </record>
 <record>
-  <date>2023-01-25T10:07:46</date>
-  <millis>1674666466040</millis>
-  <sequence>255</sequence>
+  <date>2023-01-27T09:24:55</date>
+  <millis>1674836695313</millis>
+  <sequence>229</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>70</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>31</param>
+</record>
+<record>
+  <date>2023-01-27T09:24:55</date>
+  <millis>1674836695313</millis>
+  <sequence>230</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>70</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2023-01-27T09:24:55</date>
+  <millis>1674836695366</millis>
+  <sequence>240</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>70</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>53</param>
+</record>
+<record>
+  <date>2023-01-27T09:24:55</date>
+  <millis>1674836695382</millis>
+  <sequence>241</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>69</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>16</param>
+</record>
+<record>
+  <date>2023-01-27T09:24:55</date>
+  <millis>1674836695398</millis>
+  <sequence>242</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>INFO</level>
+  <thread>69</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2023-01-27T09:24:55</date>
+  <millis>1674836695398</millis>
+  <sequence>246</sequence>
   <logger>org.netbeans.ui.focus</logger>
   <level>FINE</level>
   <thread>19</thread>
