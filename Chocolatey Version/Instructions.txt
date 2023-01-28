@@ -1,0 +1,4 @@
+Open PowerShell.exe.
+Run the following Set-ExecutionPolicy Bypass -Scope Process -Force;
+Run .\ChocolateyInstallNonAdmin.ps1
+choco install apache-netbeans.portable -y
