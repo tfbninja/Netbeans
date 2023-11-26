@@ -1,8 +1,0 @@
-ERROR:7:constructor Monsterold in class lab19b_interfaces_Monster_lab2_java_aplus.Monsterold cannot be applied to given types;\n  required\d no arguments\n  found\d int\n  reason\d actual and formal argument lists differ in length
-ERROR:8:constructor Monsterold in class lab19b_interfaces_Monster_lab2_java_aplus.Monsterold cannot be applied to given types;\n  required\d no arguments\n  found\d int,int\n  reason\d actual and formal argument lists differ in length
-ERROR:9:constructor Monsterold in class lab19b_interfaces_Monster_lab2_java_aplus.Monsterold cannot be applied to given types;\n  required\d no arguments\n  found\d int,int,int\n  reason\d actual and formal argument lists differ in length
-ERROR:15:cannot find symbol\n  symbol\d   method setHeight(int)\n  location\d variable harry of type lab19b_interfaces_Monster_lab2_java_aplus.Monsterold
-ERROR:16:cannot find symbol\n  symbol\d   method setWeight(int)\n  location\d variable harry of type lab19b_interfaces_Monster_lab2_java_aplus.Monsterold
-ERROR:17:cannot find symbol\n  symbol\d   method setAge(int)\n  location\d variable harry of type lab19b_interfaces_Monster_lab2_java_aplus.Monsterold
-ERROR:23:constructor Monsterold in class lab19b_interfaces_Monster_lab2_java_aplus.Monsterold cannot be applied to given types;\n  required\d no arguments\n  found\d int,int,int\n  reason\d actual and formal argument lists differ in length
-ERROR:24:constructor Monsterold in class lab19b_interfaces_Monster_lab2_java_aplus.Monsterold cannot be applied to given types;\n  required\d no arguments\n  found\d int,int,int\n  reason\d actual and formal argument lists differ in length

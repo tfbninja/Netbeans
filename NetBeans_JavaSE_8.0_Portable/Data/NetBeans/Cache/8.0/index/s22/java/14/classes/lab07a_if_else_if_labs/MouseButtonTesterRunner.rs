@@ -1,2 +1,0 @@
-MouseButtonTesterRunner$1
-MouseButtonTesterRunner

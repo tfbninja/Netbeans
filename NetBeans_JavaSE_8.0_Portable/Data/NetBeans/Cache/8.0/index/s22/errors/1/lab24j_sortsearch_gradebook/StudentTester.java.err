@@ -1,2 +1,0 @@
-ERROR:22:cannot find symbol\n  symbol\d   method getAverageAfterDroppingLow()\n  location\d variable stu of type lab18e_array_of_refs_Gradebook_lab_java_aplus.Student
-ERROR:31:cannot find symbol\n  symbol\d   method getAverageAfterDroppingLow()\n  location\d variable other of type lab18e_array_of_refs_Gradebook_lab_java_aplus.Student

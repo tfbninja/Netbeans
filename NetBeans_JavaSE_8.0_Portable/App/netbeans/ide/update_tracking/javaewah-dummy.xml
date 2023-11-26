@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="javaewah.dummy">
-    <module_version install_time="1394469959597" last="true" origin="installer" specification_version="0.5.6">
-        <file crc="3826174036" name="config/Modules/javaewah-dummy.xml"/>
-        <file crc="2303233041" name="modules/javaewah-dummy.jar"/>
-    </module_version>
-</module>

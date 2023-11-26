@@ -1,2 +1,0 @@
-editorjavaffx.EditorView$1
-editorjavaffx.EditorView
